@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SidebarLabel.SidebarOption">
+        <item name="android:drawablePadding">@dimen/spacing_standard</item>
+        <item name="android:paddingTop">@dimen/spacing_middle</item>
+        <item name="android:paddingBottom">@dimen/spacing_middle</item>
+        <item name="android:paddingStart">@dimen/_20sdp</item>
+        <item name="android:paddingEnd">@dimen/_26sdp</item>
+        <item name="android:drawableTint">@color/textColorSecondary</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+</resources>
