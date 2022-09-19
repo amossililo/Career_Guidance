@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 import com.career.guidance.R
 import com.career.guidance.activity.MedicineHealthEtc.MedicineSubCategoriesActivity
+import com.career.guidance.activity.STEM.SelectStemSubCategoryActivity
 import com.career.guidance.base.BaseRecyclerAdapter
 import com.career.guidance.databinding.LayoutBinding
 import com.career.guidance.model.FacultyData
@@ -104,7 +105,7 @@ class HomeFragment : Fragment() {
                         activity?.launchActivity<MedicineSubCategoriesActivity>()
                     }
                     getString(R.string.stem_sub) -> {
-                        activity?.launchActivity<MedicineSubCategoriesActivity>()
+                        activity?.launchActivity<SelectStemSubCategoryActivity>()
                     }
                 }
             }

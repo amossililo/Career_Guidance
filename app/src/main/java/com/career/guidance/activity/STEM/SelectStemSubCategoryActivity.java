@@ -2,6 +2,7 @@ package com.career.guidance.activity.STEM;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -24,7 +25,10 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_home);
+        setContentView(R.layout.activity_select_stem_sub_category);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("hello");;
+        setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
@@ -71,7 +75,7 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
             public void onItemClick(@NonNull View view, StemData model, int position, StemItemBinding dataBinding) {
 // implement click
                 switch (model.getPage()){
-                    case "":
+                    case "engineering":
                         break;
                     case "d":
 

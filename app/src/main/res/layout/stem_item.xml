@@ -57,25 +57,25 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_b"
+                        android:textAppearance="@style/FontSemiBold"
                         android:text="@{model.stemName}"
                         android:textAllCaps="false"
                         android:textColor="#FFF"
                         android:id="@+id/stem_name"
-                        android:textSize="22.0sp" />
+                        android:textSize="@dimen/font_size_normal" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
                         android:layout_marginTop="5dp"
-                        android:fontFamily="@font/roboto_reg"
+
                         android:letterSpacing="0.1"
                         android:text="@{model.stemInfo}"
                         android:id="@+id/stem_info"
                         android:textAllCaps="true"
                         android:textColor="#FFF"
-                        android:textSize="11.0sp" />
+                        android:textSize="@dimen/font_size_small" />
 
                 </LinearLayout>
 
