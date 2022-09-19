@@ -99,6 +99,7 @@ class HomeFragment : Fragment() {
                     getString(R.string.business_sub) -> {
                         activity?.launchActivity<MedicineSubCategoriesActivity>()
                     }
+
                     getString(R.string.agriculture_sub) -> {
                         activity?.launchActivity<MedicineSubCategoriesActivity>()
                     }

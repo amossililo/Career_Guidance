@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 
+import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 import com.career.guidance.base.BaseRecyclerAdapter;
 import com.career.guidance.databinding.StemItemBinding;
@@ -16,7 +17,7 @@ import com.career.guidance.utils.extensions.AppExtensionsKt;
 
 import java.util.ArrayList;
 
-public class SelectStemSubCategoryActivity extends AppCompatActivity {
+public class SelectStemSubCategoryActivity extends AppBaseActivity {
     private final BaseRecyclerAdapter<StemData, StemItemBinding> adapter = getAdapter();
 
 
@@ -34,8 +35,10 @@ public class SelectStemSubCategoryActivity extends AppCompatActivity {
 
     private ArrayList<StemData> stemData() {
         ArrayList<StemData> stemDataArrayList = new ArrayList<>();
+
         stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_programs), getString(R.string.additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_engineering_programs)));
+
         stemDataArrayList.add(new StemData(getString(R.string.stem_ict_programs), getString(R.string.additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_ict_programs)));
         stemDataArrayList.add(new StemData(getString(R.string.stem_science_and_math_programs), getString(R.string.additional_info)
@@ -59,8 +62,6 @@ public class SelectStemSubCategoryActivity extends AppCompatActivity {
 
             @Override
             public void onBindData(StemData model, int position, StemItemBinding dataBinding) {
-
-
             }
 
             @Override

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -23,55 +23,65 @@
         android:background="@color/itemText_background"
         android:onClick="@{(view) -> callback.onClick(view,model)}">
 
-        <ImageView
-            android:id="@+id/ivFaculty"
-            android:layout_width="@dimen/product_img_width"
-            android:layout_height="@dimen/product_img_height"
-            android:background="@color/item_background"
 
-            android:contentDescription="@string/text_todo" />
-
-
-        <LinearLayout
+        <androidx.cardview.widget.CardView
+            android:id="@+id/addImages"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingStart="@dimen/spacing_standard"
-            android:paddingEnd="@dimen/spacing_standard">
+            android:layout_height="100dp"
+            android:layout_marginBottom="7.5dp"
+            app:cardBackgroundColor="@color/color_qr_pdf"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
 
-            <TextView
-                android:id="@+id/tvStemName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_control"
-                android:lines="2"
-                android:text="@{model.stemName}"
-                android:textAppearance="@style/FontSemiBold"
-                android:textColor="@color/textColorPrimary"
-                android:textSize="@dimen/font_size_medium" />
-
-            <LinearLayout
-                android:id="@+id/llProductColor"
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_standard"
-                android:orientation="horizontal">
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_bg" />
 
-            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_b"
+                        android:text="@{model.stemName}"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="22.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/roboto_reg"
+                        android:letterSpacing="0.1"
+                        android:text="@{model.stemInfo}"
+                        android:textAllCaps="true"
+                        android:textColor="#FFF"
+                        android:textSize="11.0sp" />
+
+                </LinearLayout>
 
 
-
-            <TextView
-                android:id="@+id/tvInfo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_standard"
-                android:text="@{model.stemInfo}"
-                android:textColor="@color/textColorPrimary"
-                android:textSize="@dimen/font_size_micro" />
+            </RelativeLayout>
 
 
-        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
 
     </LinearLayout>
 
