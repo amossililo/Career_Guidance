@@ -62,6 +62,9 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
 
             @Override
             public void onBindData(StemData model, int position, StemItemBinding dataBinding) {
+
+                dataBinding.stemName.setText(model.getStemName());
+                dataBinding.stemInfo.setText(model.getStemInfo());
             }
 
             @Override
