@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2E7D32</color>
-    <color name="colorPrimaryDark">#558B2F</color>
-    <color name="colorAccent">#9E9D24</color>
+    <color name="colorPrimary">@color/color_excel_pdf</color>
+    <color name="colorPrimaryDark">@color/color_excel_pdf</color>
+    <color name="colorAccent">@color/color_excel_pdf</color>
     <color name="textColorPrimary">#212121</color>
     <color name="textColorSecondary">#757575</color>
     <color name="commonColorWhite">#FFFFFF</color>
@@ -75,4 +75,10 @@
         <item>@color/yellow</item>
         <item>@color/green</item>
     </array>
+
+    //White Colors
+    <color name="color_image_pdf">#5AC5CA</color>
+    <color name="color_text_pdf">#F27D59</color>
+    <color name="color_qr_pdf">#A58FFD</color>
+    <color name="color_excel_pdf">#6298EC</color>
 </resources>

@@ -4,9 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 
-public class MedicineSubCategoriesActivity extends AppCompatActivity {
+public class MedicineSubCategoriesActivity extends AppBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
