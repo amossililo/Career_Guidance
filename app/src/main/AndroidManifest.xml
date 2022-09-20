@@ -17,6 +17,15 @@
         android:theme="@style/Theme.CareerGuidance"
         tools:targetApi="31">
         <activity
+            android:name=".scienceAndMathematicsPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".ICTPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".activity.STEM.EngineeringPrograms"
+            android:exported="false" />
+        <activity
             android:name=".activity.STEM.SelectStemSubCategoryActivity"
             android:exported="false" />
         <activity
