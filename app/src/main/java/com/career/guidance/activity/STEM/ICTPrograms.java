@@ -15,47 +15,68 @@ import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 import com.career.guidance.base.BaseRecyclerAdapter;
 import com.career.guidance.databinding.StemItemBinding;
+import com.career.guidance.model.Programs;
 import com.career.guidance.model.StemData;
 import com.career.guidance.utils.extensions.AppExtensionsKt;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class SelectStemSubCategoryActivity extends AppBaseActivity {
+public class ICTPrograms  extends AppBaseActivity {
     private final BaseRecyclerAdapter<StemData, StemItemBinding> adapter = getAdapter();
-    Context context;
 
+    Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_stem_sub_category);
+
+        setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("hello");;
+        toolbar.setTitle("Engineering Programs");;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adapter);
         AppExtensionsKt.rvItemAnimation(recyclerView);
-        adapter.addItems(stemData());
+        adapter.addItems(ProgramsList());
+        context=ICTPrograms.this;
 
-        context=SelectStemSubCategoryActivity.this;
+
+
+
+/*
+        List<Programs> programList = new ArrayList<>();
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.CivilEngineering),getString(R.string.civilEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.MechanicalEngineering),getString(R.string.MechanicalEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.AeronauticalEngineering),getString(R.string.AeronauticalEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.ElectricalAndElectronicsEngineering),getString(R.string.ElectricalAndElectronicsEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.GeomaticsEngineering),getString(R.string.GeomaticsEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.TelecommunicationsEngineering),getString(R.string.TelecommunicationsEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.RailwayEngineering),getString(R.string.RailwayEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.MechatronicsEngineering),getString(R.string.MechatronicsEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.ElectromechanicalEngineering),getString(R.string.ElectromechanicalEngHtml)));
+        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.ArchitecturalEngineering),getString(R.string.ArchitecturalEngHtml)));
+
+*/
+
     }
 
-    private ArrayList<StemData> stemData() {
-        ArrayList<StemData> stemDataArrayList = new ArrayList<>();
+    private ArrayList<StemData> ProgramsList() {
+        ArrayList<StemData> programsList = new ArrayList<>();
 
-        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_programs), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.stem_engineering_programs)));
+        programsList.add(new StemData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.CivilEngineering)));
 
-        stemDataArrayList.add(new StemData(getString(R.string.stem_ict_programs), getString(R.string.additional_info)
-                , R.drawable.placeholder,  getString(R.string.stem_ict_programs)));
-        stemDataArrayList.add(new StemData(getString(R.string.stem_science_and_math_programs), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.stem_science_and_math_programs)));
-        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_technology_programs), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.stem_engineering_technology_programs)));
-        stemDataArrayList.add(new StemData(getString(R.string.stem_university_that_offer), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.stem_university_that_offer)));
-        return stemDataArrayList;
+        programsList.add(new StemData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
+                , R.drawable.placeholder,  getString(R.string.MechanicalEngineering)));
+        programsList.add(new StemData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.AeronauticalEngineering)));
+        programsList.add(new StemData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.ElectricalAndElectronicsEngineering)));
+
+        return programsList;
     }
 
     private BaseRecyclerAdapter<StemData, StemItemBinding> getAdapter() {
@@ -91,7 +112,7 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
                 */
                 String selectedBtnPage=model.getPage();
                 if (selectedBtnPage.equals(getString(R.string.stem_engineering_programs))){
-                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, EngineeringPrograms.class);
+                    Intent intent=new Intent(ICTPrograms.this, EngineeringPrograms.class);
                     context.startActivity(intent);
                 }
                 else if(selectedBtnPage.equals(getString(R.string.stem_ict_programs))){
@@ -111,5 +132,6 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
             }
         };
     }
+
 
 }
