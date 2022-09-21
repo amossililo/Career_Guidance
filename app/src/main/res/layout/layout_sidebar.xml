@@ -53,7 +53,7 @@
                     android:layout_centerHorizontal="true"
                     android:text="@string/app_name"
                     android:textAppearance="@style/FontBold"
-                    android:textColor="@color/textColorPrimary"
+                    android:textColor="#fff"
                     android:textSize="@dimen/font_size_medium" />
 
                 <TextView
@@ -64,7 +64,7 @@
                     android:layout_centerHorizontal="true"
                     android:letterSpacing="0.2"
                     android:text="v 1.0.0"
-                    android:textColor="@color/textColorSecondary"
+                    android:textColor="#fff"
                     android:textSize="@dimen/font_size_nano" />
 
             </RelativeLayout>

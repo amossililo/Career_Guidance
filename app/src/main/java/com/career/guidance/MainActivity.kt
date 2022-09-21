@@ -104,11 +104,11 @@ class MainActivity : AppBaseActivity() {
             closeDrawer(); shareMyApp(
             this@MainActivity,
             "Career Guidance App",
-            "Lorem ipsum"
+            "Check out this Career Guidance app"
         )
         }
         tvHelp.onClick { launchActivity<HelpActivity>(); closeDrawer() }
-
+        tvFaq.hide()
         tvFaq.onClick { launchActivity<FAQActivity>(); closeDrawer() }
         tvContactus.onClick { launchActivity<ContactUsActivity>(); closeDrawer() }
         tvAbout.onClick { launchActivity<AboutUsActivity>(); closeDrawer() }

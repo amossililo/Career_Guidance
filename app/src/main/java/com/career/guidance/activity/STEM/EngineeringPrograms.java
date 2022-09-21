@@ -17,6 +17,7 @@ import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 import com.career.guidance.activity.displayProgramInfoActivity;
 import com.career.guidance.base.BaseRecyclerAdapter;
+import com.career.guidance.databinding.ItemProgramsBinding;
 import com.career.guidance.databinding.LayoutBinding;
 import com.career.guidance.model.Programs;
 import com.career.guidance.model.FacultyData;
@@ -26,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EngineeringPrograms  extends AppBaseActivity {
-    private final BaseRecyclerAdapter<FacultyData, LayoutBinding> adapter = getAdapter();
+    private final BaseRecyclerAdapter<FacultyData, ItemProgramsBinding> adapter = getAdapter();
 
     Context context;
     @Override
@@ -90,37 +91,24 @@ public class EngineeringPrograms  extends AppBaseActivity {
         return programsList;
     }
 
-    private BaseRecyclerAdapter<FacultyData, LayoutBinding> getAdapter() {
+    private BaseRecyclerAdapter<FacultyData, ItemProgramsBinding> getAdapter() {
 
-        return new BaseRecyclerAdapter<FacultyData, LayoutBinding>() {
+        return new BaseRecyclerAdapter<FacultyData, ItemProgramsBinding>() {
             @Override
             public int getLayoutResId() {
-                return R.layout.layout;
+                return R.layout.item_programs;
             }
 
             @Override
-            public void onBindData(FacultyData model, int position, LayoutBinding dataBinding) {
+            public void onBindData(FacultyData model, int position, ItemProgramsBinding dataBinding) {
 
                 dataBinding.tvFacultyName.setText(model.getFacultyName());
                 dataBinding.tvProductRate.setText(model.getFacultyInfo());
             }
 
             @Override
-            public void onItemClick(@NonNull View view, FacultyData model, int position, LayoutBinding dataBinding) {
-// implement click
-                /*
-// we will not use a switch statement because i cant fetch strings for switch cases, if will be used instead
-                switch (model.getPage()){
-                    case getString(R.string.stem_engineering_programs):
-                        Intent intent=new Intent(SelectStemSubCategoryActivity.this, EngineeringPrograms.class);
-                        context.startActivity(intent);
-                        break;
-                    case "d":
+            public void onItemClick(@NonNull View view, FacultyData model, int position, ItemProgramsBinding dataBinding) {
 
-                        break;
-
-                }
-                */
                 opendisplayProgramInfoActivity(model);
                 /*
                 String selectedBtnPage=model.getPage();

@@ -3,38 +3,44 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/bg_logo.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/custom_switch.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/ic_home.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/ic_keyboard_backspace.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/ic_moon.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/ic_profile_tab.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/ic_switch_off.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/ic_twitter.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable-v24/placeholder.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_circle_primary_light.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_ractangle_multiline.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_ractangle_rounded_stroke.xml" value="0.101" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_rectangal_stroked.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/ic_drawer.xml" value="0.1" />
-        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_about_us.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_about_us.xml" value="0.18" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_contact_us.xml" value="0.33" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_display_program_info.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_email.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_faqactivity.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_help.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_medicine_sub_categories.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_select_stem_sub_category.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_splash.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/app_bar_dash_board.xml" value="0.2" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/bottom_bar.xml" value="0.18" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/custom_dialog.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/dialog_no_internet.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/fragment_home.xml" value="0.18" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/item_programs.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/layout.xml" value="0.18" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/layout_sidebar.xml" value="0.2" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/menu_profile.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/stem_item.xml" value="0.2" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/toolbar.xml" value="0.1" />
         <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/drawable-v24/bg_logo.xml" value="0.1945" />
-        <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/layout/activity_display_program_info.xml" value="0.1" />
-        <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/layout/activity_main.xml" value="0.192481884057971" />
         <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/layout/activity_medicine_sub_categories.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/layout/activity_science_and_mathematics_programs.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/layout/activity_select_stem_sub_category.xml" value="0.17074275362318841" />

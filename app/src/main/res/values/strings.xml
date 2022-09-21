@@ -48,7 +48,6 @@ and testing services.</string>
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
 
 
-
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>
     <string name="MINE_AND_INERALS_ENGINEERING_DEGREE_PROGRAMS">MINES AND MINERALS ENGINEERING DEGREE PROGRAMS</string>
     <string name="INFORMATION_COMMUNICATION_TECHNOLOGY_PROGRAMS">INFORMATION COMMUNICATION TECHNOLOGY PROGRAMS</string>
@@ -151,4 +150,26 @@ Machinist</string>
     <string name="additional_info">Additional Information</string>
     <string name="lbl_night_mode">Night Mode</string>
     <string name="title_setting">Title</string>
+    <string name="llb_follow_us">Follow Us</string>
+    <string name="llb_privacy_policy">Privacy Policy</string>
+    <string name="lbl_terms_conditions">Terms and Conditions</string>
+    <string name="hint_email">Email Address</string>
+    <string name="lbl_call_request">Request Call</string>
+    <string name="contact_phone">+260971234567</string>
+    <string name="lbl_response_within_24_business_hours">Response within 24 hours</string>
+    <string name="title_contactus">Contact Us</string>
+    <string name="lbl_email_to_woobox">Email to Career Guidance</string>
+    <string name="text_iqonicdesign_gmail_com">Rentech99@gmail.com</string>
+    <string name="hint_description_here">Description Here</string>
+    <string name="lbl_description">Email description</string>
+    <string name="lbl_send_mail">Send Email</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_send_email">Send Email</string>
+    <string name="error_field_required">Field Empty</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="hint_description">description</string>
+    <string name="hint_enter_your_contact_number">Enter Phone number</string>
+    <string name="hint_enter_your_email_id">Enter your email address</string>
+    <string name="title_help">Help</string>
+    <string name="error_enter_valid_email">Enter valid email</string>
 </resources>
