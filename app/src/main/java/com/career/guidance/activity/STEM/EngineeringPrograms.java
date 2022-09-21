@@ -61,7 +61,7 @@ public class EngineeringPrograms  extends AppBaseActivity {
                 , R.drawable.placeholder,getString(R.string.civilEngHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder,  getString(R.string.MechanicalEngineering)));
+                , R.drawable.placeholder,getString(R.string.demoHtml)));
         programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
                 , R.drawable.placeholder, getString(R.string.AeronauticalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
