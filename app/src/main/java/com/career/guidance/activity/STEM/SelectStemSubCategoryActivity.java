@@ -95,6 +95,8 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
                     context.startActivity(intent);
                 }
                 else if(selectedBtnPage.equals(getString(R.string.stem_ict_programs))){
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, ICTPrograms.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.stem_science_and_math_programs))){
 
