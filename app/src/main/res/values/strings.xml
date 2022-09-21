@@ -44,16 +44,9 @@ and testing services.</string>
     <string name="demoHtml">demo.html</string>
     <string name="errorHtml">error.html</string>
 
-    <string name="AeronauticalEngHtml">stemFaculty/engineering/AeronauticalEngineering.html</string>
-    <string name="MechanicalEngHtml">stemFaculty/engineering/ArchitecturalEngineering.html</string>
-    <string name="ElectricalAndElectronicsEngHtml">stemFaculty/engineering/ElectricalAndElectronicsEngineering.html</string>
-    <string name="GeomaticsEngHtml">stemFaculty/engineering/GeomaticsEngineering.html</string>
-    <string name="TelecommunicationsEngHtml">stemFaculty/engineering/TelecommunicationsEngineering.html</string>
-    <string name="civilEngHtml">stemFaculty/engineering/civilEngineering.html</string>
-    <string name="RailwayEngHtml">stemFaculty/engineering/RailwayEngineering.html</string>
-    <string name="MechatronicsEngHtml">stemFaculty/engineering/MechatronicsEngineering.html</string>
-    <string name="ElectromechanicalEngHtml">stemFaculty/engineering/ElectromechanicalEngineering.html</string>
-    <string name="ArchitecturalEngHtml">stemFaculty/engineering/ArchitecturalEngineering.html</string>
+
+    <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
+
 
 
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>

@@ -14,7 +14,9 @@ import android.view.View;
 import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 import com.career.guidance.base.BaseRecyclerAdapter;
+import com.career.guidance.databinding.LayoutBinding;
 import com.career.guidance.databinding.StemItemBinding;
+import com.career.guidance.model.FacultyData;
 import com.career.guidance.model.Programs;
 import com.career.guidance.model.StemData;
 import com.career.guidance.utils.extensions.AppExtensionsKt;
@@ -23,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ICTPrograms  extends AppBaseActivity {
-    private final BaseRecyclerAdapter<StemData, StemItemBinding> adapter = getAdapter();
+    private final BaseRecyclerAdapter<FacultyData, LayoutBinding> adapter = getAdapter();
 
     Context context;
     @Override
@@ -44,58 +46,37 @@ public class ICTPrograms  extends AppBaseActivity {
         context=ICTPrograms.this;
 
 
-
-
-/*
-        List<Programs> programList = new ArrayList<>();
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.CivilEngineering),getString(R.string.civilEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.MechanicalEngineering),getString(R.string.MechanicalEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.AeronauticalEngineering),getString(R.string.AeronauticalEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.ElectricalAndElectronicsEngineering),getString(R.string.ElectricalAndElectronicsEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.GeomaticsEngineering),getString(R.string.GeomaticsEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.TelecommunicationsEngineering),getString(R.string.TelecommunicationsEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.RailwayEngineering),getString(R.string.RailwayEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.MechatronicsEngineering),getString(R.string.MechatronicsEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.ElectromechanicalEngineering),getString(R.string.ElectromechanicalEngHtml)));
-        programList.add(new Programs(1, R.drawable.loading_icon,getString(R.string.ArchitecturalEngineering),getString(R.string.ArchitecturalEngHtml)));
-
-*/
-
     }
 
-    private ArrayList<StemData> ProgramsList() {
-        ArrayList<StemData> programsList = new ArrayList<>();
+    private ArrayList<FacultyData> ProgramsList() {
+        ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new StemData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.CivilEngineering)));
+        programsList.add(new FacultyData(getString(R.string.ComputerScience), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.ComputerScience)));
 
-        programsList.add(new StemData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder,  getString(R.string.MechanicalEngineering)));
-        programsList.add(new StemData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.AeronauticalEngineering)));
-        programsList.add(new StemData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.ElectricalAndElectronicsEngineering)));
+        programsList.add(new FacultyData(getString(R.string.ComputerEngineering), getString(R.string.additional_info)
+                , R.drawable.placeholder,  getString(R.string.ComputerEngineering)));
 
         return programsList;
     }
 
-    private BaseRecyclerAdapter<StemData, StemItemBinding> getAdapter() {
+    private BaseRecyclerAdapter<FacultyData, LayoutBinding> getAdapter() {
 
-        return new BaseRecyclerAdapter<StemData, StemItemBinding>() {
+        return new BaseRecyclerAdapter<FacultyData, LayoutBinding>() {
             @Override
             public int getLayoutResId() {
-                return R.layout.stem_item;
+                return R.layout.layout;
             }
 
             @Override
-            public void onBindData(StemData model, int position, StemItemBinding dataBinding) {
+            public void onBindData(FacultyData model, int position, LayoutBinding dataBinding) {
 
-                dataBinding.stemName.setText(model.getStemName());
-                dataBinding.stemInfo.setText(model.getStemInfo());
+                dataBinding.tvFacultyName.setText(model.getFacultyName());
+                dataBinding.tvProductRate.setText(model.getFacultyInfo());
             }
 
             @Override
-            public void onItemClick(@NonNull View view, StemData model, int position, StemItemBinding dataBinding) {
+            public void onItemClick(@NonNull View view, FacultyData model, int position,LayoutBinding dataBinding) {
 // implement click
                 /*
 // we will not use a switch statement because i cant fetch strings for switch cases, if will be used instead
@@ -127,7 +108,7 @@ public class ICTPrograms  extends AppBaseActivity {
             }
 
             @Override
-            public void onItemLongClick(@NonNull View view, StemData model, int position) {
+            public void onItemLongClick(@NonNull View view, FacultyData model, int position) {
 
             }
         };

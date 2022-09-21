@@ -17,10 +17,11 @@
         android:theme="@style/Theme.CareerGuidance"
         tools:targetApi="31">
         <activity
-            android:name=".scienceAndMathematicsPrograms"
+            android:name=".activity.displayProgramInfoActivity"
             android:exported="false" />
+
         <activity
-            android:name=".ICTPrograms"
+            android:name=".activity.STEM.ICTPrograms"
             android:exported="false" />
         <activity
             android:name=".activity.STEM.EngineeringPrograms"
