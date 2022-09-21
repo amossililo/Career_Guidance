@@ -7,9 +7,10 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.widget.Toast;
 
+import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 
-public class displayProgramInfoActivity extends AppCompatActivity {
+public class displayProgramInfoActivity extends AppBaseActivity {
     WebView displayData;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,5 @@ public class displayProgramInfoActivity extends AppCompatActivity {
 
         Toast.makeText(displayProgramInfoActivity.this, nameOfHtmlFile, Toast.LENGTH_SHORT).show();
         displayData.loadUrl("file:///android_asset/"+nameOfHtmlFile);
-
-
     }
 }

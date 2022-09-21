@@ -71,6 +71,7 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
 
                 dataBinding.stemName.setText(model.getStemName());
                 dataBinding.stemInfo.setText(model.getStemInfo());
+
             }
 
             @Override
