@@ -17,6 +17,7 @@ import com.career.guidance.databinding.LayoutBinding
 import com.career.guidance.model.FacultyData
 import com.career.guidance.utils.extensions.launchActivity
 import com.career.guidance.utils.extensions.loadImageFromDrawable
+import com.career.guidance.utils.extensions.loadImageFromUri
 import com.career.guidance.utils.extensions.rvItemAnimation
 class HomeFragment : Fragment() {
 
@@ -44,7 +45,7 @@ class HomeFragment : Fragment() {
             FacultyData(
                 getString(R.string.MedicineHealthEtcFaculty),
                 getString(R.string.additional_info),
-                R.drawable.placeholder,
+                getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
                 getString(R.string.medicine_sub)
             )
         )
@@ -52,7 +53,7 @@ class HomeFragment : Fragment() {
             FacultyData(
                 getString(R.string.STEM_faculty),
                 getString(R.string.STEM_faculty_info),
-                R.drawable.stem_programs_icon,
+                "https://i.im.ge/2022/09/22/1LeLQ1.stem-programs-icon.png",
                 getString(R.string.stem_sub)
             )
         )
@@ -60,7 +61,7 @@ class HomeFragment : Fragment() {
             FacultyData(
                 getString(R.string.AgricultureBuiltEnvironmentalEtcFaculty),
                 getString(R.string.additional_info),
-                R.drawable.placeholder,
+                getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
                 getString(R.string.agriculture_sub)
             )
         )
@@ -68,7 +69,7 @@ class HomeFragment : Fragment() {
             FacultyData(
                 getString(R.string.BusinessHumanitiesEtcFaculty),
                 getString(R.string.additional_info),
-                R.drawable.placeholder,
+                getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
                 getString(R.string.business_sub)
             )
         )
@@ -83,7 +84,7 @@ class HomeFragment : Fragment() {
 
             override fun onBindData(model: FacultyData, position: Int, dataBinding: LayoutBinding) {
                 dataBinding.tvFacultyName.text = model.facultyName
-                dataBinding.ivFaculty.loadImageFromDrawable(model.facultyImage);
+                dataBinding.ivFaculty.loadImageFromUri(model.facultyImage);
             }
 
             override fun onItemClick(
