@@ -43,6 +43,8 @@ and testing services.</string>
 
     <string name="demoHtml">demo.html</string>
     <string name="errorHtml">error.html</string>
+    <string name="greyBoxPlaceHolderOnGoogleDrive">https://lh3.googleusercontent.com/74v87lo-Dv2VqB64NRFHJvrfK6r1AL87s-lg0lY1-SivLBv9ZTvdyTnBCidgBR4pkEU=w2400</string>
+    <string name="loading_icon_on_google_drive">https://lh6.googleusercontent.com/WHMn7EcFw9BBcDHZw5BEIHnEZk9levHFtFr_exd7W1_DLlkR6HR5hlNuh8kv_dZINNI=w2400</string>
 
 
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
@@ -172,4 +174,6 @@ Machinist</string>
     <string name="hint_enter_your_email_id">Enter your email address</string>
     <string name="title_help">Help</string>
     <string name="error_enter_valid_email">Enter valid email</string>
+
+
 </resources>

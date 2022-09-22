@@ -93,6 +93,15 @@ fun ImageView.loadImageFromDrawable(@DrawableRes aPlaceHolderImage: Int) {
         .into(this)
 }
 
+fun ImageView.loadImageFromUri(url: String){
+    Glide.with(context)
+        .load(url)
+        .placeholder(R.drawable.loading_icon)
+        .error(R.drawable.placeholder)
+        .into(this)
+
+}
+
 fun Context.openCustomTab(url: String) =
     CustomTabsIntent.Builder().build().launchUrl(this, Uri.parse(url))
 

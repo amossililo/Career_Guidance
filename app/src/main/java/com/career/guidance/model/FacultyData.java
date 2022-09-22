@@ -3,11 +3,11 @@ package com.career.guidance.model;
 public class FacultyData {
     private String facultyName;
     private String facultyInfo;
-    private Integer facultyImage;
+    private String facultyImage;
     private String page;
 
 
-    public FacultyData(String facultyName, String facultyInfo, Integer facultyImage, String page) {
+    public FacultyData(String facultyName, String facultyInfo, String facultyImage, String page) {
         this.facultyName = facultyName;
         this.facultyInfo = facultyInfo;
         this.facultyImage = facultyImage;
@@ -40,11 +40,11 @@ public class FacultyData {
         this.facultyInfo = facultyInfo;
     }
 
-    public Integer getFacultyImage() {
+    public String getFacultyImage() {
         return facultyImage;
     }
 
-    public void setFacultyImage(Integer facultyImage) {
+    public void setFacultyImage(String facultyImage) {
         this.facultyImage = facultyImage;
     }
 

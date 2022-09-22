@@ -58,36 +58,36 @@ public class EngineeringPrograms  extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder,getString(R.string.civilEngHtml)));
+                , getString(R.string.loading_icon_on_google_drive),getString(R.string.civilEngHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder,  getString(R.string.MechanicalEngineering)));
+                , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png",getString(R.string.demoHtml)));
         programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.AeronauticalEngineering)));
+                , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.ElectricalAndElectronicsEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ElectricalAndElectronicsEngineering)));
         programsList.add(new FacultyData(getString(R.string.GeomaticsEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.GeomaticsEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.GeomaticsEngineering)));
         programsList.add(new FacultyData(getString(R.string.TelecommunicationsEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.TelecommunicationsEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.TelecommunicationsEngineering)));
         programsList.add(new FacultyData(getString(R.string.RailwayEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.RailwayEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.RailwayEngineering)));
         programsList.add(new FacultyData(getString(R.string.MechatronicsEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.MechatronicsEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.MechatronicsEngineering)));
         programsList.add(new FacultyData(getString(R.string.ElectromechanicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.ElectromechanicalEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ElectromechanicalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ChemicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.ChemicalEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ChemicalEngineering)));
         programsList.add(new FacultyData(getString(R.string.MiningEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.MiningEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.MiningEngineering)));
         programsList.add(new FacultyData(getString(R.string.GeotechnicalandGeoEnvironmentalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.GeotechnicalandGeoEnvironmentalEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.GeotechnicalandGeoEnvironmentalEngineering)));
         programsList.add(new FacultyData(getString(R.string.MetallurgicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.MetallurgicalEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.MetallurgicalEngineering)));
         programsList.add(new FacultyData(getString(R.string.EnvironmentalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.EnvironmentalEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.EnvironmentalEngineering)));
         programsList.add(new FacultyData(getString(R.string.GeologyGeologicalEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.GeomaticsEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.GeomaticsEngineering)));
         return programsList;
     }
 
@@ -104,6 +104,7 @@ public class EngineeringPrograms  extends AppBaseActivity {
 
                 dataBinding.tvFacultyName.setText(model.getFacultyName());
                 dataBinding.tvProductRate.setText(model.getFacultyInfo());
+                dataBinding.ivFaculty.loadImageFromUri(model.facultyImage);
             }
 
             @Override

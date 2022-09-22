@@ -52,10 +52,10 @@ public class ICTPrograms  extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.ComputerScience), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.ComputerScience)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ComputerScience)));
 
         programsList.add(new FacultyData(getString(R.string.ComputerEngineering), getString(R.string.additional_info)
-                , R.drawable.placeholder,  getString(R.string.ComputerEngineering)));
+                , getString(R.string.loading_icon_on_google_drive),  getString(R.string.ComputerEngineering)));
 
         return programsList;
     }
