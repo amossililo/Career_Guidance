@@ -50,29 +50,18 @@ and testing services.</string>
     <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
     <string name="aeronauticalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/AeronauticalEng.html</string>
     <string name="chemicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ChemicalEng.html</string>
-    <string name="electricalEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/ElectricalAndElectronicsEng.html</string>
-    <string name="electroEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/ElectromechanicalEng.html</string>
-    <string name="environmentalEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/EnvironmentalEng.html</string>
-    <string name="geologyEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/GeologyGeologicalEng.html</string>
-    <string name="geometricsEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/GeomaticsEng.html</string>
-    <string name="geotechnicalEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/GeotechnicalandGeoEnvironmentalEng.html</string>
+    <string name="electricalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ElectricalAndElectronicsEng.html</string>
+    <string name="electroEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ElectromechanicalEng.html</string>
+    <string name="environmentalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/EnvironmentalEng.html</string>
+    <string name="geologyEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeologyGeologicalEng.html</string>
+    <string name="geometricsEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeomaticsEng.html</string>
+    <string name="geotechnicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeotechnicalandGeoEnvironmentalEng.html</string>
 
-    <string name="mechatronicsEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
-    <string name="metallurgicalEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/MetallurgicalEngineering.html</string>
-    <string name="mininEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/MiningEng.html</string>
-    <string name="railwayEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/RailwayEng.html</string>
-    <string name="telecommunicationEngHtml"
-        tools:ignore="ExtraTranslation">stemHtmlFiles/TelecommunicationsEng.html</string>
+    <string name="mechatronicsEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
+    <string name="metallurgicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MetallurgicalEngineering.html</string>
+    <string name="mininEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MiningEng.html</string>
+    <string name="railwayEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/RailwayEng.html</string>
+    <string name="telecommunicationEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/TelecommunicationsEng.html</string>
 
 
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>
@@ -200,5 +189,56 @@ Machinist</string>
     <string name="title_help">Help</string>
     <string name="error_enter_valid_email">Enter valid email</string>
 
+
+   <!-- now in the medicine book-->
+    <string name="MEDICINEANDSURGERY"> MEDICINE AND SURGERY (MBCHB)</string>
+    <string name="DENTALSURGERY">DENTAL SURGERY</string>
+    <string name="CLINICALMEDICINE">CLINICAL MEDICINE</string>
+    <string name="NURSING">NURSING</string>
+    <string name="PHARMACY">PHARMACY</string>
+    <string name="PUBLICHEALTH">PUBLIC HEALTH (BPH)</string>
+    <string name="ENVIRONMENTALHEALTH">ENVIRONMENTAL HEALTH</string>
+    <string name="PHYSIOTHERAPY">PHYSIOTHERAPY</string>
+    <string name="OCCUPATIONALTHERAPY">OCCUPATIONAL THERAPY</string>
+    <string name="BIOMEDICALSCIENCE">BIOMEDICAL SCIENCE</string>
+    <string name="HEALTHINFORMATICS">HEALTH  INFORMATICS</string>
+    <string name="VETERINARYMEDICINEANDALLIEDPROFESSIONS">VETERINARY MEDICINE AND ALLIED PROFESSIONS</string>
+    <string name="BIOLOGYANDBIOLOGICALSCIENCES">BIOLOGY AND BIOLOGICAL SCIENCES</string>
+    <string name="GENETICS">GENETICS</string>
+    <string name="ALLIEDHEALTHANDMEDICALASSISTINGSERVICES">ALLIED HEALTH AND MEDICAL ASSISTING SERVICES</string>
+    <string name="MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONS">MENTAL AND SOCIAL HEALTH SERVICES AND ALLIED PROFESSIONS</string>
+    <string name="ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONS">ALLIED HEALTH DIAGNOSTIC, INTERVENTION, AND TREATMENT PROFESSIONS</string>
+    <string name="ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICES">ALTERNATIVE AND COMPLEMENTARY MEDICAL SUPPORT SERVICES</string>
+    <string name="CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONS">CLINICAL/MEDICAL LABORATORY SCIENCE/RESEARCH AND ALLIED PROFESSIONS</string>
+    <string name="COMMUNICATIONDISORDERSSCIENCESANDSERVICES">COMMUNICATION DISORDERS SCIENCES AND SERVICES</string>
+    <string name="DENTALSUPPORTSERVICESANDALLIEDPROFESSIONS">DENTAL SUPPORT SERVICES AND ALLIED PROFESSIONS</string>
+    <string name="DIETETICSANDCLINICALNUTRITIONSERVICES">DIETETICS AND CLINICAL NUTRITION SERVICES</string>
+    <string name="HEALTHANDMEDICALADMINISTRATIVESERVICES">HEALTH AND MEDICAL ADMINISTRATIVE SERVICES</string>
+
+
+
+    <string name="MEDICINEANDSURGERYHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/MEDICINEANDSURGERY.html</string>
+    <string name="DENTALSURGERYHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/DENTALSURGERY.html</string>
+    <string name="CLINICALMEDICINEHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/CLINICALMEDICINE.html</string>
+    <string name="NURSINGHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/NURSING.html</string>
+    <string name="PHARMACYHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/PHARMACY.html</string>
+    <string name="PUBLICHEALTHHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/PUBLICHEALTH.html</string>
+    <string name="ENVIRONMENTALHEALTHHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/ENVIRONMENTALHEALTH.html</string>
+    <string name="PHYSIOTHERAPYHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/PHYSIOTHERAPY.html</string>
+    <string name="OCCUPATIONALTHERAPYHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/OCCUPATIONALTHERAPY.html</string>
+    <string name="BIOMEDICALSCIENCEHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/BIOMEDICALSCIENCE.html</string>
+    <string name="HEALTHINFORMATICSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/HEALTHINFORMATICS.html</string>
+    <string name="VETERINARYMEDICINEANDALLIEDPROFESSIONSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/VETERINARYMEDICINEANDALLIEDPROFESSIONS.html</string>
+    <string name="BIOLOGYANDBIOLOGICALSCIENCESHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/BIOLOGYANDBIOLOGICALSCIENCES.html</string>
+    <string name="GENETICSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/GENETICS.html</string>
+    <string name="ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/ALLIEDHEALTHANDMEDICALASSISTINGSERVICES.html</string>
+    <string name="MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONS.html</string>
+    <string name="ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONS.html</string>
+    <string name="ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICESHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICES.html</string>
+    <string name="CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONS.html</string>
+    <string name="COMMUNICATIONDISORDERSSCIENCESANDSERVICESHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/COMMUNICATIONDISORDERSSCIENCESANDSERVICES.html</string>
+    <string name="DENTALSUPPORTSERVICESANDALLIEDPROFESSIONSHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/DENTALSUPPORTSERVICESANDALLIEDPROFESSIONS.html</string>
+    <string name="DIETETICSANDCLINICALNUTRITIONSERVICESHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/DIETETICSANDCLINICALNUTRITIONSERVICES.html</string>
+    <string name="HEALTHANDMEDICALADMINISTRATIVESERVICESHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/HEALTHANDMEDICALADMINISTRATIVESERVICES.html</string>
 
 </resources>
