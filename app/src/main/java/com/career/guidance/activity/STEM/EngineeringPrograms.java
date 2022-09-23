@@ -60,7 +60,7 @@ public class EngineeringPrograms extends AppBaseActivity {
                 , getString(R.string.loading_icon_on_google_drive), getString(R.string.civilEngHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.demoHtml)));
+                , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.mechanicalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
@@ -76,7 +76,7 @@ public class EngineeringPrograms extends AppBaseActivity {
         programsList.add(new FacultyData(getString(R.string.ElectromechanicalEngineering), getString(R.string.additional_info)
                 , getString(R.string.loading_icon_on_google_drive), getString(R.string.ElectromechanicalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ChemicalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ChemicalEngineering)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.chemicalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.MiningEngineering), getString(R.string.additional_info)
                 , getString(R.string.loading_icon_on_google_drive), getString(R.string.MiningEngineering)));
         programsList.add(new FacultyData(getString(R.string.GeotechnicalandGeoEnvironmentalEngineering), getString(R.string.additional_info)
