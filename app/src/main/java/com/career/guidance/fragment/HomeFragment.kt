@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.career.guidance.R
+import com.career.guidance.activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity
 import com.career.guidance.activity.MedicineHealthEtc.MedicineSubCategoriesActivity
 import com.career.guidance.activity.STEM.SelectStemSubCategoryActivity
 import com.career.guidance.base.BaseRecyclerAdapter
@@ -96,7 +97,7 @@ class HomeFragment : Fragment() {
                 when (model.page) {
 
                     getString(R.string.medicine_sub) -> {
-                        activity?.launchActivity<MedicineSubCategoriesActivity>()
+                        activity?.launchActivity<MedicineHealthAndVetProgramsActivity>()
                     }
                     getString(R.string.business_sub) -> {
                         activity?.launchActivity<MedicineSubCategoriesActivity>()
