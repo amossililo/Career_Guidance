@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Career Guidance</string>
     <string name="error_permission_required">Error Permission is Required</string>
 
@@ -46,8 +46,33 @@ and testing services.</string>
     <string name="greyBoxPlaceHolderOnGoogleDrive">https://lh3.googleusercontent.com/74v87lo-Dv2VqB64NRFHJvrfK6r1AL87s-lg0lY1-SivLBv9ZTvdyTnBCidgBR4pkEU=w2400</string>
     <string name="loading_icon_on_google_drive">https://lh6.googleusercontent.com/WHMn7EcFw9BBcDHZw5BEIHnEZk9levHFtFr_exd7W1_DLlkR6HR5hlNuh8kv_dZINNI=w2400</string>
 
-
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
+    <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
+    <string name="aeronauticalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/AeronauticalEng.html</string>
+    <string name="chemicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ChemicalEng.html</string>
+    <string name="electricalEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/ElectricalAndElectronicsEng.html</string>
+    <string name="electroEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/ElectromechanicalEng.html</string>
+    <string name="environmentalEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/EnvironmentalEng.html</string>
+    <string name="geologyEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/GeologyGeologicalEng.html</string>
+    <string name="geometricsEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/GeomaticsEng.html</string>
+    <string name="geotechnicalEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/GeotechnicalandGeoEnvironmentalEng.html</string>
+
+    <string name="mechatronicsEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
+    <string name="metallurgicalEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/MetallurgicalEngineering.html</string>
+    <string name="mininEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/MiningEng.html</string>
+    <string name="railwayEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/RailwayEng.html</string>
+    <string name="telecommunicationEngHtml"
+        tools:ignore="ExtraTranslation">stemHtmlFiles/TelecommunicationsEng.html</string>
 
 
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>

@@ -94,7 +94,7 @@ public class ICTPrograms  extends AppBaseActivity {
                 String selectedBtnPage=model.getPage();
                 if (selectedBtnPage.equals(getString(R.string.stem_engineering_programs))){
                     Intent intent=new Intent(ICTPrograms.this, EngineeringPrograms.class);
-                    context.startActivity(intent);
+               startActivity(intent);
                 }
                 else if(selectedBtnPage.equals(getString(R.string.stem_ict_programs))){
 

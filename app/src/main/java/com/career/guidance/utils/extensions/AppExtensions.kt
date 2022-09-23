@@ -96,7 +96,7 @@ fun ImageView.loadImageFromDrawable(@DrawableRes aPlaceHolderImage: Int) {
 fun ImageView.loadImageFromUri(url: String){
     Glide.with(context)
         .load(url)
-        .placeholder(R.drawable.loading_icon)
+        .placeholder(R.drawable.placeholder)
         .error(R.drawable.placeholder)
         .into(this)
 

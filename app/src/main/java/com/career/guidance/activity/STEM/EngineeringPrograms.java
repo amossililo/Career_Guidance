@@ -22,14 +22,16 @@ import com.career.guidance.databinding.LayoutBinding;
 import com.career.guidance.model.Programs;
 import com.career.guidance.model.FacultyData;
 import com.career.guidance.utils.extensions.AppExtensionsKt;
+import com.career.guidance.utils.extensions.ExtensionsKt;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class EngineeringPrograms  extends AppBaseActivity {
+public class EngineeringPrograms extends AppBaseActivity {
     private final BaseRecyclerAdapter<FacultyData, ItemProgramsBinding> adapter = getAdapter();
 
     Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +39,8 @@ public class EngineeringPrograms  extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Engineering Programs");;
+        toolbar.setTitle("Engineering Programs");
+        ;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -45,11 +48,7 @@ public class EngineeringPrograms  extends AppBaseActivity {
         recyclerView.setAdapter(adapter);
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(ProgramsList());
-        context=EngineeringPrograms.this;
-
-
-
-
+        context = EngineeringPrograms.this;
 
 
     }
@@ -58,10 +57,10 @@ public class EngineeringPrograms  extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive),getString(R.string.civilEngHtml)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.civilEngHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png",getString(R.string.demoHtml)));
+                , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.demoHtml)));
         programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
@@ -104,7 +103,8 @@ public class EngineeringPrograms  extends AppBaseActivity {
 
                 dataBinding.tvFacultyName.setText(model.getFacultyName());
                 dataBinding.tvProductRate.setText(model.getFacultyInfo());
-                dataBinding.ivFaculty.loadImageFromUri(model.facultyImage);
+
+                AppExtensionsKt.loadImageFromUri(dataBinding.ivFaculty, model.getFacultyImage());
             }
 
             @Override
@@ -134,17 +134,18 @@ public class EngineeringPrograms  extends AppBaseActivity {
             }
         };
     }
-    public void opendisplayProgramInfoActivity(FacultyData model){
+
+    public void opendisplayProgramInfoActivity(FacultyData model) {
 
 
-        SharedPreferences sharedPreferences = context.getSharedPreferences("MySharedPref",MODE_PRIVATE);
+        SharedPreferences sharedPreferences = context.getSharedPreferences("MySharedPref", MODE_PRIVATE);
 // Creating an Editor object to edit(write to the file)
         SharedPreferences.Editor myEdit = sharedPreferences.edit();
 // Storing the key and its value as the data fetched from edittext
         myEdit.putString("selectedProgram", model.getFacultyName());
         myEdit.putString("nameOfHtmlFile", model.getPage());
         myEdit.commit();
-        Intent intent=new Intent(EngineeringPrograms.this, displayProgramInfoActivity.class);
+        Intent intent = new Intent(EngineeringPrograms.this, displayProgramInfoActivity.class);
         context.startActivity(intent);
     }
 
