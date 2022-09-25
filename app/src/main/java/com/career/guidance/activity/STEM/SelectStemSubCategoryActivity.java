@@ -100,9 +100,13 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
                     context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.stem_science_and_math_programs))){
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, scienceAndMathematicsPrograms.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.stem_engineering_technology_programs))){
 
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, EngineeringTechnologyAndTechniciansPrograms.class);
+                    context.startActivity(intent);
                 }else if(selectedBtnPage.equals(getString(R.string.stem_university_that_offer))){
 
                 }

@@ -54,7 +54,7 @@ and testing services.</string>
     <string name="electroEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ElectromechanicalEng.html</string>
     <string name="environmentalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/EnvironmentalEng.html</string>
     <string name="geologyEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeologyGeologicalEng.html</string>
-    <string name="geometricsEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeomaticsEng.html</string>
+    <string name="geomaticsEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeomaticsEng.html</string>
     <string name="geotechnicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/GeotechnicalandGeoEnvironmentalEng.html</string>
 
     <string name="mechatronicsEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
@@ -62,6 +62,32 @@ and testing services.</string>
     <string name="mininEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MiningEng.html</string>
     <string name="railwayEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/RailwayEng.html</string>
     <string name="telecommunicationEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/TelecommunicationsEng.html</string>
+
+
+    <string name="computerScienceHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/computerScienceHtml.html</string>
+    <string name="computerEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/computerEngHtml.html</string>
+
+    <string name="PAndAPhysicsHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PAndAPhysics.html</string>
+    <string name="PAndAChemistyHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PAndAChemisty.html</string>
+    <string name="BiologyAndBiologicalSciencesHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/BiologyAndBiologicalSciences.html</string>
+    <string name="microbiologyAndImuneHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/microbiologyAndImune.html</string>
+    <string name="geneticsstemHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/genetics.html</string>
+    <string name="mathematicsAndStatisticsHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/mathematicsAndStatistics.html</string>
+
+    <string name="ArchitecturalEngineeringTechnologyTechnicianHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ArchitecturalEngineeringTechnologyTechnician.html</string>
+    <string name="CivilEngineeringTechnologyTechnicianHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/CivilEngineeringTechnologyTechnician.html</string>
+    <string name="ConstructionEngineeringTechnologiesConstructionEngineeringTechnologyTechnicianHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ ConstructionEngineeringTechnologiesConstructionEngineeringTechnologyTechnician.html</string>
+    <string name="DraftingDesignEngineeringTechnologiesTechniciansHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/DraftingDesignEngineeringTechnologiesTechnicians.html</string>
+    <string name="IndustrialProductionTechnologiesTechniciansChemicalEngineeringHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ IndustrialProductionTechnologiesTechniciansChemicalEngineering.html</string>
+    <string name="VehicleMaintenanceandRepairTechnologiesHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/VehicleMaintenanceandRepairTechnologies.html</string>
+    <string name="PhysicalScienceTechnologiesTechniciansScienceTechnologiesTechniciansGeneralHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PhysicalScienceTechnologiesTechniciansScienceTechnologiesTechniciansGeneral.html</string>
+    <string name="MechanicAndRepairTechnologiesTechniciansElectricalElectronicMaintenanceandRepairTechnologyHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechanicAndRepairTechnologiesTechniciansElectricalElectronicMaintenanceandRepairTechnology.html</string>
+    <string name="PrecisionMetalWorkingComputerHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PrecisionMetalWorkingComputer.html</string>
+    <string name="PrecisionProductionOfBoilerMakingBoilermakerHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PrecisionProductionOfBoilerMakingBoilermakerHtml.html</string>
+    <string name="MetalFabricatorHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MetalFabricator.html</string>
+    <string name="PrecisionProductionTradesWoodworkingHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PrecisionProductionTradesWoodworking.html</string>
+    <string name="FireProtectionHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/Fire Protection.html</string>
+    <string name="TransportationAndMaterialsMovingHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/TransportationAndMaterialsMoving.html</string>
 
 
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>
@@ -190,7 +216,7 @@ Machinist</string>
     <string name="error_enter_valid_email">Enter valid email</string>
 
 
-   <!-- now in the medicine book-->
+    <!-- now in the medicine book-->
     <string name="MEDICINEANDSURGERY"> MEDICINE AND SURGERY (MBCHB)</string>
     <string name="DENTALSURGERY">DENTAL SURGERY</string>
     <string name="CLINICALMEDICINE">CLINICAL MEDICINE</string>
@@ -214,7 +240,6 @@ Machinist</string>
     <string name="DENTALSUPPORTSERVICESANDALLIEDPROFESSIONS">DENTAL SUPPORT SERVICES AND ALLIED PROFESSIONS</string>
     <string name="DIETETICSANDCLINICALNUTRITIONSERVICES">DIETETICS AND CLINICAL NUTRITION SERVICES</string>
     <string name="HEALTHANDMEDICALADMINISTRATIVESERVICES">HEALTH AND MEDICAL ADMINISTRATIVE SERVICES</string>
-
 
 
     <string name="MEDICINEANDSURGERYHtml" tools:ignore="ExtraTranslation">MedicineHealthAndVetHtmlFiles/MEDICINEANDSURGERY.html</string>

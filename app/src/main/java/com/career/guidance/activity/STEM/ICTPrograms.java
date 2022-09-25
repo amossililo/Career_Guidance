@@ -8,11 +8,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
 import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
+import com.career.guidance.activity.displayProgramInfoActivity;
 import com.career.guidance.base.BaseRecyclerAdapter;
 import com.career.guidance.databinding.LayoutBinding;
 import com.career.guidance.databinding.StemItemBinding;
@@ -35,7 +37,7 @@ public class ICTPrograms  extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Engineering Programs");;
+        toolbar.setTitle("ICT Programs");;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -52,10 +54,10 @@ public class ICTPrograms  extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.ComputerScience), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ComputerScience)));
+                , getString(R.string.loading_icon_on_google_drive), getString(R.string.computerScienceHtml)));
 
         programsList.add(new FacultyData(getString(R.string.ComputerEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive),  getString(R.string.ComputerEngineering)));
+                , getString(R.string.loading_icon_on_google_drive),  getString(R.string.computerEngHtml)));
 
         return programsList;
     }
@@ -77,34 +79,10 @@ public class ICTPrograms  extends AppBaseActivity {
 
             @Override
             public void onItemClick(@NonNull View view, FacultyData model, int position,LayoutBinding dataBinding) {
+
 // implement click
-                /*
-// we will not use a switch statement because i cant fetch strings for switch cases, if will be used instead
-                switch (model.getPage()){
-                    case getString(R.string.stem_engineering_programs):
-                        Intent intent=new Intent(SelectStemSubCategoryActivity.this, EngineeringPrograms.class);
-                        context.startActivity(intent);
-                        break;
-                    case "d":
+                opendisplayProgramInfoActivity(model);
 
-                        break;
-
-                }
-                */
-                String selectedBtnPage=model.getPage();
-                if (selectedBtnPage.equals(getString(R.string.stem_engineering_programs))){
-                    Intent intent=new Intent(ICTPrograms.this, EngineeringPrograms.class);
-               startActivity(intent);
-                }
-                else if(selectedBtnPage.equals(getString(R.string.stem_ict_programs))){
-
-                }else if(selectedBtnPage.equals(getString(R.string.stem_science_and_math_programs))){
-
-                }else if(selectedBtnPage.equals(getString(R.string.stem_engineering_technology_programs))){
-
-                }else if(selectedBtnPage.equals(getString(R.string.stem_university_that_offer))){
-
-                }
             }
 
             @Override
@@ -114,5 +92,18 @@ public class ICTPrograms  extends AppBaseActivity {
         };
     }
 
+    public void opendisplayProgramInfoActivity(FacultyData model) {
+
+
+        SharedPreferences sharedPreferences = context.getSharedPreferences("MySharedPref", MODE_PRIVATE);
+// Creating an Editor object to edit(write to the file)
+        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+// Storing the key and its value as the data fetched from edittext
+        myEdit.putString("selectedProgram", model.getFacultyName());
+        myEdit.putString("nameOfHtmlFile", model.getPage());
+        myEdit.commit();
+        Intent intent = new Intent(ICTPrograms.this, displayProgramInfoActivity.class);
+        context.startActivity(intent);
+    }
 
 }
