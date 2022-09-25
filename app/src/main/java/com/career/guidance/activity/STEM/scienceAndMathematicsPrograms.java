@@ -11,23 +11,18 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
 import com.career.guidance.activity.displayProgramInfoActivity;
 import com.career.guidance.base.BaseRecyclerAdapter;
 import com.career.guidance.databinding.ItemProgramsBinding;
-import com.career.guidance.databinding.LayoutBinding;
-import com.career.guidance.model.Programs;
 import com.career.guidance.model.FacultyData;
 import com.career.guidance.utils.extensions.AppExtensionsKt;
-import com.career.guidance.utils.extensions.ExtensionsKt;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class EngineeringPrograms extends AppBaseActivity {
+public class scienceAndMathematicsPrograms extends AppBaseActivity {
     private final BaseRecyclerAdapter<FacultyData, ItemProgramsBinding> adapter = getAdapter();
 
     Context context;
@@ -39,7 +34,7 @@ public class EngineeringPrograms extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Engineering Programs");
+        toolbar.setTitle("Science And Math ");
         ;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
@@ -48,7 +43,7 @@ public class EngineeringPrograms extends AppBaseActivity {
         recyclerView.setAdapter(adapter);
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(ProgramsList());
-        context = EngineeringPrograms.this;
+        context = scienceAndMathematicsPrograms.this;
 
 
     }
@@ -56,37 +51,21 @@ public class EngineeringPrograms extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.civilEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.PureAndAppliedPhysics), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PAndAPhysicsHtml)));
+        programsList.add(new FacultyData(getString(R.string.PureAndAppliedChemistry), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PAndAChemistyHtml)));
+        programsList.add(new FacultyData(getString(R.string.BiologyAndBiologicalSciences), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BiologyAndBiologicalSciencesHtml)));
+        programsList.add(new FacultyData(getString(R.string.MicrobiologicalSciencesandImmunology), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.microbiologyAndImuneHtml)));
+        programsList.add(new FacultyData(getString(R.string.BiomathematicsBioinformaticsandComputationalBiology), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BiologyAndBiologicalSciencesHtml)));
+        programsList.add(new FacultyData(getString(R.string.Genetics), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.geneticsstemHtml)));
+        programsList.add(new FacultyData(getString(R.string.MathematicsandStatistics), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.mathematicsAndStatisticsHtml)));
 
-        programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.mechanicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
-        programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.electricalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.GeomaticsEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.geomaticsEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.TelecommunicationsEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.telecommunicationEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.RailwayEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.railwayEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.MechatronicsEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.mechatronicsEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.ElectromechanicalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.electroEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.ChemicalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.chemicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.MiningEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.mininEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.GeotechnicalandGeoEnvironmentalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.geotechnicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.MetallurgicalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.metallurgicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.EnvironmentalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.environmentalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.GeologyGeologicalEngineering), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.geomaticsEngHtml)));
         return programsList;
     }
 
@@ -145,7 +124,7 @@ public class EngineeringPrograms extends AppBaseActivity {
         myEdit.putString("selectedProgram", model.getFacultyName());
         myEdit.putString("nameOfHtmlFile", model.getPage());
         myEdit.commit();
-        Intent intent = new Intent(EngineeringPrograms.this, displayProgramInfoActivity.class);
+        Intent intent = new Intent(scienceAndMathematicsPrograms.this, displayProgramInfoActivity.class);
         context.startActivity(intent);
     }
 
