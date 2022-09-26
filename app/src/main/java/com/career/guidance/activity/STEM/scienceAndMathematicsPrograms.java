@@ -90,21 +90,7 @@ public class scienceAndMathematicsPrograms extends AppBaseActivity {
             public void onItemClick(@NonNull View view, FacultyData model, int position, ItemProgramsBinding dataBinding) {
 
                 opendisplayProgramInfoActivity(model);
-                /*
-                String selectedBtnPage=model.getPage();
-                if (selectedBtnPage.equals( getString(R.string.CivilEngineering))){
-                    opendisplayProgramInfoActivity(model);
-                }
-                else if(selectedBtnPage.equals(getString(R.string.stem_ict_programs))){
 
-                }else if(selectedBtnPage.equals(getString(R.string.stem_science_and_math_programs))){
-
-                }else if(selectedBtnPage.equals(getString(R.string.stem_engineering_technology_programs))){
-
-                }else if(selectedBtnPage.equals(getString(R.string.stem_university_that_offer))){
-
-                }
-                */
             }
 
             @Override
