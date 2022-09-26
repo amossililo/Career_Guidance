@@ -18,6 +18,21 @@
         android:theme="@style/Theme.CareerGuidance"
         tools:targetApi="31">
         <activity
+            android:name=".activity.BusinesHumanitiesEtc.EducationPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BusinesHumanitiesEtc.HumanityPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BusinesHumanitiesEtc.BusinessPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BuiltEnvAgricultureNatResources.BuiltEnvAgricultureNatResourcesSubCategories"
+            android:exported="false" />
+        <activity
             android:name=".activity.STEM.EngineeringTechnologyAndTechniciansPrograms"
             android:exported="false" />
         <activity

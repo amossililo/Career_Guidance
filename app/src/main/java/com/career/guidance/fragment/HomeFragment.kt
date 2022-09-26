@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.career.guidance.R
+import com.career.guidance.activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories
 import com.career.guidance.activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity
 import com.career.guidance.activity.MedicineHealthEtc.MedicineSubCategoriesActivity
 import com.career.guidance.activity.STEM.SelectStemSubCategoryActivity
@@ -100,7 +101,7 @@ class HomeFragment : Fragment() {
                         activity?.launchActivity<MedicineHealthAndVetProgramsActivity>()
                     }
                     getString(R.string.business_sub) -> {
-                        activity?.launchActivity<MedicineSubCategoriesActivity>()
+                        activity?.launchActivity<BusinessAndHumanitiesSubCategories>()
                     }
 
                     getString(R.string.agriculture_sub) -> {

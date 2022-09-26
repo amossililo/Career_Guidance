@@ -1,14 +1,15 @@
-package com.career.guidance.activity.BusinesHumanitiesEtc;
+package com.career.guidance.activity.BuiltEnvAgricultureNatResources;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
@@ -24,7 +25,7 @@ import com.career.guidance.utils.extensions.AppExtensionsKt;
 
 import java.util.ArrayList;
 
-public class BusinessAndHumanitiesSubCategories extends AppBaseActivity {
+public class BuiltEnvAgricultureNatResourcesSubCategories extends AppBaseActivity {
     private final BaseRecyclerAdapter<StemData, StemItemBinding> adapter = getAdapter();
     Context context;
 
@@ -42,19 +43,26 @@ public class BusinessAndHumanitiesSubCategories extends AppBaseActivity {
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(stemData());
 
-        context= BusinessAndHumanitiesSubCategories.this;
+        context= BuiltEnvAgricultureNatResourcesSubCategories.this;
     }
 
     private ArrayList<StemData> stemData() {
         ArrayList<StemData> stemDataArrayList = new ArrayList<>();
+        // add sub categories
+/*
+        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_programs), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.stem_engineering_programs)));
 
-        stemDataArrayList.add(new StemData(getString(R.string.BUSINESSPROGRAMS), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.BUSINESSPROGRAMS)));
-        stemDataArrayList.add(new StemData(getString(R.string.HUMANITYPROGRAMS), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.HUMANITYPROGRAMS)));
-        stemDataArrayList.add(new StemData(getString(R.string.EDUCATIONPROGRAMS), getString(R.string.additional_info)
-                , R.drawable.placeholder, getString(R.string.EDUCATIONPROGRAMS)));
+        stemDataArrayList.add(new StemData(getString(R.string.stem_ict_programs), getString(R.string.additional_info)
+                , R.drawable.placeholder,  getString(R.string.stem_ict_programs)));
+        stemDataArrayList.add(new StemData(getString(R.string.stem_science_and_math_programs), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.stem_science_and_math_programs)));
+        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_technology_programs), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.stem_engineering_technology_programs)));
+        stemDataArrayList.add(new StemData(getString(R.string.stem_university_that_offer), getString(R.string.additional_info)
+                , R.drawable.placeholder, getString(R.string.stem_university_that_offer)));
 
+ */
         return stemDataArrayList;
     }
 
@@ -78,19 +86,30 @@ public class BusinessAndHumanitiesSubCategories extends AppBaseActivity {
             public void onItemClick(@NonNull View view, StemData model, int position, StemItemBinding dataBinding) {
 // implement click
 
-
                 String selectedBtnPage=model.getPage();
-                if (selectedBtnPage.equals(getString(R.string.BUSINESSPROGRAMS))){
-                    Intent intent=new Intent(BusinessAndHumanitiesSubCategories.this,BusinessPrograms.class);
+
+                /*
+                if (selectedBtnPage.equals(getString(R.string.stem_engineering_programs))){
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, EngineeringPrograms.class);
                     context.startActivity(intent);
                 }
-                else if(selectedBtnPage.equals(getString(R.string.HUMANITYPROGRAMS))){
-                    Intent intent=new Intent(BusinessAndHumanitiesSubCategories.this, HumanityPrograms.class);
+                else if(selectedBtnPage.equals(getString(R.string.stem_ict_programs))){
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, ICTPrograms.class);
                     context.startActivity(intent);
-                }else if(selectedBtnPage.equals(getString(R.string.EDUCATIONPROGRAMS))){
-                    Intent intent=new Intent(BusinessAndHumanitiesSubCategories.this, EducationPrograms.class);
+
+                }else if(selectedBtnPage.equals(getString(R.string.stem_science_and_math_programs))){
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, scienceAndMathematicsPrograms.class);
                     context.startActivity(intent);
+
+                }else if(selectedBtnPage.equals(getString(R.string.stem_engineering_technology_programs))){
+
+                    Intent intent=new Intent(SelectStemSubCategoryActivity.this, EngineeringTechnologyAndTechniciansPrograms.class);
+                    context.startActivity(intent);
+                }else if(selectedBtnPage.equals(getString(R.string.stem_university_that_offer))){
+
                 }
+
+                 */
             }
 
             @Override

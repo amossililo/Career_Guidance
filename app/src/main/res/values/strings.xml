@@ -272,37 +272,37 @@ Machinist</string>
     <string name="HUMANITYPROGRAMS" tools:ignore="ExtraTranslation">HUMANITY PROGRAMS</string>
     <string name="EDUCATIONPROGRAMS" tools:ignore="ExtraTranslation">EDUCATION PROGRAMS</string>
 
-    <string name="ACCOUNTANCYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="PURCHASINGANDSUPPLYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="HUMANRESOURCEMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="BANKINGANDFINANCEHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="PUBLICPROCUREMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="PRODUCTIONANDOPERATIONSMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="TRANSPORTANDLOGISTICSMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="MARKETINGHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="BUSINESSADMINISTRATIONANDMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
+    <string name="ACCOUNTANCYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/ACCOUNTANCY.html</string>
+    <string name="PURCHASINGANDSUPPLYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PURCHASINGANDSUPPL.html</string>
+    <string name="HUMANRESOURCEMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/HUMANRESOURCEMANAGEMENT.html</string>
+    <string name="BANKINGANDFINANCEHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/BANKINGANDFINANCE.html</string>
+    <string name="PUBLICPROCUREMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PUBLICPROCUREMENT.html</string>
+    <string name="PRODUCTIONANDOPERATIONSMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PRODUCTIONANDOPERATIONSMANAGEMENT.html</string>
+    <string name="TRANSPORTANDLOGISTICSMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/TRANSPORTANDLOGISTICSMANAGEMENT.html</string>
+    <string name="MARKETINGHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/MARKETING.html</string>
+    <string name="BUSINESSADMINISTRATIONANDMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/BUSINESSADMINISTRATIONANDMANAGEMENT.html</string>
+    <string name="BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICES.html</string>
 
 
-    <string name="LawHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="ECONOMICSHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="MASSCOMMUNICATIONHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="SOCIALWORKHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="PSYCHOLOGYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="STATISTICSANDDEMOGRAPHICStudiesHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="POLITICALSCIENCEHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="COMMUNITYDEVELOPMENTSTUDIESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="PUBLICADMINISTRATIONHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
+    <string name="LawHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/Law.html</string>
+    <string name="ECONOMICSHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/ECONOMICS.html</string>
+    <string name="MASSCOMMUNICATIONHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/MASSCOMMUNICATION.html</string>
+    <string name="SOCIALWORKHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/SOCIALWORK.html</string>
+    <string name="PSYCHOLOGYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PSYCHOLOGY.html</string>
+    <string name="STATISTICSANDDEMOGRAPHICStudiesHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/STATISTICSANDDEMOGRAPHICStudies.html</string>
+    <string name="POLITICALSCIENCEHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/POLITICALSCIENCE.html</string>
+    <string name="COMMUNITYDEVELOPMENTSTUDIESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/COMMUNITYDEVELOPMENTSTUDIES.html</string>
+    <string name="PUBLICADMINISTRATIONHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PUBLICADMINISTRATION.html</string>
+    <string name="LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIES.html</string>
 
 
-    <string name="EDUCATIONALADMINISTRATIONANDSUPERVISIONHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="EDUCATIONALASSESSMENTEVALUATIONANDRESEARCHHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="EducationalInstructionalMediaDesignHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.htmln</string>
-    <string name="SPECIALEDUCATIONANDTEACHINGHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="STUDENTCOUNSELINGANDPERSONNELSERVICESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODSHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
-    <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREASHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/.html</string>
+    <string name="EDUCATIONALADMINISTRATIONANDSUPERVISIONHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/EDUCATIONALADMINISTRATIONANDSUPERVISION.html</string>
+    <string name="EDUCATIONALASSESSMENTEVALUATIONANDRESEARCHHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/EDUCATIONALASSESSMENTEVALUATIONANDRESEARCH.html</string>
+    <string name="EducationalInstructionalMediaDesignHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/EducationalInstructionalMediaDesign.html</string>
+    <string name="SPECIALEDUCATIONANDTEACHINGHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/SPECIALEDUCATIONANDTEACHING.html</string>
+    <string name="STUDENTCOUNSELINGANDPERSONNELSERVICESHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/STUDENTCOUNSELINGANDPERSONNELSERVICES.html</string>
+    <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODSHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODS.html</string>
+    <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREASHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREAS.html</string>
 
     <string name="ACCOUNTANCY" tools:ignore="ExtraTranslation">ACCOUNTANCY</string>
     <string name="PURCHASINGANDSUPPLY" tools:ignore="ExtraTranslation">PURCHASING AND SUPPLY</string>
@@ -335,7 +335,6 @@ Machinist</string>
     <string name="STUDENTCOUNSELINGANDPERSONNELSERVICES" tools:ignore="ExtraTranslation">STUDENT COUNSELING AND PERSONNEL SERVICES</string>
     <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODS" tools:ignore="ExtraTranslation">TEACHER EDUCATION AND PROFESSIONAL DEVELOPMENT, SPECIFIC LEVELS AND METHODS</string>
     <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREAS" tools:ignore="ExtraTranslation">TEACHER EDUCATION AND PROFESSIONAL DEVELOPMENT, SPECIFIC SUBJECT AREAS</string>
-
 
 
 </resources>
