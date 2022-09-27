@@ -64,10 +64,12 @@ class SelectProgramActivity : AppBaseActivity() {
     private fun getAdapter(): BaseRecyclerAdapter<StemData, StemItemBinding> {
         return object : BaseRecyclerAdapter<StemData, StemItemBinding>() {
             override val layoutResId: Int
-                get() = TODO("Not yet implemented")
+                get() = R.layout.stem_item
 
             override fun onBindData(model: StemData, position: Int, dataBinding: StemItemBinding) {
-                TODO("Not yet implemented")
+
+                dataBinding.stemName.text = model.stemName
+                dataBinding.stemInfo.text = model.stemInfo
             }
 
             override fun onItemClick(
