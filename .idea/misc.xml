@@ -18,6 +18,7 @@
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_rectangal_stroked.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/ic_drawer.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_about_us.xml" value="0.18" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_agriculture_programs.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_contact_us.xml" value="0.33" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_display_program_info.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_email.xml" value="0.19635416666666666" />
@@ -25,6 +26,8 @@
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_help.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_medicine_sub_categories.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_natural_resources.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_select_program.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_select_stem_sub_category.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_settings.xml" value="0.25" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_splash.xml" value="0.19635416666666666" />

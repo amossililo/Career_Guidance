@@ -10,16 +10,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.career.guidance.R
-import com.career.guidance.activity.BuiltEnvAgricultureNatResources.BuiltEnvAgricultureNatResourcesSubCategories
+import com.career.guidance.activity.build_environment.SelectProgramActivity
 import com.career.guidance.activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories
 import com.career.guidance.activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity
-import com.career.guidance.activity.MedicineHealthEtc.MedicineSubCategoriesActivity
 import com.career.guidance.activity.STEM.SelectStemSubCategoryActivity
 import com.career.guidance.base.BaseRecyclerAdapter
 import com.career.guidance.databinding.LayoutBinding
 import com.career.guidance.model.FacultyData
 import com.career.guidance.utils.extensions.launchActivity
-import com.career.guidance.utils.extensions.loadImageFromDrawable
 import com.career.guidance.utils.extensions.loadImageFromUri
 import com.career.guidance.utils.extensions.rvItemAnimation
 class HomeFragment : Fragment() {
@@ -106,7 +104,7 @@ class HomeFragment : Fragment() {
                     }
 
                     getString(R.string.agriculture_sub) -> {
-                        activity?.launchActivity<BuiltEnvAgricultureNatResourcesSubCategories>()
+                        activity?.launchActivity<SelectProgramActivity>()
                     }
                     getString(R.string.stem_sub) -> {
                         activity?.launchActivity<SelectStemSubCategoryActivity>()
