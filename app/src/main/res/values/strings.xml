@@ -37,7 +37,7 @@
     <string name="stem_sub">Stem Sub</string>
 
     <string name="STEM_faculty">Science, Tecnology, Engineering and Mathematics</string>
-    <string name="STEM_faculty_info">Professionals in this cluster are usually
+    <string name="STEM_faculty_info">Professionals usually
 involved in planning, managing, scientific research, laboratory
 and testing services.</string>
 
@@ -217,6 +217,8 @@ Machinist</string>
     <string name="MedicineHealthEtcFaculty">MEDICINE, HEALTH AND VETERINARY SCIENCES</string>
     <string name="BusinessHumanitiesEtcFaculty">BUSINESS HUMANITIES, SOCIAL SCIENCES AND EDUCATION</string>
     <string name="AgricultureBuiltEnvironmentalEtcFaculty">AGRICULTURE, BUILT ENVIRONMENT AND NATURAL RESOURCES</string>
+    <string name="LoansAndUniversities">Loans And Universities</string>
+
     <string name="additional_info">Additional Information</string>
     <string name="lbl_night_mode">Night Mode</string>
     <string name="title_setting">Title</string>
@@ -384,4 +386,18 @@ Machinist</string>
     <string name="built_natural_resources_conservation"> NATURAL RESOURCES CONSERVATION AND RESEARCH</string>
     <string name="built_nature_resources_management">NATURAL RESOURCES MANAGEMENT AND POLICY</string>
     <string name="built_widlife">WILDLIFE AND WILD LANDS SCIENCE AND MANAGEMENT</string>
+
+    <!--now Loans universities page-->
+    <string name="STUDENTLOANSFORLOCALUNIVERSITIES"> STUDENT LOANS FOR LOCAL UNIVERSITIES</string>
+    <string name="ABROADSCHOLARSHIPS">ABROAD SCHOLARSHIPS</string>
+    <string name="CDFBOARDINGSECONDARYSCHOOLBUSARIES">CDF BOARDING SECONDARY SCHOOL BUSARIES</string>
+    <string name="CDFSkillsDevelopmentBursaries">CDF Skills Development Bursaries</string>
+    <string name="Universities">Universities</string>
+
+    <string name="STUDENTLOANSFORLOCALUNIVERSITIESHtml">LoansAndUniversities/STUDENTLOANSFORLOCALUNIVERSITIES.html</string>
+    <string name="ABROADSCHOLARSHIPSHtml">LoansAndUniversities/ABROADSCHOLARSHIPS.html</string>
+    <string name="CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml">LoansAndUniversities/CDFBOARDINGSECONDARYSCHOOLBUSARIES.html</string>
+    <string name="CDFSkillsDevelopmentBursariesHtml">LoansAndUniversities/CDFSkillsDevelopmentBursaries.html</string>
+    <string name="UniversitiesHtml">LoansAndUniversities/Universities.html</string>
+
 </resources>

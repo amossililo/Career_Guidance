@@ -1,4 +1,4 @@
-package com.career.guidance.activity.STEM;
+package com.career.guidance.activity.LoansAndUniversities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,30 +14,34 @@ import android.view.View;
 
 import com.career.guidance.AppBaseActivity;
 import com.career.guidance.R;
+import com.career.guidance.activity.STEM.EngineeringPrograms;
+import com.career.guidance.activity.STEM.EngineeringTechnologyAndTechniciansPrograms;
+import com.career.guidance.activity.STEM.ICTPrograms;
+
+import com.career.guidance.activity.STEM.scienceAndMathematicsPrograms;
 import com.career.guidance.activity.displayProgramInfoActivity;
 import com.career.guidance.base.BaseRecyclerAdapter;
-import com.career.guidance.databinding.LayoutBinding;
+import com.career.guidance.databinding.ItemProgramsBinding;
 import com.career.guidance.databinding.StemItemBinding;
 import com.career.guidance.model.FacultyData;
-import com.career.guidance.model.Programs;
 import com.career.guidance.model.StemData;
 import com.career.guidance.utils.extensions.AppExtensionsKt;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class ICTPrograms  extends AppBaseActivity {
-    private final BaseRecyclerAdapter<FacultyData, LayoutBinding> adapter = getAdapter();
+public class LoansAndUnivertiesActivity extends AppBaseActivity {
+    private final BaseRecyclerAdapter<FacultyData, ItemProgramsBinding> adapter = getAdapter();
 
     Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_stem_sub_category);
 
-        setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("ICT Programs");;
+        toolbar.setTitle("Loans/Universities");
+        ;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -45,7 +49,7 @@ public class ICTPrograms  extends AppBaseActivity {
         recyclerView.setAdapter(adapter);
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(ProgramsList());
-        context=ICTPrograms.this;
+        context = LoansAndUnivertiesActivity.this;
 
 
     }
@@ -53,35 +57,40 @@ public class ICTPrograms  extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new FacultyData(getString(R.string.ComputerScience), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.computerScienceHtml)));
-
-        programsList.add(new FacultyData(getString(R.string.ComputerEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg",  getString(R.string.computerEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.STUDENTLOANSFORLOCALUNIVERSITIES), getString(R.string.additional_info)
+                , "", getString(R.string.STUDENTLOANSFORLOCALUNIVERSITIESHtml)));
+        programsList.add(new FacultyData(getString(R.string.ABROADSCHOLARSHIPS), getString(R.string.additional_info)
+                , "", getString(R.string.ABROADSCHOLARSHIPSHtml)));
+        programsList.add(new FacultyData(getString(R.string.CDFBOARDINGSECONDARYSCHOOLBUSARIES), getString(R.string.additional_info)
+                , "", getString(R.string.CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml)));
+        programsList.add(new FacultyData(getString(R.string.CDFSkillsDevelopmentBursaries), getString(R.string.additional_info)
+                , "", getString(R.string.CDFSkillsDevelopmentBursariesHtml)));
+        programsList.add(new FacultyData(getString(R.string.Universities), getString(R.string.additional_info)
+                , "", getString(R.string.UniversitiesHtml)));
 
         return programsList;
     }
 
-    private BaseRecyclerAdapter<FacultyData, LayoutBinding> getAdapter() {
+    private BaseRecyclerAdapter<FacultyData, ItemProgramsBinding> getAdapter() {
 
-        return new BaseRecyclerAdapter<FacultyData, LayoutBinding>() {
+        return new BaseRecyclerAdapter<FacultyData, ItemProgramsBinding>() {
             @Override
             public int getLayoutResId() {
-                return R.layout.layout;
+                return R.layout.item_programs;
             }
 
             @Override
-            public void onBindData(FacultyData model, int position, LayoutBinding dataBinding) {
+            public void onBindData(FacultyData model, int position, ItemProgramsBinding dataBinding) {
 
                 dataBinding.tvFacultyName.setText(model.getFacultyName());
                 dataBinding.tvProductRate.setText(model.getFacultyInfo());
+
                 AppExtensionsKt.loadImageFromUri(dataBinding.ivFaculty, model.getFacultyImage());
             }
 
             @Override
-            public void onItemClick(@NonNull View view, FacultyData model, int position,LayoutBinding dataBinding) {
+            public void onItemClick(@NonNull View view, FacultyData model, int position, ItemProgramsBinding dataBinding) {
 
-// implement click
                 opendisplayProgramInfoActivity(model);
 
             }
@@ -103,8 +112,9 @@ public class ICTPrograms  extends AppBaseActivity {
         myEdit.putString("selectedProgram", model.getFacultyName());
         myEdit.putString("nameOfHtmlFile", model.getPage());
         myEdit.commit();
-        Intent intent = new Intent(ICTPrograms.this, displayProgramInfoActivity.class);
+        Intent intent = new Intent(LoansAndUnivertiesActivity.this, displayProgramInfoActivity.class);
         context.startActivity(intent);
     }
+
 
 }

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.career.guidance.R
 import com.career.guidance.activity.build_environment.SelectProgramActivity
 import com.career.guidance.activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories
+import com.career.guidance.activity.LoansAndUniversities.LoansAndUnivertiesActivity
 import com.career.guidance.activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity
 import com.career.guidance.activity.STEM.SelectStemSubCategoryActivity
 import com.career.guidance.base.BaseRecyclerAdapter
@@ -66,12 +67,21 @@ class HomeFragment : Fragment() {
                 getString(R.string.agriculture_sub)
             )
         )
+
         facultyList.add(
             FacultyData(
                 getString(R.string.BusinessHumanitiesEtcFaculty),
                 getString(R.string.additional_info),
                 getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
                 getString(R.string.business_sub)
+            )
+        )
+        facultyList.add(
+            FacultyData(
+                getString(R.string.LoansAndUniversities),
+                getString(R.string.additional_info),
+                getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
+                getString(R.string.LoansAndUniversities)
             )
         )
         return  facultyList
@@ -108,6 +118,9 @@ class HomeFragment : Fragment() {
                     }
                     getString(R.string.stem_sub) -> {
                         activity?.launchActivity<SelectStemSubCategoryActivity>()
+                    }
+                    getString(R.string.LoansAndUniversities) -> {
+                        activity?.launchActivity<LoansAndUnivertiesActivity>()
                     }
                 }
             }

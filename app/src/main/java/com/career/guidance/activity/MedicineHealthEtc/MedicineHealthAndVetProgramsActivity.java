@@ -53,55 +53,55 @@ public class MedicineHealthAndVetProgramsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MEDICINEANDSURGERY), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.MEDICINEANDSURGERYHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MEDICINEANDSURGERYHtml)));
 
         programsList.add(new FacultyData(getString(R.string.DENTALSURGERY), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.DENTALSURGERYHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.DENTALSURGERYHtml)));
         programsList.add(new FacultyData(getString(R.string.CLINICALMEDICINE), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.CLINICALMEDICINEHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.CLINICALMEDICINEHtml)));
         programsList.add(new FacultyData(getString(R.string.NURSING), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.NURSINGHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.NURSINGHtml)));
         programsList.add(new FacultyData(getString(R.string.PHARMACY), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.PHARMACYHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PHARMACYHtml)));
         programsList.add(new FacultyData(getString(R.string.PUBLICHEALTH), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.PUBLICHEALTHHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PUBLICHEALTHHtml)));
         programsList.add(new FacultyData(getString(R.string.ENVIRONMENTALHEALTH), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ENVIRONMENTALHEALTHHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ENVIRONMENTALHEALTHHtml)));
         programsList.add(new FacultyData(getString(R.string.PHYSIOTHERAPY), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.PHYSIOTHERAPYHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PHYSIOTHERAPYHtml)));
         programsList.add(new FacultyData(getString(R.string.OCCUPATIONALTHERAPY), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.OCCUPATIONALTHERAPYHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.OCCUPATIONALTHERAPYHtml)));
         programsList.add(new FacultyData(getString(R.string.BIOMEDICALSCIENCE), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.BIOMEDICALSCIENCEHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BIOMEDICALSCIENCEHtml)));
         programsList.add(new FacultyData(getString(R.string.HEALTHINFORMATICS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.HEALTHINFORMATICSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.HEALTHINFORMATICSHtml)));
         programsList.add(new FacultyData(getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.BIOLOGYANDBIOLOGICALSCIENCES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.BIOLOGYANDBIOLOGICALSCIENCESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BIOLOGYANDBIOLOGICALSCIENCESHtml)));
         programsList.add(new FacultyData(getString(R.string.GENETICS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.GENETICSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.GENETICSHtml)));
         programsList.add(new FacultyData(getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.COMMUNICATIONDISORDERSSCIENCESANDSERVICES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.COMMUNICATIONDISORDERSSCIENCESANDSERVICESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.COMMUNICATIONDISORDERSSCIENCESANDSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.DENTALSUPPORTSERVICESANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.DENTALSUPPORTSERVICESANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.DENTALSUPPORTSERVICESANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.DIETETICSANDCLINICALNUTRITIONSERVICES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.DIETETICSANDCLINICALNUTRITIONSERVICESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.DIETETICSANDCLINICALNUTRITIONSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.HEALTHANDMEDICALADMINISTRATIVESERVICES), getString(R.string.additional_info)
-                , getString(R.string.loading_icon_on_google_drive), getString(R.string.HEALTHANDMEDICALADMINISTRATIVESERVICESHtml)));
+                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.HEALTHANDMEDICALADMINISTRATIVESERVICESHtml)));
 
         return programsList;
     }
