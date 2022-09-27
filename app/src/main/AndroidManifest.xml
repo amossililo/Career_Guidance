@@ -18,6 +18,9 @@
         android:theme="@style/Theme.CareerGuidance"
         tools:targetApi="31">
         <activity
+            android:name=".activity.LoansAndUniversities.LoansAndUnivertiesActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.build_environment.NaturalResources"
             android:exported="false" />
         <activity
