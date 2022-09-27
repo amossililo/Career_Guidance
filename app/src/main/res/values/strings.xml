@@ -89,6 +89,32 @@ and testing services.</string>
     <string name="FireProtectionHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/Fire Protection.html</string>
     <string name="TransportationAndMaterialsMovingHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/TransportationAndMaterialsMoving.html</string>
 
+    <!--AgricultureBuiltEnvironment Html files-->
+<string name="AGRICULTURALPRODUCTIONOPERATIONS">AgricultureBuiltEnvironment/Agriculture/AGRICULTURALPRODUCTIONOPERATIONS.html</string>
+    <string name="AGRICULTURALPUBLICSERVICES">AgricultureBuiltEnvironment/Agriculture/AGRICULTURALPUBLICSERVICES.html</string>
+    <string name="AGRICULTUREBUSINESSANDMANAGEMENT">AgricultureBuiltEnvironment/Agriculture/AGRICULTUREBUSINESSANDMANAGEMENT.html</string>
+    <string name="AGRICULTUREMECHANIZATION">AgricultureBuiltEnvironment/Agriculture/AGRICULTUREMECHANIZATION.html</string>
+    <string name="AGRICUTURALSUPPORTSERVICESANDTECHNICIANS">AgricultureBuiltEnvironment/Agriculture/AGRICUTURALSUPPORTSERVICESANDTECHNICIANS.html</string>
+    <string name="ANIMALSCIENCE">AgricultureBuiltEnvironment/Agriculture/ANIMALSCIENCE.html</string>
+    <string name="APPLIEDHORTICULTUREHORTICULTURALBUSINESSSERVICES">AgricultureBuiltEnvironment/Agriculture/APPLIEDHORTICULTUREHORTICULTURALBUSINESSSERVICES.html</string>
+    <string name="FOODSCIENCEANDTECHNOLOGY">AgricultureBuiltEnvironment/Agriculture/FOODSCIENCEANDTECHNOLOGY.html</string>
+    <string name="PLANTSCIENCES">AgricultureBuiltEnvironment/Agriculture/PLANTSCIENCES.html</string>
+    <string name="SOILSCIENCES">AgricultureBuiltEnvironment/Agriculture/SOILSCIENCES.html</string>
+
+
+    <string name="ARCHITECTURE">AgricultureBuiltEnvironment/BuiltEnviroment/ARCHITECTURE.html</string>
+    <string name="CONSTRUCTIONMANAGEMENTANDECONOMICS">AgricultureBuiltEnvironment/BuiltEnviroment/CONSTRUCTIONMANAGEMENTANDECONOMICS.html</string>
+    <string name="REALESTATE">AgricultureBuiltEnvironment/BuiltEnviroment/REALESTATE.html</string>
+    <string name="REGIONALANDURBANPLANNING">AgricultureBuiltEnvironment/BuiltEnviroment/REGIONALANDURBANPLANNING.html</string>
+
+
+
+    <string name="FishingandFisheriesSciencesandManagement">AgricultureBuiltEnvironment/NATURALRESOURCES/FishingandFisheriesSciencesandManagement.html</string>
+    <string name="FORESTRY">AgricultureBuiltEnvironment/NATURALRESOURCES/FORESTRY.html</string>
+    <string name="NATURAlRESOURCESCONSERVATIONANDRESEARCH">AgricultureBuiltEnvironment/NATURALRESOURCES/NATURAlRESOURCESCONSERVATIONANDRESEARCH.html</string>
+    <string name="NATURALRESOURCESMANAGEMENTANDPOLICY">AgricultureBuiltEnvironment/NATURALRESOURCES/NATURALRESOURCESMANAGEMENTANDPOLICY.html</string>
+    <string name="WILDLIFEANDWILDLANDSSCIENCEMANAGEMENT">AgricultureBuiltEnvironment/NATURALRESOURCES/WILDLIFEANDWILDLANDSSCIENCEMANAGEMENT.html</string>
+    <!--AgricultureBuiltEnvironment Html files-->
 
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>
     <string name="MINE_AND_INERALS_ENGINEERING_DEGREE_PROGRAMS">MINES AND MINERALS ENGINEERING DEGREE PROGRAMS</string>
