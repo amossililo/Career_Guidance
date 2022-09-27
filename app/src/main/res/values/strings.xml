@@ -365,4 +365,23 @@ Machinist</string>
     <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREAS" tools:ignore="ExtraTranslation">TEACHER EDUCATION AND PROFESSIONAL DEVELOPMENT, SPECIFIC SUBJECT AREAS</string>
 
 
+    <string name="built_agriculture_production_operation">AGRICULTURAL PRODUCTION OPERATIONS</string>
+    <string name="built_agriculture_public_services">AGRICULTURAL PUBLIC SERVICES</string>
+    <string name="built_agriculture_business">AGRICULTURE BUSINESS AND MANAGEMENT</string>
+    <string name="built_agriculture_mechanization">AGRICULTURE MECHANIZATION</string>
+    <string name="built_agriculture_support">AGRICUTURAL SUPPORT SERVICES AND TECHNICIANS</string>
+    <string name="built_animal_science">ANIMAL SCIENCE</string>
+    <string name="built_applied_horticultre">APPLIED HORTICULTURE/HORTICULTURAL BUSINESS SERVICES</string>
+    <string name="built_plant_science">Plant SCIENCEY</string>
+    <string name="built_soil_science">Soil SCIENCE</string>
+    <string name="built_food_science">FOOD SCIENCE AND TECHNOLOGY</string>
+    <string name="built_architecture">ARCHITECTURE</string>
+    <string name="built_construction_management">CONSTRUCTION MANAGEMENT AND ECONOMICS</string>
+    <string name="built_real_estate">REAL ESTATE</string>
+    <string name="built_regional_land_and_urban_planning">REGIONAL AND URBAN PLANNING</string>
+    <string name="built_fishing_and_fisheries">Fishing and Fisheries Sciences and Management</string>
+    <string name="built_forestry">FORESTRY</string>
+    <string name="built_natural_resources_conservation"> NATURAL RESOURCES CONSERVATION AND RESEARCH</string>
+    <string name="built_nature_resources_management">NATURAL RESOURCES MANAGEMENT AND POLICY</string>
+    <string name="built_widlife">WILDLIFE AND WILD LANDS SCIENCE AND MANAGEMENT</string>
 </resources>

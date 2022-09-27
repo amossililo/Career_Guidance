@@ -34,7 +34,7 @@ public class BuiltEnvAgricultureNatResourcesSubCategories extends AppBaseActivit
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("hello");;
+        toolbar.setTitle("Programs");;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -49,9 +49,12 @@ public class BuiltEnvAgricultureNatResourcesSubCategories extends AppBaseActivit
     private ArrayList<StemData> stemData() {
         ArrayList<StemData> stemDataArrayList = new ArrayList<>();
         // add sub categories
-/*
+
         stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_programs), getString(R.string.additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_engineering_programs)));
+
+/*
+
 
         stemDataArrayList.add(new StemData(getString(R.string.stem_ict_programs), getString(R.string.additional_info)
                 , R.drawable.placeholder,  getString(R.string.stem_ict_programs)));

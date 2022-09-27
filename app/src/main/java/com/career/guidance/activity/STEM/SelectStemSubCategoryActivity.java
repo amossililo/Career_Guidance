@@ -29,7 +29,7 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("hello");;
+        toolbar.setTitle("Programs");;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
