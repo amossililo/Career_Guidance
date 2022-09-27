@@ -114,67 +114,9 @@ and testing services.</string>
     <string name="NATURALRESOURCESMANAGEMENTANDPOLICY">AgricultureBuiltEnvironment/NATURALRESOURCES/NATURALRESOURCESMANAGEMENTANDPOLICY.html</string>
     <string name="WILDLIFEANDWILDLANDSSCIENCEMANAGEMENT">AgricultureBuiltEnvironment/NATURALRESOURCES/WILDLIFEANDWILDLANDSSCIENCEMANAGEMENT.html</string>
     <!--AgricultureBuiltEnvironment Html files-->
+    <!--Medicine-->
 
-
-    <!--Business and humanities-->
-    <string name="ACCOUNTANCY.html">BusinessHumanitiesSocialEducation/ACCOUNTANCY.html</string>
-
-
-    <string name="BANKINGANDFINANCE.html">BusinessHumanitiesSocialEducation/BANKINGANDFINANCE.html</string>
-
-    <string name="BUSINESSADMINISTRATIONANDMANAGEMENT.html">BusinessHumanitiesSocialEducation/BUSINESSADMINISTRATIONANDMANAGEMENT.html</string>
-
-    <string name="BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICES.html">BusinessHumanitiesSocialEducation/BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICES.html</string>
-
-    <string name="COMMUNITYDEVELOPMENTSTUDIES.html">BusinessHumanitiesSocialEducation/COMMUNITYDEVELOPMENTSTUDIES.html</string>
-
-    <string name="ECONOMICS.html">BusinessHumanitiesSocialEducation/ECONOMICS.html</string>
-
-    <string name="EDUCATIONALADMINISTRATIONANDSUPERVISION.html">BusinessHumanitiesSocialEducation/EDUCATIONALADMINISTRATIONANDSUPERVISION.html</string>
-
-    <string name="EDUCATIONALASSESSMENTEVALUATIONANDRESEARCH.html">BusinessHumanitiesSocialEducation/EDUCATIONALASSESSMENTEVALUATIONANDRESEARCH.html</string>
-
-    <string name="EducationalInstructionalMediaDesign.html">BusinessHumanitiesSocialEducation/EducationalInstructionalMediaDesign.html</string>
-
-    <string name="HUMANRESOURCEMANAGEMENT.html">BusinessHumanitiesSocialEducation/HUMANRESOURCEMANAGEMENT.html</string>
-
-    <string name="Law.html">BusinessHumanitiesSocialEducation/Law.html</string>
-
-    <string name="LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIES.html">BusinessHumanitiesSocialEducation/LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIES.html</string>
-
-    <string name="MARKETING.html">BusinessHumanitiesSocialEducation/MARKETING.html</string>
-
-    <string name="MASSCOMMUNICATION.html">BusinessHumanitiesSocialEducation/MASSCOMMUNICATION.html</string>
-
-    <string name="POLITICALSCIENCE.html">BusinessHumanitiesSocialEducation/POLITICALSCIENCE.html</string>
-
-    <string name="PRODUCTIONANDOPERATIONSMANAGEMENT.html">BusinessHumanitiesSocialEducation/PRODUCTIONANDOPERATIONSMANAGEMENT.html</string>
-
-    <string name="PSYCHOLOGY.html">BusinessHumanitiesSocialEducation/PSYCHOLOGY.html</string>
-
-    <string name="PUBLICADMINISTRATION.html">BusinessHumanitiesSocialEducation/PUBLICADMINISTRATION.html</string>
-
-    <string name="PUBLICPROCUREMENT.html">BusinessHumanitiesSocialEducation/PUBLICPROCUREMENT.html</string>
-
-    <string name="PURCHASINGANDSUPPLY.html">BusinessHumanitiesSocialEducation/PURCHASINGANDSUPPLY.html</string>
-
-    <string name="SOCIALWORK.html">BusinessHumanitiesSocialEducation/SOCIALWORK.html</string>
-
-    <string name="SPECIALEDUCATIONANDTEACHING.html">BusinessHumanitiesSocialEducation/SPECIALEDUCATIONANDTEACHING.html</string>
-
-    <string name="STATISTICSANDDEMOGRAPHICStudies.html">BusinessHumanitiesSocialEducation/STATISTICSANDDEMOGRAPHICStudies.html</string>
-
-    <string name="STUDENTCOUNSELINGANDPERSONNELSERVICES.html">BusinessHumanitiesSocialEducation/STUDENTCOUNSELINGANDPERSONNELSERVICES.html</string>
-
-    <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODS.html">BusinessHumanitiesSocialEducation/TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODS.html</string>
-
-    <string name="TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREAS.html">BusinessHumanitiesSocialEducation/TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREAS.html</string>
-
-    <string name="TRANSPORTANDLOGISTICSMANAGEMENT.html">BusinessHumanitiesSocialEducation/TRANSPORTANDLOGISTICSMANAGEMENT.html</string>
-
-
-    <!--Business and humanities-->
-
+    <!--Medicine-->
 
     <string name="ENGINEERINGPROGRAMS">ENGINEERING PROGRAMS</string>
     <string name="MINE_AND_INERALS_ENGINEERING_DEGREE_PROGRAMS">MINES AND MINERALS ENGINEERING DEGREE PROGRAMS</string>
