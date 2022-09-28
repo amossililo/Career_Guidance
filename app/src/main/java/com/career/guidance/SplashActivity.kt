@@ -18,6 +18,7 @@ import java.util.*
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
     private  val TAG = "SplashAcitivity"
+    @SuppressLint("PackageManagerGetSignatures")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)

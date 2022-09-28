@@ -207,11 +207,7 @@ inline fun <reified T : Any> Activity.launchActivity(
 ) {
     val intent = newIntent<T>(this)
     intent.init()
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-        startActivityForResult(intent, requestCode, options)
-    } else {
-        startActivityForResult(intent, requestCode)
-    }
+    startActivityForResult(intent, requestCode, options)
 }
 
 fun Activity.launchPermissionSettingScreen() {
@@ -334,16 +330,13 @@ fun AppCompatActivity.switchToDarkMode(isDark: Boolean) {
     }
 }
 
-@RequiresApi(Build.VERSION_CODES.KITKAT)
+
 fun Activity.makeNormalStatusBar(statusBarColor: Int = -1) {
     window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
     window.decorView.rootView.systemUiVisibility = 0
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-        window.statusBarColor = if (statusBarColor == -1) Color.BLACK else statusBarColor
-    }
+    window.statusBarColor = if (statusBarColor == -1) Color.BLACK else statusBarColor
 }
 
-@RequiresApi(Build.VERSION_CODES.KITKAT)
 fun Activity.makeTranslucentNavigationBar() {
     window.setFlags(
         WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION,
@@ -351,7 +344,6 @@ fun Activity.makeTranslucentNavigationBar() {
     )
 }
 
-@RequiresApi(Build.VERSION_CODES.KITKAT)
 fun Activity.makeNormalNavigationBar(navigationBarColor: Int = -1) {
     window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
     window.decorView.rootView.systemUiVisibility = 0

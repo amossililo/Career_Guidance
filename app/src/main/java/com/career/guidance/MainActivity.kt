@@ -30,6 +30,8 @@ class MainActivity : AppBaseActivity() {
                 .remove(supportFragmentManager.findFragmentById(R.id.container)!!).commit()
         }
         mHomeFragment = HomeFragment()
+
+        tvVersionCode.text = this.getAppVersionName()
         setToolbar(toolbar); setUpDrawerToggle(); loadHomeFragment(); setListener()
     }
 

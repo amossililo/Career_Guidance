@@ -41,15 +41,29 @@
                 android:textColor="@color/textColorPrimary"
                 android:textSize="@dimen/font_size_xxxlarge"
                 android:textStyle="bold" />
-
             <TextView
-                android:id="@+id/tvCopyRight"
+                android:id="@+id/tvAppOwner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvAppName"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/spacing_standard_new"
-                android:textColor="@color/textColorPrimary"
+                android:text="@string/app_owner"
+                android:textAppearance="@style/FontSemiBold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/font_size_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCopyRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvAppOwner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/spacing_standard_new"
+                android:textAppearance="@style/FontSemiBold"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/font_size_normal"
                 tools:text="© Ren Technology 2022 | All rights reserved" />
 

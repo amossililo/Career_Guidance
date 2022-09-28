@@ -75,17 +75,9 @@ class GuidanceApp :MultiDexApplication(){
 
         }
 
-        fun changeLanguage(aLanguage: String) {
-            getSharedPrefInstance().setValue(LANGUAGE, aLanguage)
-            language = aLanguage
-        }
-
-
     }
 
-    fun enableNotification(isEnabled: Boolean) {
-        //OneSignal.setSubscription(isEnabled)
-    }
+
 
 }
 

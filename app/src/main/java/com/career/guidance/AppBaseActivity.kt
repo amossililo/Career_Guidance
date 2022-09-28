@@ -31,13 +31,11 @@ import kotlin.collections.ArrayList
 
 open class AppBaseActivity : AppCompatActivity() {
 
-    private val TAG = "AppBaseActivity"
-
     private var progressDialog: Dialog? = null
 
     var language: Locale? = null
     private var themeApp: Int = 0
-    var isAdShown = false
+
 
     fun setToolbarWithoutBackButton(mToolbar: Toolbar) {
         setSupportActionBar(mToolbar)
@@ -62,16 +60,16 @@ open class AppBaseActivity : AppCompatActivity() {
         themeApp = GuidanceApp.appTheme
         language = Locale(GuidanceApp.language)
         // Inflate the layout for this fragment
-        getSharedPrefInstance().setValue(WHATSAPP, "+260971537692")
-        getSharedPrefInstance().setValue(CONTACT, "+260971537692")
-        getSharedPrefInstance().setValue(PRIVACY_POLICY, "https://traders-way.flycricket.io/privacy.html")
-        getSharedPrefInstance().setValue(INSTAGRAM, "http://instagram.com/ren_technology")
+        getSharedPrefInstance().setValue(WHATSAPP, "0971123456")
+        getSharedPrefInstance().setValue(CONTACT, "097123456")
+        getSharedPrefInstance().setValue(PRIVACY_POLICY, "")
+        getSharedPrefInstance().setValue(INSTAGRAM, "instagram.com")
         getSharedPrefInstance().setValue(
             COPYRIGHT_TEXT,
-            "© Ren Technology 2021 | All rights reserved"
+            "Developed by Amos Banda and Ren Technology"
         )
-        getSharedPrefInstance().setValue(TWITTER, "http://twitter.com/BrandonRen7")
-        getSharedPrefInstance().setValue(FACEBOOK, "http://facebook.com/brandon.ren.3760")
+        getSharedPrefInstance().setValue(TWITTER, "twitter.com")
+        getSharedPrefInstance().setValue(FACEBOOK, "facebook.com")
         getSharedPrefInstance().setValue(TERM_CONDITION, "")
 
         //deleteNewest()
@@ -87,23 +85,6 @@ open class AppBaseActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun showProgress(show: Boolean) {
-        when {
-            show -> {
-                if (!isFinishing && !progressDialog!!.isShowing) {
-                    progressDialog?.setCanceledOnTouchOutside(false)
-                    progressDialog?.show()
-                }
-            }
-            else -> try {
-                if (progressDialog?.isShowing!! && !isFinishing) {
-                    progressDialog?.dismiss()
-                }
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-        }
-    }
 
     private fun changeLanguage(context: Context, locale: Locale): Context {
         Locale.setDefault(locale)
@@ -145,7 +126,6 @@ open class AppBaseActivity : AppCompatActivity() {
         }
 
     }
-
 
 
 }

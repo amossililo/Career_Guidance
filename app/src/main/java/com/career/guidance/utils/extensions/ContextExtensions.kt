@@ -16,29 +16,15 @@ import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
 import java.util.*
 
-fun Context.isGPSEnable(): Boolean = getLocationManager().isProviderEnabled(LocationManager.GPS_PROVIDER)
-
-fun Context.isNetworkProviderEnable(): Boolean = getLocationManager().isProviderEnabled(LocationManager.NETWORK_PROVIDER)
-
 fun Context.getLocationManager() = getSystemService(Context.LOCATION_SERVICE) as LocationManager
 
 fun Context.getConnectivityManager() = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
-@ColorInt
-fun Context.getThemeColor(@AttrRes attributeColor: Int): Int {
-    val value = TypedValue()
-    theme.resolveAttribute(attributeColor, value, true)
-    return value.data
-}
 
 inline fun <reified T : Any> Context.launchActivity(options: Bundle? = null, noinline init: Intent.() -> Unit = {}) {
     val intent = newIntent<T>(this)
     intent.init()
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-        startActivity(intent, options)
-    } else {
-        startActivity(intent)
-    }
+    startActivity(intent, options)
 }
 
 fun Context.startApp(pName: String) {
@@ -67,24 +53,7 @@ fun Context.dialNumber(number: String) = startActivity(Intent(Intent.ACTION_DIAL
 
 fun Context.sendEmail(mailID: String) = startActivity(Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:$mailID")))
 
-/**
- * Show Date Picker and Get the Picked Date Easily
- */
-fun Context.showDatePicker(year: Int, month: Int, day: Int, onDatePicked: (year: Int, month: Int, day: Int) -> Unit) {
-    DatePickerDialog(this, { _, pyear, pmonth, pdayOfMonth ->
-        onDatePicked(pyear, pmonth, pdayOfMonth)
-    }, year, month, day).show()
-}
 
-/**
- * Show the Time Picker and Get the Picked Time Easily
- */
-fun Context.showTimePicker(currentDate: Date = Date(), is24Hour: Boolean = false, onDatePicked: (hour: Int, minute: Int) -> Unit) {
-    @Suppress("DEPRECATION")
-    TimePickerDialog(this, { _, hourOfDay, minute ->
-        onDatePicked(hourOfDay, minute)
-    }, currentDate.hours, currentDate.minutes, is24Hour).show()
-}
 
 fun Context.isPermissionGranted(permissions: Array<String>): Boolean {
     permissions.forEach {

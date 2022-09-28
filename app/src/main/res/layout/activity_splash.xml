@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/spacing_standard"
-
+android:text="@string/app_owner"
             android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/_13sdp"
             android:textStyle="bold" />

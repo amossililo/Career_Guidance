@@ -49,20 +49,7 @@ fun shareMyApp(context: Context, subject: String, message: String) {
     }
 }
 
-fun shareStoreLink(context: Context, subject: String, message: String, link: String) {
-    try {
 
-        val i = Intent(Intent.ACTION_SEND)
-        i.type = "text/plain"
-        i.putExtra(Intent.EXTRA_SUBJECT, subject)
-        var leadingText = "\n" + message + "\n\n"
-        leadingText += link + "\n\n"
-        i.putExtra(Intent.EXTRA_TEXT, leadingText)
-        context.startActivity(Intent.createChooser(i, "Share using"))
-    } catch (e: Exception) {
-        e.printStackTrace()
-    }
-}
 
 fun getSharedPrefInstance(): SharedPrefUtils {
 
@@ -127,9 +114,6 @@ fun Activity.getAlertDialog(
 
 
 
-fun clearLoginPref() {
-
-}
 
 fun ImageView.loadImageFromUrl(
     aImageUrl: String,
@@ -150,49 +134,6 @@ fun ImageView.loadImageFromUrl(
 
 }
 
-fun Activity.openLottieDialog(
-    jsonFileCode: JsonFileCode = JsonFileCode.NO_INTERNET,
-    onLottieClick: () -> Unit
-) {
-    try {
-        val jsonFile: String = when (jsonFileCode) {
-            JsonFileCode.NO_INTERNET -> "lottie/no_internet.json"
-            JsonFileCode.LOADER -> "lottie/loader.json"
-        }
-
-        if (noInternetDialog == null) {
-            noInternetDialog = Dialog(this, R.style.FullScreenDialog)
-            noInternetDialog?.setContentView(R.layout.dialog_no_internet); noInternetDialog?.setCanceledOnTouchOutside(
-                false
-            ); noInternetDialog?.setCancelable(false)
-            noInternetDialog?.window?.setLayout(
-                WindowManager.LayoutParams.MATCH_PARENT,
-                WindowManager.LayoutParams.MATCH_PARENT
-            )
-            noInternetDialog?.rlLottie?.onClick {
-                if (!isNetworkAvailable()) {
-                    snackBarError(getAppInstance().getString(R.string.error_no_internet))
-                    return@onClick
-                }
-                noInternetDialog?.dismiss()
-                onLottieClick()
-            }
-        }
-        noInternetDialog?.lottieNoInternet?.setAnimation(jsonFile)
-        if (!this.isFinishing && !noInternetDialog!!.isShowing) {
-            noInternetDialog?.show()
-        }
-    } catch (e: Exception) {
-
-    }
-
-}
-
-
-enum class JsonFileCode {
-    NO_INTERNET,
-    LOADER
-}
 
 
 fun RecyclerView.rvItemAnimation() {
