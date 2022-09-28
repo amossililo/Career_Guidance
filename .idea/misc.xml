@@ -17,7 +17,7 @@
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_ractangle_rounded_stroke.xml" value="0.101" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/bg_rectangal_stroked.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/drawable/ic_drawer.xml" value="0.1" />
-        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_about_us.xml" value="0.18" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_agriculture_programs.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_contact_us.xml" value="0.33" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_display_program_info.xml" value="0.1" />
@@ -30,7 +30,7 @@
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_select_program.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_select_stem_sub_category.xml" value="0.1" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_settings.xml" value="0.25" />
-        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/activity_splash.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/app_bar_dash_board.xml" value="0.2" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/bottom_bar.xml" value="0.18" />
         <entry key="..\:/Users/Brandon Ren/AndroidStudioProjects/CareerGuidance/app/src/main/res/layout/custom_dialog.xml" value="0.1" />
@@ -56,6 +56,7 @@
         <entry key="..\:/Users/Dell/Desktop/amos/Career_Guidance/app/src/main/res/layout/stem_item.xml" value="0.1" />
         <entry key="..\:/projects/rogic career app with brandon/Career_Guidance/app/src/main/res/layout/activity_contact_us.xml" value="0.6" />
         <entry key="..\:/projects/rogic career app with brandon/Career_Guidance/app/src/main/res/layout/activity_email.xml" value="0.11614583333333334" />
+        <entry key="..\:/projects/rogic career app with brandon/Career_Guidance/app/src/main/res/layout/activity_splash.xml" value="0.1" />
       </map>
     </option>
   </component>
