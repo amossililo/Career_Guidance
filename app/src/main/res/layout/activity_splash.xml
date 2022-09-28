@@ -8,17 +8,21 @@
     tools:ignore="MissingPrefix">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+
         android:contentDescription="@string/text_todo"
         android:scaleType="fitXY"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="H,1:1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -39,26 +43,39 @@
             android:src="@mipmap/ic_launcher" />
 
         <TextView
-            android:textAppearance="@style/FontBold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/spacing_standard"
             android:text="@string/app_name"
+            android:textAppearance="@style/FontBold"
             android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/font_size_splash"
             android:textStyle="bold" />
+
         <TextView
-            android:textAppearance="@style/FontBold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/spacing_standard"
-android:text="@string/app_owner"
+            android:text="@string/app_owner"
+            android:textAppearance="@style/FontBold"
             android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/_13sdp"
             android:textStyle="bold" />
+
+
     </LinearLayout>
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developed_by"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.969" />
 </androidx.constraintlayout.widget.ConstraintLayout>

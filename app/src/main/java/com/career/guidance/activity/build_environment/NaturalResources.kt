@@ -39,7 +39,7 @@ class NaturalResources : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_fishing_and_fisheries),
-                getString(R.string.additional_info),
+                getString(R.string.fishing_additional_info),
                 "",
                 getString(R.string.FishingandFisheriesSciencesandManagement)
             )
@@ -49,7 +49,7 @@ class NaturalResources : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_forestry),
-                getString(R.string.additional_info),
+                getString(R.string.forestry_additional_info),
                 "",
                 getString(R.string.FORESTRY)
             )
@@ -59,7 +59,7 @@ class NaturalResources : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_natural_resources_conservation),
-                getString(R.string.additional_info),
+                getString(R.string.natural_resources_conservation_additional_info),
                 "",
                 getString(R.string.NATURAlRESOURCESCONSERVATIONANDRESEARCH)
             )
@@ -68,7 +68,7 @@ class NaturalResources : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_nature_resources_management),
-                getString(R.string.additional_info),
+                getString(R.string.nature_resources_managemen_additional_info),
                 "",
                 getString(R.string.NATURALRESOURCESMANAGEMENTANDPOLICY)
             )
@@ -84,97 +84,6 @@ class NaturalResources : AppBaseActivity() {
             )
         )
 
-
-        // add sub categories
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_agriculture_production_operation),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.AGRICULTURALPRODUCTIONOPERATIONS)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_agriculture_production_operation),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.AGRICULTURALPRODUCTIONOPERATIONS)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_agriculture_public_services),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.AGRICULTURALPUBLICSERVICES)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_agriculture_business),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.AGRICULTUREBUSINESSANDMANAGEMENT)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_agriculture_mechanization),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.AGRICULTUREMECHANIZATION)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_agriculture_support),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.AGRICUTURALSUPPORTSERVICESANDTECHNICIANS)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_animal_science),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.ANIMALSCIENCE)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_applied_horticultre),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.APPLIEDHORTICULTUREHORTICULTURALBUSINESSSERVICES)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_food_science),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.PLANTSCIENCES)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_soil_science),
-                getString(R.string.additional_info),
-                "",
-                getString(R.string.SOILSCIENCES)
-            )
-        )
 
 
         return programsList

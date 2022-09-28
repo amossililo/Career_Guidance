@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:app="http://schemas.android.com/apk/res-auto">
-
     <data>
-
         <variable
             name="model"
             type="com.career.guidance.model.FacultyData" />
-
         <variable
             name="callback"
             type="com.career.guidance.base.BaseRecyclerAdapter.OnClickListener" />
@@ -74,6 +71,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/spacing_standard"
                     android:text="@{model.facultyInfo}"
+                    android:maxLines="6"
+                    android:ellipsize="end"
                     android:textColor="@color/white"
 
                     android:textSize="@dimen/font_size_small" />

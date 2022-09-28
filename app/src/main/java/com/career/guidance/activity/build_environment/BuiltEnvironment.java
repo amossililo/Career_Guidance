@@ -51,17 +51,17 @@ public class BuiltEnvironment extends AppBaseActivity {
         // add sub categories
 
 
-        stemDataArrayList.add(new FacultyData(getString(R.string.built_architecture), getString(R.string.additional_info)
+        stemDataArrayList.add(new FacultyData(getString(R.string.built_architecture), getString(R.string.architecture_additional_info)
                 , "", getString(R.string.ARCHITECTURE)));
 
 
-        stemDataArrayList.add(new FacultyData(getString(R.string.built_construction_management), getString(R.string.additional_info)
+        stemDataArrayList.add(new FacultyData(getString(R.string.built_construction_management), getString(R.string.construction_managementadditional_info)
                 , "", getString(R.string.CONSTRUCTIONMANAGEMENTANDECONOMICS)));
 
-        stemDataArrayList.add(new FacultyData(getString(R.string.built_real_estate), getString(R.string.additional_info)
+        stemDataArrayList.add(new FacultyData(getString(R.string.built_real_estate), getString(R.string.real_estate_additional_info)
                 , "", getString(R.string.REALESTATE)));
 
-        stemDataArrayList.add(new FacultyData(getString(R.string.built_regional_land_and_urban_planning), getString(R.string.additional_info)
+        stemDataArrayList.add(new FacultyData(getString(R.string.built_regional_land_and_urban_planning), getString(R.string.regional_planning_additional_info)
                 , "", getString(R.string.REGIONALANDURBANPLANNING)));
 
 

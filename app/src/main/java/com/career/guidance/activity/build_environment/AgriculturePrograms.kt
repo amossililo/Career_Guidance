@@ -51,7 +51,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_production_operation),
-                getString(R.string.additional_info),
+                getString(R.string.built_agriculture_production_operation_additional_info),
                 "",
                 getString(R.string.AGRICULTURALPRODUCTIONOPERATIONS)
             )
@@ -60,7 +60,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_public_services),
-                getString(R.string.additional_info),
+                getString(R.string.built_agriculture_public_services_additional_info),
                 "",
                 getString(R.string.AGRICULTURALPUBLICSERVICES)
             )
@@ -69,7 +69,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_business),
-                getString(R.string.additional_info),
+                getString(R.string.built_agriculture_business_additional_info),
                 "",
                 getString(R.string.AGRICULTUREBUSINESSANDMANAGEMENT)
             )
@@ -78,7 +78,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_mechanization),
-                getString(R.string.additional_info),
+                getString(R.string.built_agriculture_mechanization_additional_info),
                 "",
                 getString(R.string.AGRICULTUREMECHANIZATION)
             )
@@ -87,7 +87,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_support),
-                getString(R.string.additional_info),
+                getString(R.string.agriculture_support_additional_info),
                 "",
                 getString(R.string.AGRICUTURALSUPPORTSERVICESANDTECHNICIANS)
             )
@@ -96,7 +96,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_animal_science),
-                getString(R.string.additional_info),
+                getString(R.string.animal_science_additional_info),
                 "",
                 getString(R.string.ANIMALSCIENCE)
             )
@@ -105,7 +105,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_applied_horticultre),
-                getString(R.string.additional_info),
+                getString(R.string.applied_horticultre_additional_info),
                 "",
                 getString(R.string.APPLIEDHORTICULTUREHORTICULTURALBUSINESSSERVICES)
             )
@@ -114,7 +114,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_food_science),
-                getString(R.string.additional_info),
+                getString(R.string.food_science_additional_info),
                 "",
                 getString(R.string.PLANTSCIENCES)
             )
@@ -123,7 +123,7 @@ class AgriculturePrograms : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_soil_science),
-                getString(R.string.additional_info),
+                getString(R.string.soil_scienceadditional_info),
                 "",
                 getString(R.string.SOILSCIENCES)
             )
