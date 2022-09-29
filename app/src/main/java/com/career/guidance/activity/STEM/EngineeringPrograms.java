@@ -56,18 +56,18 @@ public class EngineeringPrograms extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
-                , "", getString(R.string.civilEngHtml)));
+                , "https://lh4.googleusercontent.com/LiVEmRaxk08ntlhuhCOWcGUCgkzNs4f218ylO7IK9Kipbx-eZI0Le7qicpwUahkYwV4=w2400", getString(R.string.civilEngHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.mechanicalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
         programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
-                , "", getString(R.string.electricalEngHtml)));
+                , "https://i.im.ge/2022/09/29/1xbnlW.electrical-eng.jpg", getString(R.string.electricalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.GeomaticsEngineering), getString(R.string.additional_info)
-                , "", getString(R.string.geomaticsEngHtml)));
+                , "https://i.im.ge/2022/09/29/1xb400.geomatics-eng.jpg", getString(R.string.geomaticsEngHtml)));
         programsList.add(new FacultyData(getString(R.string.TelecommunicationsEngineering), getString(R.string.additional_info)
-                , "", getString(R.string.telecommunicationEngHtml)));
+                , "https://i.im.ge/2022/09/29/1xbGec.telecommunication-eng.jpg", getString(R.string.telecommunicationEngHtml)));
         programsList.add(new FacultyData(getString(R.string.RailwayEngineering), getString(R.string.additional_info)
                 , "", getString(R.string.railwayEngHtml)));
         programsList.add(new FacultyData(getString(R.string.MechatronicsEngineering), getString(R.string.additional_info)

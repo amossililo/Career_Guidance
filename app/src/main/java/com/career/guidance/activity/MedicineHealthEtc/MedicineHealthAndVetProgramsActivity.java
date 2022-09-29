@@ -52,9 +52,6 @@ public class MedicineHealthAndVetProgramsActivity extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new FacultyData(getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICES), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
-
         programsList.add(new FacultyData(getString(R.string.MEDICINEANDSURGERY), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MEDICINEANDSURGERYHtml)));
 
