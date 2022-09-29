@@ -35,7 +35,7 @@ public class EducationPrograms extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Engineering Programs");
+        toolbar.setTitle("Education Programs");
         ;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);

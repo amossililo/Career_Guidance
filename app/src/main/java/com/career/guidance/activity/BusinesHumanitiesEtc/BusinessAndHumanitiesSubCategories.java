@@ -48,11 +48,11 @@ public class BusinessAndHumanitiesSubCategories extends AppBaseActivity {
     private ArrayList<StemData> stemData() {
         ArrayList<StemData> stemDataArrayList = new ArrayList<>();
 
-        stemDataArrayList.add(new StemData(getString(R.string.BUSINESSPROGRAMS), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.BUSINESSPROGRAMS), getString(R.string.business_programs_additional_info)
                 , R.drawable.placeholder, getString(R.string.BUSINESSPROGRAMS)));
-        stemDataArrayList.add(new StemData(getString(R.string.HUMANITYPROGRAMS), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.HUMANITYPROGRAMS), getString(R.string.humanity_programs_additional_info)
                 , R.drawable.placeholder, getString(R.string.HUMANITYPROGRAMS)));
-        stemDataArrayList.add(new StemData(getString(R.string.EDUCATIONPROGRAMS), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.EDUCATIONPROGRAMS), getString(R.string.education_programs_additional_info)
                 , R.drawable.placeholder, getString(R.string.EDUCATIONPROGRAMS)));
 
         return stemDataArrayList;

@@ -35,7 +35,7 @@ public class BusinessPrograms  extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Science And Math ");
+        toolbar.setTitle("Business Programs");
         ;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
@@ -52,25 +52,25 @@ public class BusinessPrograms  extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new FacultyData(getString(R.string.ACCOUNTANCY), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.ACCOUNTANCY), getString(R.string.accountancy_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ACCOUNTANCYHtml)));
-        programsList.add(new FacultyData(getString(R.string.PURCHASINGANDSUPPLY), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.PURCHASINGANDSUPPLY), getString(R.string.purchasing_and_supply_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PURCHASINGANDSUPPLYHtml)));
-        programsList.add(new FacultyData(getString(R.string.HUMANRESOURCEMANAGEMENT), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.HUMANRESOURCEMANAGEMENT), getString(R.string.human_resouces_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.HUMANRESOURCEMANAGEMENTHtml)));
-        programsList.add(new FacultyData(getString(R.string.BANKINGANDFINANCE), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.BANKINGANDFINANCE), getString(R.string.banking_and_finance_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BANKINGANDFINANCEHtml)));
-        programsList.add(new FacultyData(getString(R.string.PUBLICPROCUREMENT), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.PUBLICPROCUREMENT), getString(R.string.public_procurement_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PUBLICPROCUREMENTHtml)));
-        programsList.add(new FacultyData(getString(R.string.PRODUCTIONANDOPERATIONSMANAGEMENT), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.PRODUCTIONANDOPERATIONSMANAGEMENT), getString(R.string.production_operation_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PRODUCTIONANDOPERATIONSMANAGEMENTHtml)));
-        programsList.add(new FacultyData(getString(R.string.TRANSPORTANDLOGISTICSMANAGEMENT), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.TRANSPORTANDLOGISTICSMANAGEMENT), getString(R.string.transport_and_logistics_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.TRANSPORTANDLOGISTICSMANAGEMENTHtml)));
-        programsList.add(new FacultyData(getString(R.string.MARKETING), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.MARKETING), getString(R.string.marketing_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MARKETINGHtml)));
-        programsList.add(new FacultyData(getString(R.string.BUSINESSADMINISTRATIONANDMANAGEMENT), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.BUSINESSADMINISTRATIONANDMANAGEMENT), getString(R.string.business_admin_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BUSINESSADMINISTRATIONANDMANAGEMENTHtml)));
-        programsList.add(new FacultyData(getString(R.string.BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICES), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICES), getString(R.string.business_operations_additional_info)
                 , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICESHtml)));
         return programsList;
     }

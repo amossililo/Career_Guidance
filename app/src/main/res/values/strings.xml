@@ -101,7 +101,8 @@ and testing services.</string>
     <string name="PLANTSCIENCES">AgricultureBuiltEnvironment/Agriculture/PLANTSCIENCES.html</string>
     <string name="SOILSCIENCES">AgricultureBuiltEnvironment/Agriculture/SOILSCIENCES.html</string>
 
-
+    <string name="AGRICULTUREEXTENSION">AgricultureBuiltEnvironment/Agriculture/AGRICULTUREEXTENSION.html</string>
+    <string name="AGRICULTURECONOMICS">AgricultureBuiltEnvironment/Agriculture/AGRICULTURRALECONOMICS.html</string>
     <string name="ARCHITECTURE">AgricultureBuiltEnvironment/BuiltEnviroment/ARCHITECTURE.html</string>
     <string name="CONSTRUCTIONMANAGEMENTANDECONOMICS">AgricultureBuiltEnvironment/BuiltEnviroment/CONSTRUCTIONMANAGEMENTANDECONOMICS.html</string>
     <string name="REALESTATE">AgricultureBuiltEnvironment/BuiltEnviroment/REALESTATE.html</string>
@@ -368,6 +369,8 @@ Machinist</string>
 
 
     <string name="built_agriculture_production_operation">AGRICULTURAL PRODUCTION OPERATIONS</string>
+    <string name="built_agriculture_extension">AGRICULTURE EXTENSION</string>
+    <string name="built_agriculture_economics">AGRICULTURE ECONOMICS</string>
     <string name="built_agriculture_public_services">AGRICULTURAL PUBLIC SERVICES</string>
     <string name="built_agriculture_business">AGRICULTURE BUSINESS AND MANAGEMENT</string>
     <string name="built_agriculture_mechanization">AGRICULTURE MECHANIZATION</string>
@@ -409,14 +412,14 @@ Machinist</string>
     <string name="built_agriculture_business_additional_info">A program that deals with the business aspect of agriculture and its operations</string>
     <string name="built_agriculture_mechanization_additional_info">A program that generally prepares individuals to sell, select, and service agricultural or agribusiness technical equipment and facilities, including computers, specialized software, power units, machinery, equipment structures, and utilities. "</string>
     <string name="built_agriculture_production_operation_additional_info">A program that focuses on the general planning, economics, and use of facilities, natural resources, equipment, labor, and capital to produce plant and animal products, and that may prepare individuals for work in farming, ranching, and agribusiness.</string>
-    <string name="built_agriculture_public_services_additional_info">Click for more information</string>
+    <string name="built_agriculture_public_services_additional_info">Click for more information on the Agriculture public services</string>
     <string name="applied_horticultre_additional_info">A program that focuses on the general production and processing of domesticated plants, shrubs, flowers, foliage, trees, groundcovers, and related plant materials; the management of technical and business operations connected with horticultural services; and the basic scientific principles needed to understand plants and their management and care.</string>
     <string name="food_science_additional_info">A program that focuses on the application of biological, chemical, and physical principles to the study of converting raw agricultural products into processed forms suitable for direct human consumption, and the storage of such products</string>
-    <string name="soil_scienceadditional_info">Click for more informaion</string>
+    <string name="soil_scienceadditional_info">Click for more information on the social sciences program</string>
     <string name="fishing_additional_info">A program that focuses on the scientific study of the husbandry and production of non-domesticated fish and shellfish populations for recreational and commercial purposes and the management of fishing and marine/aquatic product processing to ensure adequate conservation and efficient utilization. It includes instruction in the principles of marine/aquatic biology, freshwater and saltwater ecosystems, water resources, fishing production operations and management, fishing policy and regulation, and the management of recreational and commercial fishing activities.</string>
     <string name="forestry_additional_info">A program that prepares individuals to apply principles of forestry and natural resources management to the administration of forest lands and related resources. "</string>
-    <string name="natural_resources_conservation_additional_info">Click for more information</string>
-    <string name="nature_resources_managemen_additional_info">Click for more information</string>
+    <string name="natural_resources_conservation_additional_info">Click for more information on the natural resources management and conversation programs </string>
+    <string name="nature_resources_managemen_additional_info">Click for more information on the natural resources management and policy programs</string>
     <string name="developed_by">Developed By Amos Banda and Ren Technology</string>
     <string name="built_environment_faculty_additional_info">Programs dealing with Agriculture, Natural Resources and Built Environments</string>
     <string name="engineering_additional_info">There are a number of programs offered in the schools of engineering at most universities in the world. In Zambia, engineering is a five-years program, and mainly offered at the University of Zambia, Copperbelt University, and Mulungushi University. Specialization in the school of engineering may vary from one country to another. </string>
@@ -426,5 +429,34 @@ Machinist</string>
     <string name="cs_additional_info">" Computer science is the study of computers and computer systems. It deals with software and software systems-this includes their theory, design, development and application. "</string>
     <string name="computer_eng_additional_info">Computer engineering involves the design and development of systems based on computers and complex digital logic devices. It integrates electronics engineering and computer science to design and develop computer systems and other technological devices</string>
     <string name="shape">shape</string>
+    <string name="agriculture_programs_additional_info">Here are some the Agriculture programs that students can find at certain instituitions in Zambia</string>
+    <string name="natural_resourse_programs_additional_info">Here are some the Natural Resources  programs that students can find at certain instituitions in Zambia</string>
+    <string name="built_environment_programs_additional_info">Here are some the Built Environment programs that students can find at certain instituitions in Zambia</string>
+    <string name="business_programs_additional_info">Here are some the Business programs that students can find at certain instituitions in Zambia</string>
+    <string name="humanity_programs_additional_info">Here are some the Humanity programs that students can find at certain instituitions in Zambia</string>
+    <string name="education_programs_additional_info">Here are some the Education programs that students can find at certain instituitions in Zambia</string>
+    <string name="built_agriculture_extension_additional_info">"Agriculture extension is the discipline that deals with the application of scientific research and new knowledge to agricultural practices through farmer education. "</string>
+    <string name="built_agriculture_economics_additional_info">"Agricultural economics is the discipline that deals with the applied social sciences that deals with how producers, consumers and societies use scarce resources in the production, marketing, and consumption of food and fiber products. "</string>
+    <string name="wildlife_additional_info">Click for more information on the wildlife and wild lands science and mangement</string>
+    <string name="accountancy_additional_info">"A program that prepares individuals to practice the profession of accounting and to perform related business functions. Includes instruction in accounting principles and theory, financial accounting, managerial accounting, cost accounting, budget control, tax accounting, legal aspects of accounting, auditing, reporting procedures, statement analysis, planning and consulting, business information systems, accounting research methods, professional standards and ethics, and applications to specific for-profit, public, and non-profit organizations. "</string>
+    <string name="purchasing_and_supply_additional_info">"A program that prepares individuals to manage and/or administer the processes by which a firm or organization contracts for goods and services to support its operations, as well as contracts it to sell to other firms or organizations. "</string>
+    <string name="human_resouces_additional_info">"Human resource management is a discipline that deals with the process of employing people, training them, compensating them and developing policies relating to them and developing strategies to retain them. "</string>
+    <string name="banking_and_finance_additional_info">Banking and Finance is a discipline that deals with the structure and functioning of financial markets and the way in which financial intermediaries and institutions operate</string>
+    <string name="public_procurement_additional_info">"A program that prepares individuals to manage and/or administer the processes by which a firm or organization contracts for goods and services to support its operations, as well as contracts it to sell to other firms or organizations. "</string>
+    <string name="production_operation_additional_info">"A program that prepares individuals to manage and direct the physical and/or technical functions of a firm or organization, particularly those relating to development, production, and manufacturing. "</string>
+    <string name="transport_and_logistics_additional_info">"A program that prepares individuals to manage and coordinate all logistical functions in an enterprise, ranging from acquisitions to receiving and handling, through internal allocation of resources to operations units, to the handling and delivery of output. "</string>
+    <string name="marketing_additional_info">"Marketing is discipline that deals with the management process which determines which products or services are most of interests to customers, and which then develops and applies a marketing strategy to leverage those insights across sales channels, customer-facing communications, and business development process. "</string>
+    <string name="business_admin_additional_info">"A program that generally prepares individuals to plan, organize, direct, and control the functions and processes of a firm or organization. "</string>
+    <string name="business_operations_additional_info">"A program that generally prepares individuals to perform the duties of administrative assistants and/or secretaries and stenographers. "</string>
+    <string name="law_additional_info">"A program that prepares individuals for the independent professional practice of law, for taking state and national bar examinations, and for advanced research in jurisprudence. It includes instruction in the theory and practice of the legal system, including the statutory, administrative, and judicial components of civil and criminal law. "</string>
+    <string name="economics_additional_info">A general program that focuses on the systematic study of the production, conservation and allocation of resources in conditions of scarcity, together with the organizational frameworks related to these processes</string>
+    <string name="masscom_additional_info">"Mass communication is a discipline concerned with the process of creating, sending, receiving, and analyzing messages to large audience’s vial verbal and written media. It is an expanse field that considers not only how and why a message is created but the medium through it is sent. "</string>
+    <string name="socail_work_additional_info">"A program that prepares individuals for the professional practice of social welfare administration and counseling, and that focus on the study of organized means of providing basic support services for vulnerable individuals and groups. "</string>
+    <string name="psychology_additional_info">Psychology is a multifaceted discipline of study that is concerned with the study of human development, sports, health, clinical, social behavior and cognitive processes.</string>
+    <string name="statistics_additional_info">Statistics and demography are the study of human populations especially with references to size and density, distribution, and vital statistics such as births, deaths, immigration and emigration and a regular census of population to provide information that is key to making sound decision about national policy.</string>
+    <string name="political_science_additional_info">"Political science is a classical discipline that deals with the study of political phenomena. It deals with the system of governance and analysis of political activities, political thoughts associated with constitutions and political behavior. It encompasses economics, law, sociology, history, philosophy, human geography, journalism, political anthropology and social policy. "</string>
+    <string name="community_study_additional_info">"Community development is a practiced based profession and an academic discipline that promotes participative democracy, sustainable development, human rights, economic opportunities, equality and social justice, through the organization, education and empowerment of people within their communities. "</string>
+    <string name="public_administration_additional_info">"Public Administration is a branch of political science dealing primarily with the structure and workings of agencies charged with the administrations of government functions. "</string>
+    <string name="liberal_arts_additional_info">A program that is a structured combination of the arts, biological and physical sciences, social sciences, and humanities, emphasizing breadth of study. Includes instruction in independently designed, individualized, or regular programs.</string>
 
 </resources>
