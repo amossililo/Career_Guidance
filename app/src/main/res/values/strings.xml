@@ -304,7 +304,7 @@ Machinist</string>
     <string name="EDUCATIONPROGRAMS" tools:ignore="ExtraTranslation">EDUCATION PROGRAMS</string>
 
     <string name="ACCOUNTANCYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/ACCOUNTANCY.html</string>
-    <string name="PURCHASINGANDSUPPLYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PURCHASINGANDSUPPL.html</string>
+    <string name="PURCHASINGANDSUPPLYHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PURCHASINGANDSUPPLY.html</string>
     <string name="HUMANRESOURCEMANAGEMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/HUMANRESOURCEMANAGEMENT.html</string>
     <string name="BANKINGANDFINANCEHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/BANKINGANDFINANCE.html</string>
     <string name="PUBLICPROCUREMENTHtml" tools:ignore="ExtraTranslation">BusinessHumanitiesSocialEducation/PUBLICPROCUREMENT.html</string>
