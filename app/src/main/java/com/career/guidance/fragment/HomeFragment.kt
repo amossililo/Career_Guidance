@@ -62,7 +62,7 @@ class HomeFragment : Fragment() {
         facultyList.add(
             FacultyData(
                 getString(R.string.AgricultureBuiltEnvironmentalEtcFaculty),
-                getString(R.string.additional_info),
+                getString(R.string.built_environment_faculty_additional_info),
                 getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
                 getString(R.string.agriculture_sub)
             )

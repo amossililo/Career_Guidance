@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -12,7 +13,7 @@
             type="com.career.guidance.base.BaseRecyclerAdapter.OnClickListener" />
     </data>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
 
 
         android:layout_width="match_parent"
@@ -27,8 +28,9 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/addImages"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="@dimen/product_img_height"
             android:layout_marginBottom="7.5dp"
+            android:padding="@dimen/_2sdp"
             app:cardBackgroundColor="@color/color_qr_pdf"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
@@ -38,49 +40,44 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/shape"
                 android:scaleType="centerCrop"
                 android:src="@drawable/shape_bg" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stem_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="20dp"
+                    android:text="@{model.stemName}"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/FontSemiBold"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/font_size_normal" />
+
+                <TextView
+                    android:id="@+id/stem_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:gravity="start"
-                    android:orientation="vertical">
+                    android:ellipsize="end"
+                    android:letterSpacing="0.1"
+                    android:maxLines="5"
+                    android:text="@{model.stemInfo}"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="@dimen/font_size_small" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="@style/FontSemiBold"
-                        android:text="@{model.stemName}"
-                        android:textAllCaps="false"
-                        android:textColor="#FFF"
-                        android:id="@+id/stem_name"
-                        android:textSize="@dimen/font_size_normal" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        android:layout_marginTop="5dp"
-
-                        android:letterSpacing="0.1"
-                        android:text="@{model.stemInfo}"
-                        android:id="@+id/stem_info"
-                        android:textAllCaps="true"
-                        android:textColor="#FFF"
-                        android:textSize="@dimen/font_size_small" />
-
-                </LinearLayout>
-
-
-            </RelativeLayout>
+            </LinearLayout>
 
 
         </androidx.cardview.widget.CardView>

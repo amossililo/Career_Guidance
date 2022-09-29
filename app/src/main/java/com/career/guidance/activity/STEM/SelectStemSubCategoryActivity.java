@@ -44,14 +44,14 @@ public class SelectStemSubCategoryActivity extends AppBaseActivity {
     private ArrayList<StemData> stemData() {
         ArrayList<StemData> stemDataArrayList = new ArrayList<>();
 
-        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_programs), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_programs), getString(R.string.engineering_additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_engineering_programs)));
 
-        stemDataArrayList.add(new StemData(getString(R.string.stem_ict_programs), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.stem_ict_programs), getString(R.string.ict_additional_info)
                 , R.drawable.placeholder,  getString(R.string.stem_ict_programs)));
-        stemDataArrayList.add(new StemData(getString(R.string.stem_science_and_math_programs), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.stem_science_and_math_programs), getString(R.string.science_and_math_additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_science_and_math_programs)));
-        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_technology_programs), getString(R.string.additional_info)
+        stemDataArrayList.add(new StemData(getString(R.string.stem_engineering_technology_programs), getString(R.string.engeering_technology_additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_engineering_technology_programs)));
         /*stemDataArrayList.add(new StemData(getString(R.string.stem_university_that_offer), getString(R.string.additional_info)
                 , R.drawable.placeholder, getString(R.string.stem_university_that_offer)));
