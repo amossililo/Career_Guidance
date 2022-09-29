@@ -78,7 +78,7 @@ class NaturalResources : AppBaseActivity() {
         programsList.add(
             FacultyData(
                 getString(R.string.built_widlife),
-                getString(R.string.additional_info),
+                getString(R.string.wildlife_additional_info),
                 "",
                 getString(R.string.WILDLIFEANDWILDLANDSSCIENCEMANAGEMENT)
             )

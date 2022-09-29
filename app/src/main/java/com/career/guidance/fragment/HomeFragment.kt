@@ -63,7 +63,9 @@ class HomeFragment : Fragment() {
             FacultyData(
                 getString(R.string.AgricultureBuiltEnvironmentalEtcFaculty),
 
-                getString(R.string.additional_info),
+
+                getString(R.string.built_environment_faculty_additional_info),
+
                 "https://i.im.ge/2022/09/29/1xEhkW.SeekPng-com-ramas-png-393140.png",
                 getString(R.string.agriculture_sub)
             )
