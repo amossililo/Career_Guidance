@@ -37,7 +37,7 @@ class SelectProgramActivity : AppBaseActivity() {
         stemDataArrayList.add(
             StemData(
                 "Agriculture Programs",
-                getString(R.string.additional_info),
+                getString(R.string.agriculture_programs_additional_info),
                 R.drawable.placeholder,
                 "Agriculture Programs"
             )
@@ -45,7 +45,7 @@ class SelectProgramActivity : AppBaseActivity() {
         stemDataArrayList.add(
             StemData(
                 "Natural Resource Programs",
-                getString(R.string.additional_info),
+                getString(R.string.natural_resourse_programs_additional_info),
                 R.drawable.placeholder,
                 "Natural Resource Programs"
             )
@@ -53,7 +53,7 @@ class SelectProgramActivity : AppBaseActivity() {
         stemDataArrayList.add(
             StemData(
                 "Built Environment Programs",
-                getString(R.string.additional_info),
+                getString(R.string.built_environment_programs_additional_info),
                 R.drawable.placeholder,
                 "Built Environment Programs"
             )

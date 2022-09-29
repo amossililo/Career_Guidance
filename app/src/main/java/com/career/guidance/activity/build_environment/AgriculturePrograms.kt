@@ -38,13 +38,21 @@ class AgriculturePrograms : AppBaseActivity() {
     private fun programsList(): ArrayList<FacultyData> {
         val programsList = ArrayList<FacultyData>()
 
+        programsList.add(
+            FacultyData(
+                getString(R.string.built_agriculture_economics),
+                getString(R.string.built_agriculture_economics_additional_info),
+                "",
+                getString(R.string.AGRICULTURECONOMICS)
+            )
+        )
         // add sub categories
         programsList.add(
             FacultyData(
-                getString(R.string.built_agriculture_production_operation),
-                getString(R.string.additional_info),
+                getString(R.string.built_agriculture_extension),
+                getString(R.string.built_agriculture_extension_additional_info),
                 "",
-                getString(R.string.AGRICULTURALPRODUCTIONOPERATIONS)
+                getString(R.string.AGRICULTUREEXTENSION)
             )
         )
 
