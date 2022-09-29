@@ -46,7 +46,7 @@ class HomeFragment : Fragment() {
         facultyList.add(
             FacultyData(
                 getString(R.string.MedicineHealthEtcFaculty),
-                getString(R.string.additional_info),
+                getString(R.string.medicine_additional_info),
                 "https://i.im.ge/2022/09/29/1xARi9.SeekPng-com-thermometer-png-246169.png",
                 getString(R.string.medicine_sub)
             )
@@ -73,7 +73,7 @@ class HomeFragment : Fragment() {
         facultyList.add(
             FacultyData(
                 getString(R.string.BusinessHumanitiesEtcFaculty),
-                getString(R.string.additional_info),
+                getString(R.string.business_additional_info),
                "https://i.im.ge/2022/09/29/1x3bJ8.SeekPng-com-woman-png-64680.png",
                 getString(R.string.business_sub)
             )
@@ -81,7 +81,7 @@ class HomeFragment : Fragment() {
         facultyList.add(
             FacultyData(
                 getString(R.string.LoansAndUniversities),
-                getString(R.string.additional_info),
+                getString(R.string.loans_additional_info),
                "https://i.im.ge/2022/09/29/1x38PM.SeekPng-com-graduation-hat-png-46121.png",
                 getString(R.string.LoansAndUniversities)
             )
