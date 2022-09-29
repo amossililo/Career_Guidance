@@ -62,13 +62,9 @@ class HomeFragment : Fragment() {
         facultyList.add(
             FacultyData(
                 getString(R.string.AgricultureBuiltEnvironmentalEtcFaculty),
-<<<<<<< Updated upstream
-                getString(R.string.built_environment_faculty_additional_info),
-                getString(R.string.greyBoxPlaceHolderOnGoogleDrive),
-=======
+
                 getString(R.string.additional_info),
                 "https://i.im.ge/2022/09/29/1xEhkW.SeekPng-com-ramas-png-393140.png",
->>>>>>> Stashed changes
                 getString(R.string.agriculture_sub)
             )
         )
