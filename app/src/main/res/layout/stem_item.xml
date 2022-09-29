@@ -28,7 +28,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/addImages"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/product_img_height"
+            android:layout_height="@dimen/_95sdp"
             android:layout_marginBottom="7.5dp"
             android:padding="@dimen/_2sdp"
             app:cardBackgroundColor="@color/color_qr_pdf"
@@ -60,6 +60,7 @@
                     android:layout_height="wrap_content"
                     android:text="@{model.stemName}"
                     android:textAllCaps="false"
+                    android:maxLines="2"
                     android:textAppearance="@style/FontSemiBold"
                     android:textColor="#FFF"
                     android:textSize="@dimen/font_size_normal" />
@@ -70,8 +71,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:ellipsize="end"
-                    android:letterSpacing="0.1"
-                    android:maxLines="5"
+
+                    android:maxLines="6"
                     android:text="@{model.stemInfo}"
                     android:textAllCaps="false"
                     android:textColor="#FFF"
