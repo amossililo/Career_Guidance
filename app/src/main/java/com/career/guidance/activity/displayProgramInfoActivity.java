@@ -12,11 +12,12 @@ import com.career.guidance.R;
 
 public class displayProgramInfoActivity extends AppBaseActivity {
     WebView displayData;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_program_info);
-        displayData=findViewById(R.id.webView);
+        displayData = findViewById(R.id.webView);
 
         // Retrieving the value using its keys the file name
 // must be same in both saving and retrieving the data
@@ -25,10 +26,10 @@ public class displayProgramInfoActivity extends AppBaseActivity {
 // The value will be default as empty string because for
 // the very first time when the app is opened, there is nothing to show
         String selectctedProgram = sh.getString("selectedProgram", "");
-        String nameOfHtmlFile=sh.getString("nameOfHtmlFile",getString(R.string.errorHtml));// the second parameter is a default value.
+        String nameOfHtmlFile = sh.getString("nameOfHtmlFile", getString(R.string.errorHtml));// the second parameter is a default value.
         //int a = sh.getInt("age", 0);
 
-        Toast.makeText(displayProgramInfoActivity.this, nameOfHtmlFile, Toast.LENGTH_SHORT).show();
-        displayData.loadUrl("file:///android_asset/"+nameOfHtmlFile);
+
+        displayData.loadUrl("file:///android_asset/" + nameOfHtmlFile);
     }
 }
