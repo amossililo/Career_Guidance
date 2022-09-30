@@ -61,7 +61,7 @@ public class EngineeringPrograms extends AppBaseActivity {
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.mechanical_engeering_additional_info)
                 , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.mechanicalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.aeronautical_engeering_additional_info)
-                , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
+                , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.aeronauticalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.electroEng_additional_info)
                 , "https://i.im.ge/2022/09/29/1xbnlW.electrical-eng.jpg", getString(R.string.electricalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.GeomaticsEngineering), getString(R.string.geomatrics_eng_additional_info)

@@ -47,7 +47,7 @@ and testing services.</string>
     <string name="loading_icon_on_google_drive">https://lh6.googleusercontent.com/WHMn7EcFw9BBcDHZw5BEIHnEZk9levHFtFr_exd7W1_DLlkR6HR5hlNuh8kv_dZINNI=w2400</string>
 
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
-    <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
+    <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/mechanicalEng.html</string>
     <string name="aeronauticalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/AeronauticalEng.html</string>
     <string name="chemicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ChemicalEng.html</string>
     <string name="electricalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ElectricalAndElectronicsEng.html</string>
