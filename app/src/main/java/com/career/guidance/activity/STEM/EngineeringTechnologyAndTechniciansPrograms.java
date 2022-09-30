@@ -52,6 +52,7 @@ public class EngineeringTechnologyAndTechniciansPrograms extends AppBaseActivity
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
 
+
         programsList.add(new FacultyData(getString(R.string.ArchitecturalEngineeringTechnologyTechnician), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1YBOCG.archetectural-eng.jpg", getString(R.string.ArchitecturalEngineeringTechnologyTechnicianHtml)));
         programsList.add(new FacultyData(getString(R.string.CivilEngineeringTechnologyTechnician), getString(R.string.additional_info)
@@ -80,6 +81,7 @@ public class EngineeringTechnologyAndTechniciansPrograms extends AppBaseActivity
                 , "https://i.im.ge/2022/09/30/1boWQy.fire-protectin.jpg", getString(R.string.FireProtectionHtml)));
         programsList.add(new FacultyData(getString(R.string.TransportationAndMaterialsMoving), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1bXkbr.transportation-and-materials-moving.jpg", getString(R.string.TransportationAndMaterialsMovingHtml)));
+
 
 
         return programsList;

@@ -51,6 +51,7 @@ public class scienceAndMathematicsPrograms extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
+
         programsList.add(new FacultyData(getString(R.string.PureAndAppliedPhysics), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1YfKEy.physics.jpg", getString(R.string.PAndAPhysicsHtml)));
         programsList.add(new FacultyData(getString(R.string.PureAndAppliedChemistry), getString(R.string.additional_info)
@@ -65,6 +66,7 @@ public class scienceAndMathematicsPrograms extends AppBaseActivity {
                 , "https://i.im.ge/2022/09/30/1YHalc.genetics2.jpg", getString(R.string.geneticsstemHtml)));
         programsList.add(new FacultyData(getString(R.string.MathematicsandStatistics), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1YHCJM.math-and-statistics.jpg", getString(R.string.mathematicsAndStatisticsHtml)));
+
 
         return programsList;
     }

@@ -55,37 +55,37 @@ public class EngineeringPrograms extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.civil_engeering_additional_info)
                 , "https://lh4.googleusercontent.com/LiVEmRaxk08ntlhuhCOWcGUCgkzNs4f218ylO7IK9Kipbx-eZI0Le7qicpwUahkYwV4=w2400", getString(R.string.civilEngHtml)));
 
-        programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.mechanical_engeering_additional_info)
                 , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.mechanicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.AeronauticalEngineering)));
-        programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.AeronauticalEngineering), getString(R.string.aeronautical_engeering_additional_info)
+                , "https://i.im.ge/2022/09/22/1LevFC.auronautical-engineering-icon.png", getString(R.string.aeronauticalEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.ElectricalAndElectronicsEngineering), getString(R.string.electroEng_additional_info)
                 , "https://i.im.ge/2022/09/29/1xbnlW.electrical-eng.jpg", getString(R.string.electricalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.GeomaticsEngineering), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.GeomaticsEngineering), getString(R.string.geomatrics_eng_additional_info)
                 , "https://i.im.ge/2022/09/29/1xb400.geomatics-eng.jpg", getString(R.string.geomaticsEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.TelecommunicationsEngineering), getString(R.string.additional_info)
+        programsList.add(new FacultyData(getString(R.string.TelecommunicationsEngineering), getString(R.string.telecommunicationEng_additional_info)
                 , "https://i.im.ge/2022/09/29/1xbGec.telecommunication-eng.jpg", getString(R.string.telecommunicationEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.RailwayEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZlXm.railway.jpg", getString(R.string.railwayEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.MechatronicsEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZSpL.mechatronics.jpg", getString(R.string.mechatronicsEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.ElectromechanicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZaKa.electro-mechanical.jpg", getString(R.string.electroEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.ChemicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZj29.CHEMICAL.webp", getString(R.string.chemicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.MiningEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZm6X.MINING-ENGINNERING.jpg", getString(R.string.mininEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.GeotechnicalandGeoEnvironmentalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZNlh.GEO-ENVIRONMENTAL.jpg", getString(R.string.geotechnicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.MetallurgicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xkY3r.metallergy3.png", getString(R.string.metallurgicalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.EnvironmentalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xZcV1.environmental-eng.jpg", getString(R.string.environmentalEngHtml)));
-        programsList.add(new FacultyData(getString(R.string.GeologyGeologicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xzyyz.geology-2.jpg", getString(R.string.geomaticsEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.RailwayEngineering), getString(R.string.railwayEng_additional_info)
+                , "", getString(R.string.railwayEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.MechatronicsEngineering), getString(R.string.mechatronicsEng_additional_info)
+                , "", getString(R.string.mechatronicsEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.ElectromechanicalEngineering), getString(R.string.electroEngHtml_additional_info)
+                , "", getString(R.string.electroEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.ChemicalEngineering), getString(R.string.chemicalEng_additional_info)
+                , "", getString(R.string.chemicalEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.MiningEngineering), getString(R.string.mininEng_additional_info)
+                , "", getString(R.string.mininEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.GeotechnicalandGeoEnvironmentalEngineering), getString(R.string.geotechnicalEng_additional_info)
+                , "", getString(R.string.geotechnicalEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.MetallurgicalEngineering), getString(R.string.metallurgicalEng_additional_info)
+                , "", getString(R.string.metallurgicalEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.EnvironmentalEngineering), getString(R.string.environmentalEng_additional_info)
+                , "", getString(R.string.environmentalEngHtml)));
+        programsList.add(new FacultyData(getString(R.string.GeologyGeologicalEngineering), getString(R.string.geologyEng_additional_info)
+                , "", getString(R.string.geomaticsEngHtml)));
         return programsList;
     }
 

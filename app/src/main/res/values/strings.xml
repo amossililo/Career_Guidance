@@ -47,7 +47,7 @@ and testing services.</string>
     <string name="loading_icon_on_google_drive">https://lh6.googleusercontent.com/WHMn7EcFw9BBcDHZw5BEIHnEZk9levHFtFr_exd7W1_DLlkR6HR5hlNuh8kv_dZINNI=w2400</string>
 
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
-    <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/MechatronicsEng.html</string>
+    <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/mechanicalEng.html</string>
     <string name="aeronauticalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/AeronauticalEng.html</string>
     <string name="chemicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ChemicalEng.html</string>
     <string name="electricalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ElectricalAndElectronicsEng.html</string>
@@ -220,7 +220,7 @@ Machinist</string>
     <string name="AgricultureBuiltEnvironmentalEtcFaculty">AGRICULTURE, BUILT ENV, NATURAL RESOURCES</string>
     <string name="LoansAndUniversities">Loans And Universities</string>
 
-    <string name="additional_info">Click for more informaion</string>
+    <string name="additional_info">Click here for Additional Information</string>
     <string name="lbl_night_mode">Night Mode</string>
     <string name="title_setting">Title</string>
     <string name="llb_follow_us">Follow Us</string>
@@ -458,5 +458,58 @@ Machinist</string>
     <string name="community_study_additional_info">"Community development is a practiced based profession and an academic discipline that promotes participative democracy, sustainable development, human rights, economic opportunities, equality and social justice, through the organization, education and empowerment of people within their communities. "</string>
     <string name="public_administration_additional_info">"Public Administration is a branch of political science dealing primarily with the structure and workings of agencies charged with the administrations of government functions. "</string>
     <string name="liberal_arts_additional_info">A program that is a structured combination of the arts, biological and physical sciences, social sciences, and humanities, emphasizing breadth of study. Includes instruction in independently designed, individualized, or regular programs.</string>
+    <string name="civil_engeering_additional_info">" Civil Engineering is an engineering discipline that deals with the planning, designing, construction and maintenance of physical and naturally built environments including public works such as highways, transit systems, bridges, tunnels, shopping malls and complexes harbours"</string>
+    <string name="mechanical_engeering_additional_info">" Mechanical engineering is a branch of engineering that combines engineering, physics and mathematics principles with material science to design, analyze, manufacture and maintain mechanical systems"</string>
+    <string name="aeronautical_engeering_additional_info">" Aeronautical Engineering deals with the development of aircraft and spacecraft that includes military aircraft design and development, along with commercial airline design and satellite technology"</string>
+    <string name="electroEng_additional_info">ctrical and Electronics Engineering is an engineering discipline that deals with the generation, transmission and distribution of power in form of electrical, hydro and natural resources such as wind and solar energy to light our cities, our homes and our industries</string>
+    <string name="geomatrics_eng_additional_info">A program that prepares individuals to apply mathematical principles to the determination of the location, elevations, and alignment of natural and man-made topographic features.</string>
+    <string name="telecommunicationEng_additional_info">A program that prepares individuals to apply mathematical principles to the design, development, and maintenance of telecommunications technology, networks, and systems.</string>
+    <string name="railwayEng_additional_info">Railway engineering is a multifaceted engineering discipline that deals with the design, construction, and operation of all railway transport systems.</string>
+    <string name="mechatronicsEng_additional_info">Mechatronics Engineering is a blend of mechanical engineering and electronics engineering for hybrid engineers.</string>
+    <string name="electroEngHtml_additional_info">A program that prepares individuals to apply mathematical principles to the problems associated with combining mechanical components with special emphasis on manufacturing and automated processes</string>
+    <string name="chemicalEng_additional_info">hemical engineering is a multidisciplinary branch of engineering that combines natural and experimental sciences such as chemistry and physics along with life sciences such as biology, microbiology and biochemistry plus mathematics and economics</string>
+    <string name="mininEng_additional_info">ining Engineering is a multidisciplinary branch of engineering that deals with the development and preparation of a mine in order to safely and efficiently extract resources while protecting the environment</string>
+    <string name="geotechnicalEng_additional_info">A program that prepares individuals to apply geotechnical engineering methods, which deal with the analysis, design and construction of earth and earth supported structures, to the application of environmental problems, such as waste containment, waste disposal, and construction of landfills, soil permeation, soil analysis, and soil improvement.</string>
+    <string name="metallurgicalEng_additional_info">Metallurgical Engineering is the branch of engineering that deals with mineral processing technologies and the adaptation of metals for various engineering applications.</string>
+    <string name="environmentalEng_additional_info">Environmental Engineering is the discipline that deals with the development of processes and infrastructure for the supply of water, disposal of waste and the control of pollution of all kinds, protecting public health by preventing disease transmission and preserving the quality of the environment by averting contamination and degradation of air, water and land resources.</string>
+    <string name="geologyEng_additional_info">A program that prepares individuals to apply mathematical and geological principles to the analysis and evaluation of engineering problems, including the geological evaluation of construction sites, the analysis of geological forces acting on structures and systems, the analysis of potential natural resource recove</string>
+    <string name="pure_and_applied_additional_info">Click to show more information of pure and applied physics such asi nuclear physics and astrophysics</string>
+    <string name="pure_and_applied_chemistry_additional_infoadditional_info">A general program that focuses on the scientific study of the composition and behaviour of matter, including its micro and macrostructures, the processes of chemical change, and the theoretical description and laboratory simulation of these phenomena</string>
+    <string name="biological_sciences_additional_info">The focus here in any field of study is biology.</string>
+    <string name="microbiologyAndImune_additional_info">The focus here in any field of study are science and immunology.</string>
+    <string name="biomathematics_additional_info">Click here to discover more about the Biomathematics, Bioinformatics, and Computational Biology</string>
+    <string name="geneticsstem_additional_info">"The focus here in any field of study is genetics. "</string>
+    <string name="mathematicsAndStatisticsHtml_additional_info">The focus here is everything mathematics</string>
+    <string name="architecture_eng_additional_info">A program that prepares individuals to apply mathematical principles to the design, development and operational evaluation of materials, systems, and methods used to construct and equip buildings intended for human habitation or other purposes.</string>
+    <string name="architecture_eng_tech_additional_info">A program that prepares individuals to apply basic engineering principles and technical skills to support architects, engineers and planners engaged in designing and developing buildings, urban complexes, and related systems.</string>
+    <string name="civilEngHtml_tech_additional_info">A program that prepares individuals to apply basic engineering principles and technical skills to support civil engineers engaged in designing and executing public works projects such as highways, dams, bridges, tunnels and other facilities.</string>
+    <string name="construction_enge_additional_info">A program that prepares individuals to apply basic engineering principles and technical skills to support engineers, engineering contractors and other professionals engaged in the construction of buildings and related structures.</string>
+    <string name="drafting_design_additional_info">he focus in this field of study is engineering</string>
+    <string name="industrial_additional_info">The focus of the field to study is technology</string>
+    <string name="mechanic_and_repair_additional_info">This focuses on the fields of mechanics and electronics</string>
+    <string name="vehicle_maintenceadditional_info">The focus of this study is vehicle maintenance and repair</string>
+    <string name="physical_science_additional_info">"A general program that prepares individuals to apply scientific principles and technical skills in support of scientific research and development. "</string>
+    <string name="precision_productions_dditional_info">A program that prepares individuals to apply technical knowledge and skills to fabricate and repair steam boiler components</string>
+    <string name="precision_metal_additional_info">A program that prepares individuals to apply technical knowledge and skills to operate computer numerically controlled (CNC) machine tools, such as lathes, mills, precision measuring tools, and related attachments and accessories, to perform machining functions, such as cutting, drilling, shaping, and finishing products and component parts.</string>
+    <string name="precision_production_trades_additional_info">This study deals with woodworking.</string>
+    <string name="metal_fabricatior_additional_info">" program that prepares individuals to apply technical knowledge and skills to further process ferrous and/or non-ferrous metal plates or shapes, and to manufacture and/or install products as interpreted through technical drawings."</string>
+    <string name="fire_protection_additional_info">This study deals with issues of fire control.</string>
+    <string name="transportation_and_materials_additional_info">This study focuses on transportation.</string>
+    <string name="loans_additional_info">Information concerning student loans, bursaries and the instituitions that offer them</string>
+    <string name="business_additional_info">Programs that prepare students wanting to major in Business, humanites, social sciences or education</string>
+    <string name="medicine_additional_info">Careers and opportunities in medicine, health and veterinary medicine </string>
+    <string name="medicine_and_surgery_additional_info">". It is a 7 years programme that provides hands-on, practical experience in simulated settings and in the real world of clinical and biomedical practice. "</string>
+    <string name="dental_surgery_additional_info">The Bachelor of Dental Science degree focuses on developing skill and expertise in diagnosing, treating and preventing diseases of the teeth, mouth tissue and supporting bones of the mouth.</string>
+    <string name="clinical_medicine_additional_info">"It is 4-year programme that combines theory in basic and applied biomedical science, and practical clinical skills in medicine, pediatrics, reproductive medicine and surgery in accredited hospitals. "</string>
+    <string name="nursing_additional_info">It is a 4-year programme that prepares students to work as registered nurses and midwifes.</string>
+    <string name="pharmacy_additional_info">Pharmacists are experts on the action and use of drugs, including their chemistry, formulation into medicines, and how they are used to manage diseases.</string>
+    <string name="public_health_additional_info">Bachelor of Public health aids students with the skills, knowledge, and abilities to excel in the sector. Moreover, it enables public health aspirants to improve the quality of life and health in their communities. "</string>
+    <string name="environmental_health_additional_info">"A program that focuses on the application of environmental sciences, public health, the biomedical sciences, and environmental toxicology to the study of environmental factors affecting human health, safety, and related ecological issues, and prepares individuals to function as professional environmental health specialists. "</string>
+    <string name="physiotherapy_additional_info">Use health promotion, treatment, rehabilitation, and exercise to prevent disability and restore patients’ normal movement and physical function. "</string>
+    <string name="occupational_therapy_additional_info">The Bachelor of Science in the field of Occupational Therapy degree aims to skill students in helping clients who are temporarily or permanently impaired by illness, accident, disability, environmental limitations or developmental delay.</string>
+    <string name="bio_medical_additional_info">Students who apply for the Bachelor of Health Sciences in the field of Biomedical Sciences will enter an exciting and dynamic area that is highly relevant to the understanding and treatment of human diseases.</string>
+    <string name="health_informatics_additional_info">Professionals in health informatics provide medical insurance providers, healthcare providers, government agencies, and public health organizations with meaningful information designed to reduce healthcare costs and improve the health of patients and populations.</string>
+    <string name="veterinary_additional_info">The Bachelor’s degree in Veterinary Medicine is the main programme offered by the school of Veterinary Medicine at The University of Zambia. "</string>
+    <string name="allied_health_additional_info">Click for more information</string>
 
 </resources>
