@@ -40,7 +40,7 @@ class NaturalResources : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_fishing_and_fisheries),
                 getString(R.string.fishing_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cS80F.fisheries.jpg",
                 getString(R.string.FishingandFisheriesSciencesandManagement)
             )
         )
@@ -50,7 +50,7 @@ class NaturalResources : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_forestry),
                 getString(R.string.forestry_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cSKDX.forestry.jpg",
                 getString(R.string.FORESTRY)
             )
         )
@@ -60,7 +60,7 @@ class NaturalResources : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_natural_resources_conservation),
                 getString(R.string.natural_resources_conservation_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cSpVD.environmental-conservation.jpg",
                 getString(R.string.NATURAlRESOURCESCONSERVATIONANDRESEARCH)
             )
         )
@@ -69,7 +69,7 @@ class NaturalResources : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_nature_resources_management),
                 getString(R.string.nature_resources_managemen_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cSBep.natural-resource-management.jpg",
                 getString(R.string.NATURALRESOURCESMANAGEMENTANDPOLICY)
             )
         )
@@ -79,7 +79,7 @@ class NaturalResources : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_widlife),
                 getString(R.string.wildlife_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cqTLK.wildlife-science.jpg",
                 getString(R.string.WILDLIFEANDWILDLANDSSCIENCEMANAGEMENT)
             )
         )

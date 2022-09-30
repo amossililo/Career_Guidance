@@ -56,7 +56,7 @@ public class EngineeringPrograms extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.CivilEngineering), getString(R.string.additional_info)
-                , "https://lh4.googleusercontent.com/LiVEmRaxk08ntlhuhCOWcGUCgkzNs4f218ylO7IK9Kipbx-eZI0Le7qicpwUahkYwV4=w2400", getString(R.string.civilEngHtml)));
+                , "https://i.im.ge/2022/09/30/1comZx.civil-eng.jpg", getString(R.string.civilEngHtml)));
 
         programsList.add(new FacultyData(getString(R.string.MechanicalEngineering), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/22/1LeHk4.mechanical-engineering-icon.png", getString(R.string.mechanicalEngHtml)));
