@@ -53,25 +53,25 @@ public class BusinessPrograms  extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.ACCOUNTANCY), getString(R.string.accountancy_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ACCOUNTANCYHtml)));
+                , "https://i.im.ge/2022/09/29/13uOj1.accountancy.jpg", getString(R.string.ACCOUNTANCYHtml)));
         programsList.add(new FacultyData(getString(R.string.PURCHASINGANDSUPPLY), getString(R.string.purchasing_and_supply_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PURCHASINGANDSUPPLYHtml)));
+                , "https://i.im.ge/2022/09/29/13u5TJ.purchasing-and-supply.jpg", getString(R.string.PURCHASINGANDSUPPLYHtml)));
         programsList.add(new FacultyData(getString(R.string.HUMANRESOURCEMANAGEMENT), getString(R.string.human_resouces_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.HUMANRESOURCEMANAGEMENTHtml)));
+                , "https://i.im.ge/2022/09/29/13uHbr.human-resource-management.png", getString(R.string.HUMANRESOURCEMANAGEMENTHtml)));
         programsList.add(new FacultyData(getString(R.string.BANKINGANDFINANCE), getString(R.string.banking_and_finance_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BANKINGANDFINANCEHtml)));
+                , "https://i.im.ge/2022/09/29/13uJa0.banking-and-finance.jpg", getString(R.string.BANKINGANDFINANCEHtml)));
         programsList.add(new FacultyData(getString(R.string.PUBLICPROCUREMENT), getString(R.string.public_procurement_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PUBLICPROCUREMENTHtml)));
+                , "https://i.im.ge/2022/09/29/13F21K.Public-procurement.jpg", getString(R.string.PUBLICPROCUREMENTHtml)));
         programsList.add(new FacultyData(getString(R.string.PRODUCTIONANDOPERATIONSMANAGEMENT), getString(R.string.production_operation_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PRODUCTIONANDOPERATIONSMANAGEMENTHtml)));
+                , "https://i.im.ge/2022/09/29/13FNer.production-and-operations-managment.jpg", getString(R.string.PRODUCTIONANDOPERATIONSMANAGEMENTHtml)));
         programsList.add(new FacultyData(getString(R.string.TRANSPORTANDLOGISTICSMANAGEMENT), getString(R.string.transport_and_logistics_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.TRANSPORTANDLOGISTICSMANAGEMENTHtml)));
+                , "https://i.im.ge/2022/09/29/13Fx6L.transport-and-logistics.jpg", getString(R.string.TRANSPORTANDLOGISTICSMANAGEMENTHtml)));
         programsList.add(new FacultyData(getString(R.string.MARKETING), getString(R.string.marketing_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MARKETINGHtml)));
+                , "https://i.im.ge/2022/09/29/13FZCz.marketing.jpg", getString(R.string.MARKETINGHtml)));
         programsList.add(new FacultyData(getString(R.string.BUSINESSADMINISTRATIONANDMANAGEMENT), getString(R.string.business_admin_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BUSINESSADMINISTRATIONANDMANAGEMENTHtml)));
+                , "https://i.im.ge/2022/09/29/13FJgh.business-admininistration.jpg", getString(R.string.BUSINESSADMINISTRATIONANDMANAGEMENTHtml)));
         programsList.add(new FacultyData(getString(R.string.BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICES), getString(R.string.business_operations_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICESHtml)));
+                , "https://i.im.ge/2022/09/29/13FGED.business-operatins.jpg", getString(R.string.BUSINESSOPERATIONSSUPPORTANDASSISTANTSERVICESHtml)));
         return programsList;
     }
 
