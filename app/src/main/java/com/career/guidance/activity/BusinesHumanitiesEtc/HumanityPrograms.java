@@ -52,25 +52,25 @@ public class HumanityPrograms extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.Law), getString(R.string.law_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.LawHtml)));
+                , "https://i.im.ge/2022/09/30/1ci5Z1.law.jpg", getString(R.string.LawHtml)));
         programsList.add(new FacultyData(getString(R.string.ECONOMICS), getString(R.string.economics_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ECONOMICSHtml)));
+                , "https://i.im.ge/2022/09/30/1ciYXa.economics-3.jpg", getString(R.string.ECONOMICSHtml)));
         programsList.add(new FacultyData(getString(R.string.MASSCOMMUNICATION), getString(R.string.masscom_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MASSCOMMUNICATIONHtml)));
+                , "https://i.im.ge/2022/09/30/1ciRaz.mass-communication.jpg", getString(R.string.MASSCOMMUNICATIONHtml)));
         programsList.add(new FacultyData(getString(R.string.SOCIALWORK), getString(R.string.socail_work_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.SOCIALWORKHtml)));
+                , "https://i.im.ge/2022/09/30/1cifw9.social-work.jpg", getString(R.string.SOCIALWORKHtml)));
         programsList.add(new FacultyData(getString(R.string.PSYCHOLOGY), getString(R.string.psychology_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PSYCHOLOGYHtml)));
+                , "https://i.im.ge/2022/09/30/1ci47D.psycology.jpg", getString(R.string.PSYCHOLOGYHtml)));
         programsList.add(new FacultyData(getString(R.string.STATISTICSANDDEMOGRAPHICStudies), getString(R.string.statistics_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.STATISTICSANDDEMOGRAPHICStudiesHtml)));
+                , "https://i.im.ge/2022/09/30/1c09SF.statistics-and-demographic.jpg", getString(R.string.STATISTICSANDDEMOGRAPHICStudiesHtml)));
         programsList.add(new FacultyData(getString(R.string.POLITICALSCIENCE), getString(R.string.political_science_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.POLITICALSCIENCEHtml)));
+                , "https://i.im.ge/2022/09/30/1c0yMM.political-science.jpg", getString(R.string.POLITICALSCIENCEHtml)));
         programsList.add(new FacultyData(getString(R.string.COMMUNITYDEVELOPMENTSTUDIES), getString(R.string.community_study_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.COMMUNITYDEVELOPMENTSTUDIESHtml)));
+                , "https://i.im.ge/2022/09/30/1c0CED.community-development.jpg", getString(R.string.COMMUNITYDEVELOPMENTSTUDIESHtml)));
         programsList.add(new FacultyData(getString(R.string.PUBLICADMINISTRATION), getString(R.string.public_administration_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PUBLICADMINISTRATIONHtml)));
+                , "https://i.im.ge/2022/09/30/1c0bVp.public-administraion.jpg", getString(R.string.PUBLICADMINISTRATIONHtml)));
         programsList.add(new FacultyData(getString(R.string.LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIES), getString(R.string.liberal_arts_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIESHtml)));
+                , "https://i.im.ge/2022/09/30/1c0ZMm.liberal-arts.jpg", getString(R.string.LIBERALARTSANDSCIENCESGENERALSTUDIESANDHUMANITIESHtml)));
 
 
         return programsList;

@@ -50,7 +50,7 @@ class AgriculturePrograms : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_animal_science),
                 getString(R.string.animal_science_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cmF9L.animal-science.jpg",
                 getString(R.string.ANIMALSCIENCE)
             )
         )
