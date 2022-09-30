@@ -52,19 +52,19 @@ public class scienceAndMathematicsPrograms extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.PureAndAppliedPhysics), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PAndAPhysicsHtml)));
+                , "https://i.im.ge/2022/09/30/1YfKEy.physics.jpg", getString(R.string.PAndAPhysicsHtml)));
         programsList.add(new FacultyData(getString(R.string.PureAndAppliedChemistry), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PAndAChemistyHtml)));
+                , "https://i.im.ge/2022/09/30/1YfBM8.chemistry.jpg", getString(R.string.PAndAChemistyHtml)));
         programsList.add(new FacultyData(getString(R.string.BiologyAndBiologicalSciences), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BiologyAndBiologicalSciencesHtml)));
+                , "https://i.im.ge/2022/09/30/1YkbqY.biology.jpg", getString(R.string.BiologyAndBiologicalSciencesHtml)));
         programsList.add(new FacultyData(getString(R.string.MicrobiologicalSciencesandImmunology), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.microbiologyAndImuneHtml)));
+                , "https://i.im.ge/2022/09/30/1YzOO6.microbiology.jpg", getString(R.string.microbiologyAndImuneHtml)));
         programsList.add(new FacultyData(getString(R.string.BiomathematicsBioinformaticsandComputationalBiology), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.BiologyAndBiologicalSciencesHtml)));
+                , "https://i.im.ge/2022/09/30/1Yzmb1.bio-informatics.jpg", getString(R.string.BiologyAndBiologicalSciencesHtml)));
         programsList.add(new FacultyData(getString(R.string.Genetics), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.geneticsstemHtml)));
+                , "https://i.im.ge/2022/09/30/1YHalc.genetics2.jpg", getString(R.string.geneticsstemHtml)));
         programsList.add(new FacultyData(getString(R.string.MathematicsandStatistics), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.mathematicsAndStatisticsHtml)));
+                , "https://i.im.ge/2022/09/30/1YHCJM.math-and-statistics.jpg", getString(R.string.mathematicsAndStatisticsHtml)));
 
         return programsList;
     }
