@@ -52,34 +52,36 @@ public class EngineeringTechnologyAndTechniciansPrograms extends AppBaseActivity
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
 
-        programsList.add(new FacultyData(getString(R.string.ArchitecturalEngineeringTechnologyTechnician), getString(R.string.architecture_eng_tech_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ArchitecturalEngineeringTechnologyTechnicianHtml)));
-        programsList.add(new FacultyData(getString(R.string.CivilEngineeringTechnologyTechnician), getString(R.string.civilEngHtml_tech_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.CivilEngineeringTechnologyTechnicianHtml)));
-        programsList.add(new FacultyData(getString(R.string.ConstructionEngineeringTechnologiesConstructionEngineeringTechnologyTechnician), getString(R.string.construction_enge_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.ConstructionEngineeringTechnologiesConstructionEngineeringTechnologyTechnicianHtml)));
-        programsList.add(new FacultyData(getString(R.string.DraftingDesignEngineeringTechnologiesTechnicians), getString(R.string.drafting_design_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.DraftingDesignEngineeringTechnologiesTechniciansHtml)));
-        programsList.add(new FacultyData(getString(R.string.IndustrialProductionTechnologiesTechniciansChemicalEngineering), getString(R.string.industrial_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.IndustrialProductionTechnologiesTechniciansChemicalEngineeringHtml)));
-        programsList.add(new FacultyData(getString(R.string.MechanicAndRepairTechnologiesTechniciansElectricalElectronicMaintenanceandRepairTechnology), getString(R.string.mechanic_and_repair_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MechanicAndRepairTechnologiesTechniciansElectricalElectronicMaintenanceandRepairTechnologyHtml)));
-        programsList.add(new FacultyData(getString(R.string.VehicleMaintenanceandRepairTechnologies), getString(R.string.vehicle_maintenceadditional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.VehicleMaintenanceandRepairTechnologiesHtml)));
-        programsList.add(new FacultyData(getString(R.string.PhysicalScienceTechnologiesTechniciansScienceTechnologiesTechniciansGeneral), getString(R.string.physical_science_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PhysicalScienceTechnologiesTechniciansScienceTechnologiesTechniciansGeneralHtml)));
-        programsList.add(new FacultyData(getString(R.string.PrecisionProductionofBoilermakingBoilermaker), getString(R.string.precision_productions_dditional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PrecisionProductionOfBoilerMakingBoilermakerHtml)));
-        programsList.add(new FacultyData(getString(R.string.PrecisionMetalWorkingComputerNumericallyControlledCNCMachinistTechnologyCNCMachinist), getString(R.string.precision_metal_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PrecisionMetalWorkingComputerHtml)));
-        programsList.add(new FacultyData(getString(R.string.MetalFabricator), getString(R.string.metal_fabricatior_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.MetalFabricator)));
-        programsList.add(new FacultyData(getString(R.string.PrecisionProductionTradesWoodworking), getString(R.string.precision_production_trades_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.PrecisionProductionTradesWoodworkingHtml)));
-        programsList.add(new FacultyData(getString(R.string.FireProtection), getString(R.string.fire_protection_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.FireProtectionHtml)));
-        programsList.add(new FacultyData(getString(R.string.TransportationAndMaterialsMoving), getString(R.string.transportation_and_materials_additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.TransportationAndMaterialsMovingHtml)));
+
+        programsList.add(new FacultyData(getString(R.string.ArchitecturalEngineeringTechnologyTechnician), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBOCG.archetectural-eng.jpg", getString(R.string.ArchitecturalEngineeringTechnologyTechnicianHtml)));
+        programsList.add(new FacultyData(getString(R.string.CivilEngineeringTechnologyTechnician), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBqVy.civil-eng-tech.jpg", getString(R.string.CivilEngineeringTechnologyTechnicianHtml)));
+        programsList.add(new FacultyData(getString(R.string.ConstructionEngineeringTechnologiesConstructionEngineeringTechnologyTechnician), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBarS.contruction-eng.jpg", getString(R.string.ConstructionEngineeringTechnologiesConstructionEngineeringTechnologyTechnicianHtml)));
+        programsList.add(new FacultyData(getString(R.string.DraftingDesignEngineeringTechnologiesTechnicians), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBDg6.drafting-and-design.jpg", getString(R.string.DraftingDesignEngineeringTechnologiesTechniciansHtml)));
+        programsList.add(new FacultyData(getString(R.string.IndustrialProductionTechnologiesTechniciansChemicalEngineering), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBjfM.industrial-production.jpg", getString(R.string.IndustrialProductionTechnologiesTechniciansChemicalEngineeringHtml)));
+        programsList.add(new FacultyData(getString(R.string.MechanicAndRepairTechnologiesTechniciansElectricalElectronicMaintenanceandRepairTechnology), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBNg4.vehicle-repaire.jpg", getString(R.string.MechanicAndRepairTechnologiesTechniciansElectricalElectronicMaintenanceandRepairTechnologyHtml)));
+        programsList.add(new FacultyData(getString(R.string.VehicleMaintenanceandRepairTechnologies), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1YBNg4.vehicle-repaire.jpg", getString(R.string.VehicleMaintenanceandRepairTechnologiesHtml)));
+        programsList.add(new FacultyData(getString(R.string.PhysicalScienceTechnologiesTechniciansScienceTechnologiesTechniciansGeneral), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1Ye3lr.physical-science-technologist.png", getString(R.string.PhysicalScienceTechnologiesTechniciansScienceTechnologiesTechniciansGeneralHtml)));
+        programsList.add(new FacultyData(getString(R.string.PrecisionProductionofBoilermakingBoilermaker), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1Ye4CK.boiler-making.png", getString(R.string.PrecisionProductionOfBoilerMakingBoilermakerHtml)));
+        programsList.add(new FacultyData(getString(R.string.PrecisionMetalWorkingComputerNumericallyControlledCNCMachinistTechnologyCNCMachinist), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1bQ2Lz.precision-metal-working-2.jpg", getString(R.string.PrecisionMetalWorkingComputerHtml)));
+        programsList.add(new FacultyData(getString(R.string.MetalFabricator), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1bQLjh.metal-fabricator.jpg", getString(R.string.MetalFabricator)));
+        programsList.add(new FacultyData(getString(R.string.PrecisionProductionTradesWoodworking), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1bQ534.precision-porduction.jpg", getString(R.string.PrecisionProductionTradesWoodworkingHtml)));
+        programsList.add(new FacultyData(getString(R.string.FireProtection), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1boWQy.fire-protectin.jpg", getString(R.string.FireProtectionHtml)));
+        programsList.add(new FacultyData(getString(R.string.TransportationAndMaterialsMoving), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1bXkbr.transportation-and-materials-moving.jpg", getString(R.string.TransportationAndMaterialsMovingHtml)));
+
 
 
         return programsList;
