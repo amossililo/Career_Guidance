@@ -52,17 +52,17 @@ public class BuiltEnvironment extends AppBaseActivity {
 
 
         stemDataArrayList.add(new FacultyData(getString(R.string.built_architecture), getString(R.string.architecture_additional_info)
-                , "", getString(R.string.ARCHITECTURE)));
+                , "https://i.im.ge/2022/09/30/1c2Ej4.architecture.jpg", getString(R.string.ARCHITECTURE)));
 
 
         stemDataArrayList.add(new FacultyData(getString(R.string.built_construction_management), getString(R.string.construction_managementadditional_info)
-                , "", getString(R.string.CONSTRUCTIONMANAGEMENTANDECONOMICS)));
+                , "https://i.im.ge/2022/09/30/1cS0pm.construction-management.jpg", getString(R.string.CONSTRUCTIONMANAGEMENTANDECONOMICS)));
 
         stemDataArrayList.add(new FacultyData(getString(R.string.built_real_estate), getString(R.string.real_estate_additional_info)
-                , "", getString(R.string.REALESTATE)));
+                , "https://i.im.ge/2022/09/30/1cSjwW.real-estate.jpg", getString(R.string.REALESTATE)));
 
         stemDataArrayList.add(new FacultyData(getString(R.string.built_regional_land_and_urban_planning), getString(R.string.regional_planning_additional_info)
-                , "", getString(R.string.REGIONALANDURBANPLANNING)));
+                , "https://i.im.ge/2022/09/30/1cSA7x.regional-and-urban-planning.jpg", getString(R.string.REGIONALANDURBANPLANNING)));
 
 
         return stemDataArrayList;
@@ -81,7 +81,7 @@ public class BuiltEnvironment extends AppBaseActivity {
 
                 dataBinding.tvFacultyName.setText(model.getFacultyName());
                 dataBinding.tvProductRate.setText(model.getFacultyInfo());
-
+                AppExtensionsKt.loadImageFromUri(dataBinding.ivFaculty, model.getFacultyImage());
             }
 
             @Override

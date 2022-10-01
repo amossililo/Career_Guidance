@@ -45,27 +45,25 @@ public class EducationPrograms extends AppBaseActivity {
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(ProgramsList());
         context = EducationPrograms.this;
-
-
     }
 
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.EDUCATIONALADMINISTRATIONANDSUPERVISION), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.EDUCATIONALADMINISTRATIONANDSUPERVISIONHtml)));
+                , "https://i.im.ge/2022/09/30/1cItuf.educatioonal-administratioin.jpg", getString(R.string.EDUCATIONALADMINISTRATIONANDSUPERVISIONHtml)));
         programsList.add(new FacultyData(getString(R.string.EDUCATIONALASSESSMENTEVALUATIONANDRESEARCH), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.EDUCATIONALASSESSMENTEVALUATIONANDRESEARCHHtml)));
+                , "https://i.im.ge/2022/09/30/1cIYnc.educational-assessment-evaluation.jpg", getString(R.string.EDUCATIONALASSESSMENTEVALUATIONANDRESEARCHHtml)));
         programsList.add(new FacultyData(getString(R.string.EducationalInstructionalMediaDesign), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.EducationalInstructionalMediaDesignHtml)));
+                , "https://i.im.ge/2022/09/30/1cUJr8.educational-instructional-media.png", getString(R.string.EducationalInstructionalMediaDesignHtml)));
         programsList.add(new FacultyData(getString(R.string.SPECIALEDUCATIONANDTEACHING), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.SPECIALEDUCATIONANDTEACHINGHtml)));
+                , "https://i.im.ge/2022/09/30/1cUn5h.specail-education.jpg", getString(R.string.SPECIALEDUCATIONANDTEACHINGHtml)));
         programsList.add(new FacultyData(getString(R.string.STUDENTCOUNSELINGANDPERSONNELSERVICES), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.STUDENTCOUNSELINGANDPERSONNELSERVICESHtml)));
+                , "https://i.im.ge/2022/09/30/1chQJC.student-counselling.jpg", getString(R.string.STUDENTCOUNSELINGANDPERSONNELSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODS), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODSHtml)));
+                , "https://i.im.ge/2022/09/30/1chh8J.teacher-education-and-profession.jpg", getString(R.string.TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICLEVELSANDMETHODSHtml)));
         programsList.add(new FacultyData(getString(R.string.TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREAS), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/25/1mbUtp.ligthGreyimage.jpg", getString(R.string.TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREASHtml)));
+                , "https://i.im.ge/2022/09/30/1chYn4.teacher-education-specific-subject-areas.jpg", getString(R.string.TEACHEREDUCATIONANDPROFESSIONALDEVELOPMENTSPECIFICSUBJECTAREASHtml)));
 
         return programsList;
     }

@@ -42,7 +42,7 @@ class AgriculturePrograms : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_agriculture_economics),
                 getString(R.string.built_agriculture_economics_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cr0H4.agricultural-economics.jpg",
                 getString(R.string.AGRICULTURECONOMICS)
             )
         )
@@ -50,7 +50,7 @@ class AgriculturePrograms : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_animal_science),
                 getString(R.string.animal_science_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cmF9L.animal-science.jpg",
                 getString(R.string.ANIMALSCIENCE)
             )
         )
@@ -60,34 +60,16 @@ class AgriculturePrograms : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_agriculture_extension),
                 getString(R.string.built_agriculture_extension_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cuF0P.agricultural-extension.jpg",
                 getString(R.string.AGRICULTUREEXTENSION)
             )
         )
         programsList.add(
             FacultyData(
-                getString(R.string.built_plant_science),
-                getString(R.string.built_plant_science_additional_info),
-                "",
-                getString(R.string.PLANTSCIENCES)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_soil_science),
-                getString(R.string.soil_scienceadditional_info),
-                "",
-                getString(R.string.SOILSCIENCES)
-            )
-        )
-
-        programsList.add(
-            FacultyData(
-                getString(R.string.built_food_science),
-                getString(R.string.food_science_additional_info),
-                "",
-                getString(R.string.PLANTSCIENCES)
+                getString(R.string.built_agriculture_production_operation),
+                getString(R.string.built_agriculture_production_operation_additional_info),
+                "https://i.im.ge/2022/09/30/1cF1FF.agric-production-operation.jpg",
+                getString(R.string.AGRICULTURALPRODUCTIONOPERATIONS)
             )
         )
 
@@ -95,32 +77,42 @@ class AgriculturePrograms : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_agriculture_public_services),
                 getString(R.string.built_agriculture_public_services_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1cO0pS.agric-journalism.jpg",
                 getString(R.string.AGRICULTURALPUBLICSERVICES)
             )
         )
+
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_business),
                 getString(R.string.built_agriculture_business_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1c1F0K.agro-management.jpg",
                 getString(R.string.AGRICULTUREBUSINESSANDMANAGEMENT)
+            )
+        )
+
+        programsList.add(
+            FacultyData(
+                getString(R.string.built_agriculture_mechanization),
+                getString(R.string.built_agriculture_mechanization_additional_info),
+                "https://i.im.ge/2022/09/30/1c1K8K.agric-mechanisation.jpg",
+                getString(R.string.AGRICULTUREMECHANIZATION)
             )
         )
         programsList.add(
             FacultyData(
                 getString(R.string.built_agriculture_support),
                 getString(R.string.agriculture_support_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1c1eRq.agric-support.jpg",
                 getString(R.string.AGRICUTURALSUPPORTSERVICESANDTECHNICIANS)
             )
         )
         programsList.add(
             FacultyData(
-                getString(R.string.built_agriculture_mechanization),
-                getString(R.string.built_agriculture_mechanization_additional_info),
-                "",
-                getString(R.string.AGRICULTUREMECHANIZATION)
+                getString(R.string.built_animal_science),
+                getString(R.string.animal_science_additional_info),
+                "https://i.im.ge/2022/09/30/1c21F0.animal-science.jpg",
+                getString(R.string.ANIMALSCIENCE)
             )
         )
 
@@ -129,19 +121,26 @@ class AgriculturePrograms : AppBaseActivity() {
             FacultyData(
                 getString(R.string.built_applied_horticultre),
                 getString(R.string.applied_horticultre_additional_info),
-                "",
+                "https://i.im.ge/2022/09/30/1c2a3x.horticulture.jpg",
                 getString(R.string.APPLIEDHORTICULTUREHORTICULTURALBUSINESSSERVICES)
             )
         )
 
-
+        programsList.add(
+            FacultyData(
+                getString(R.string.built_food_science),
+                getString(R.string.food_science_additional_info),
+                "https://i.im.ge/2022/09/30/1c2IqJ.food-science.jpg",
+                getString(R.string.PLANTSCIENCES)
+            )
+        )
 
         programsList.add(
             FacultyData(
-                getString(R.string.built_agriculture_production_operation),
-                getString(R.string.built_agriculture_production_operation_additional_info),
-                "",
-                getString(R.string.AGRICULTURALPRODUCTIONOPERATIONS)
+                getString(R.string.built_soil_science),
+                getString(R.string.soil_scienceadditional_info),
+                "https://i.im.ge/2022/09/30/1c2mU9.soil-science.jpg",
+                getString(R.string.SOILSCIENCES)
             )
         )
 

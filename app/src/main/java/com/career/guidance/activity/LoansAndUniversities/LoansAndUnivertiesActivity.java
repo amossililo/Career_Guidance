@@ -58,15 +58,15 @@ public class LoansAndUnivertiesActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.STUDENTLOANSFORLOCALUNIVERSITIES), getString(R.string.additional_info)
-                , "", getString(R.string.STUDENTLOANSFORLOCALUNIVERSITIESHtml)));
+                , "https://i.im.ge/2022/09/30/1cj3Sz.loacal-universities.jpg", getString(R.string.STUDENTLOANSFORLOCALUNIVERSITIESHtml)));
         programsList.add(new FacultyData(getString(R.string.ABROADSCHOLARSHIPS), getString(R.string.additional_info)
-                , "", getString(R.string.ABROADSCHOLARSHIPSHtml)));
+                , "https://i.im.ge/2022/09/30/1c9i1F.abroad.webp", getString(R.string.ABROADSCHOLARSHIPSHtml)));
         programsList.add(new FacultyData(getString(R.string.CDFBOARDINGSECONDARYSCHOOLBUSARIES), getString(R.string.additional_info)
-                , "", getString(R.string.CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml)));
+                , "https://i.im.ge/2022/09/30/1cjrc8.secondary-school.jpg", getString(R.string.CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml)));
         programsList.add(new FacultyData(getString(R.string.CDFSkillsDevelopmentBursaries), getString(R.string.additional_info)
-                , "", getString(R.string.CDFSkillsDevelopmentBursariesHtml)));
+                , "https://i.im.ge/2022/09/30/1cjODM.skills-dev.jpg", getString(R.string.CDFSkillsDevelopmentBursariesHtml)));
         programsList.add(new FacultyData(getString(R.string.Universities), getString(R.string.additional_info)
-                , "", getString(R.string.UniversitiesHtml)));
+                , "https://i.im.ge/2022/09/29/1x38PM.SeekPng-com-graduation-hat-png-46121.png", getString(R.string.UniversitiesHtml)));
 
         return programsList;
     }
