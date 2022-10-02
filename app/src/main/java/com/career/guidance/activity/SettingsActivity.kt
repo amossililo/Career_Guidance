@@ -25,7 +25,7 @@ class SettingsActivity : AppBaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
-        title = getString(R.string.title_setting)
+        title = getString(R.string.lbl_settings)
         setToolbar(toolbar)
         toolbar.setNavigationOnClickListener { onBackPressed() }
 

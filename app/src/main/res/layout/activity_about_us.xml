@@ -62,9 +62,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/spacing_standard_new"
                 android:textAppearance="@style/FontSemiBold"
-                android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/font_size_normal"
+                android:textStyle="bold"
                 tools:text="© Ren Technology 2022 | All rights reserved" />
 
             <TextView

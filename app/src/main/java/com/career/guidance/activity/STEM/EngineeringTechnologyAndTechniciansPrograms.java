@@ -74,7 +74,7 @@ public class EngineeringTechnologyAndTechniciansPrograms extends AppBaseActivity
         programsList.add(new FacultyData(getString(R.string.PrecisionMetalWorkingComputerNumericallyControlledCNCMachinistTechnologyCNCMachinist), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1bQ2Lz.precision-metal-working-2.jpg", getString(R.string.PrecisionMetalWorkingComputerHtml)));
         programsList.add(new FacultyData(getString(R.string.MetalFabricator), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1bQLjh.metal-fabricator.jpg", getString(R.string.MetalFabricator)));
+                , "https://i.im.ge/2022/09/30/1bQLjh.metal-fabricator.jpg", getString(R.string.MetalFabricatorHtml)));
         programsList.add(new FacultyData(getString(R.string.PrecisionProductionTradesWoodworking), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1bQ534.precision-porduction.jpg", getString(R.string.PrecisionProductionTradesWoodworkingHtml)));
         programsList.add(new FacultyData(getString(R.string.FireProtection), getString(R.string.additional_info)

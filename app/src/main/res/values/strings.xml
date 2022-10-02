@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Career Guidance</string>
+    <string name="app_name">Uni-School</string>
     <string name="error_permission_required">Error Permission is Required</string>
 
     <string name="font_medium" translatable="false">fonts/Montserrat-Medium.ttf</string>
@@ -402,7 +402,7 @@ Machinist</string>
     <string name="CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml">LoansAndUniversities/CDFBOARDINGSECONDARYSCHOOLBUSARIES.html</string>
     <string name="CDFSkillsDevelopmentBursariesHtml">LoansAndUniversities/CDFSkillsDevelopmentBursaries.html</string>
     <string name="UniversitiesHtml">LoansAndUniversities/Universities.html</string>
-    <string name="app_owner">By Rogic Kachata</string>
+    <string name="app_owner">By Rogic Kachanta</string>
     <string name="architecture_additional_info">Architecture is the discipline that is concerned with the planning, designing and the overseeing of the construction of the built environment "</string>
     <string name="regional_planning_additional_info">"Regional and urban planning is a discipline that ensures that the development of the built environment is economic, promotes social development, is aesthetically appealing and that it meets the needs of the community. "</string>
     <string name="construction_managementadditional_info">A program that prepares individuals to manage, coordinates, and supervises the construction process from concept development through project completion on timely and economic bases. "</string>
