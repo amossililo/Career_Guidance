@@ -78,27 +78,27 @@ public class MedicineHealthAndVetProgramsActivity extends AppBaseActivity {
         programsList.add(new FacultyData(getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONS), getString(R.string.veterinary_additional_info)
                 , "https://i.im.ge/2022/10/01/1gKFGa.vetetnary-medicine.jpg", getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.BIOLOGYANDBIOLOGICALSCIENCES), getString(R.string.biological_sciences_additional_info)
-                , "", getString(R.string.BIOLOGYANDBIOLOGICALSCIENCESHtml)));
+                , "https://i.im.ge/2022/10/02/1WbYMa.biological-science-s.jpg", getString(R.string.BIOLOGYANDBIOLOGICALSCIENCESHtml)));
         programsList.add(new FacultyData(getString(R.string.GENETICS), getString(R.string.geneticsstem_additional_info)
-                , "", getString(R.string.GENETICSHtml)));
+                , "https://i.im.ge/2022/10/02/1Wg7mC.genetics.jpg", getString(R.string.GENETICSHtml)));
         programsList.add(new FacultyData(getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICES), getString(R.string.allied_health_additional_info)
-                , "", getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
+                , "https://i.im.ge/2022/10/02/1Wgv2D.mediacl-assisting.jpg", getString(R.string.ALLIEDHEALTHANDMEDICALASSISTINGSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , "", getString(R.string.MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/10/02/1Wgw10.mental-health.jpg", getString(R.string.MENTALANDSOCIALHEALTHSERVICESANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONS), getString(R.string.additional_info)
-                , "", getString(R.string.ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/10/02/1WRMu6.allied-health-diagnostic.jpg", getString(R.string.ALLIEDHEALTHDIAGNOSTICINTERVENTIONANDTREATMENTPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICES), getString(R.string.additional_info)
-                , "", getString(R.string.ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICESHtml)));
+                , "https://i.im.ge/2022/10/02/1WRQ9F.alternative-and-complimentary-medical-support-services.jpg", getString(R.string.ALTERNATIVEANDCOMPLEMENTARYMEDICALSUPPORTSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , "", getString(R.string.CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/10/02/1WRlLX.clinical-Medical-laborator.jpg", getString(R.string.CLINICALMEDICALLABORATORYSCIENCERESEARCHANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.COMMUNICATIONDISORDERSSCIENCESANDSERVICES), getString(R.string.additional_info)
-                , "", getString(R.string.COMMUNICATIONDISORDERSSCIENCESANDSERVICESHtml)));
+                , "https://i.im.ge/2022/10/02/1WRrx8.communication-disorders.jpg", getString(R.string.COMMUNICATIONDISORDERSSCIENCESANDSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.DENTALSUPPORTSERVICESANDALLIEDPROFESSIONS), getString(R.string.additional_info)
-                , "", getString(R.string.DENTALSUPPORTSERVICESANDALLIEDPROFESSIONSHtml)));
+                , "https://i.im.ge/2022/10/02/1WROqM.dental-support-services.jpg", getString(R.string.DENTALSUPPORTSERVICESANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.DIETETICSANDCLINICALNUTRITIONSERVICES), getString(R.string.additional_info)
-                , "", getString(R.string.DIETETICSANDCLINICALNUTRITIONSERVICESHtml)));
+                , "https://i.im.ge/2022/10/02/1WR2kD.dietetics-and-cliniical-nutritioin.jpg", getString(R.string.DIETETICSANDCLINICALNUTRITIONSERVICESHtml)));
         programsList.add(new FacultyData(getString(R.string.HEALTHANDMEDICALADMINISTRATIVESERVICES), getString(R.string.additional_info)
-                , "", getString(R.string.HEALTHANDMEDICALADMINISTRATIVESERVICESHtml)));
+                , "https://i.im.ge/2022/10/02/1WR7Qp.health-administration.jpg", getString(R.string.HEALTHANDMEDICALADMINISTRATIVESERVICESHtml)));
 
         return programsList;
     }
