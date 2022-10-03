@@ -228,11 +228,11 @@ Machinist</string>
     <string name="lbl_terms_conditions">Terms and Conditions</string>
     <string name="hint_email">Email Address</string>
     <string name="lbl_call_request">Request Call</string>
-    <string name="contact_phone">+260971234567</string>
+    <string name="contact_phone">+260975341298</string>
     <string name="lbl_response_within_24_business_hours">Response within 24 hours</string>
     <string name="title_contactus">Contact Us</string>
     <string name="lbl_email_to_woobox">Email to Career Guidance</string>
-    <string name="text_iqonicdesign_gmail_com">Rentech99@gmail.com</string>
+    <string name="text_iqonicdesign_gmail_com">rogickachanta@gmail.com</string>
     <string name="hint_description_here">Description Here</string>
     <string name="lbl_description">Email description</string>
     <string name="lbl_send_mail">Send Email</string>
@@ -418,7 +418,7 @@ Machinist</string>
     <string name="soil_scienceadditional_info">Click for more information on the social sciences program</string>
     <string name="fishing_additional_info">A program that focuses on the scientific study of the husbandry and production of non-domesticated fish and shellfish populations for recreational and commercial purposes and the management of fishing and marine/aquatic product processing to ensure adequate conservation and efficient utilization. It includes instruction in the principles of marine/aquatic biology, freshwater and saltwater ecosystems, water resources, fishing production operations and management, fishing policy and regulation, and the management of recreational and commercial fishing activities.</string>
     <string name="forestry_additional_info">A program that prepares individuals to apply principles of forestry and natural resources management to the administration of forest lands and related resources. "</string>
-    <string name="natural_resources_conservation_additional_info">Click for more information on the natural resources management and conversation programs </string>
+    <string name="natural_resources_conservation_additional_info">Click for more information on the natural resources conservation and research programs </string>
     <string name="nature_resources_managemen_additional_info">Click for more information on the natural resources management and policy programs</string>
     <string name="developed_by">Developed By Amos Banda and Ren Technology</string>
     <string name="built_environment_faculty_additional_info">Programs dealing with Agriculture, Natural Resources and Built Environments</string>

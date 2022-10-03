@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.career.guidance">
+    package="com.android.unischool">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name=".GuidanceApp"
+        android:name="com.android.unischool.GuidanceApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,43 +18,43 @@
         android:theme="@style/Theme.CareerGuidance"
         tools:targetApi="31">
         <activity
-            android:name=".activity.LoansAndUniversities.LoansAndUnivertiesActivity"
+            android:name="com.android.unischool.activity.LoansAndUniversities.LoansAndUnivertiesActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.build_environment.NaturalResources"
+            android:name="com.android.unischool.activity.build_environment.NaturalResources"
             android:exported="false" />
         <activity
-            android:name=".activity.build_environment.AgriculturePrograms"
+            android:name="com.android.unischool.activity.build_environment.AgriculturePrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.build_environment.SelectProgramActivity"
+            android:name="com.android.unischool.activity.build_environment.SelectProgramActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.BusinesHumanitiesEtc.EducationPrograms"
+            android:name="com.android.unischool.activity.BusinesHumanitiesEtc.EducationPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories"
+            android:name="com.android.unischool.activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories"
             android:exported="false" />
         <activity
-            android:name=".activity.BusinesHumanitiesEtc.HumanityPrograms"
+            android:name="com.android.unischool.activity.BusinesHumanitiesEtc.HumanityPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.BusinesHumanitiesEtc.BusinessPrograms"
+            android:name="com.android.unischool.activity.BusinesHumanitiesEtc.BusinessPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.build_environment.BuiltEnvironment"
+            android:name="com.android.unischool.activity.build_environment.BuiltEnvironment"
             android:exported="false" />
         <activity
-            android:name=".activity.STEM.EngineeringTechnologyAndTechniciansPrograms"
+            android:name="com.android.unischool.activity.STEM.EngineeringTechnologyAndTechniciansPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.STEM.scienceAndMathematicsPrograms"
+            android:name="com.android.unischool.activity.STEM.scienceAndMathematicsPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity"
+            android:name="com.android.unischool.activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.android.unischool.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -63,46 +63,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.EmailActivity"
+            android:name="com.android.unischool.activity.EmailActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.displayProgramInfoActivity"
+            android:name="com.android.unischool.activity.displayProgramInfoActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.STEM.ICTPrograms"
+            android:name="com.android.unischool.activity.STEM.ICTPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.STEM.EngineeringPrograms"
+            android:name="com.android.unischool.activity.STEM.EngineeringPrograms"
             android:exported="false" />
         <activity
-            android:name=".activity.STEM.SelectStemSubCategoryActivity"
+            android:name="com.android.unischool.activity.STEM.SelectStemSubCategoryActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MedicineHealthEtc.MedicineSubCategoriesActivity"
+            android:name="com.android.unischool.activity.MedicineHealthEtc.MedicineSubCategoriesActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.AboutUsActivity"
+            android:name="com.android.unischool.activity.AboutUsActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ContactUsActivity"
+            android:name="com.android.unischool.activity.ContactUsActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.FAQActivity"
+            android:name="com.android.unischool.activity.FAQActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.HelpActivity"
+            android:name="com.android.unischool.activity.HelpActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SettingsActivity"
+            android:name="com.android.unischool.activity.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".GuidanceApp"
+            android:name="com.android.unischool.GuidanceApp"
             android:exported="false" />
         <activity
-            android:name=".AppBaseActivity"
+            android:name="com.android.unischool.AppBaseActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.android.unischool.MainActivity"
             android:exported="true" />
     </application>
 

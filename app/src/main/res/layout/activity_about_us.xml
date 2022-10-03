@@ -41,6 +41,7 @@
                 android:textColor="@color/textColorPrimary"
                 android:textSize="@dimen/font_size_xxxlarge"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvAppOwner"
                 android:layout_width="wrap_content"
@@ -51,7 +52,7 @@
                 android:text="@string/app_owner"
                 android:textAppearance="@style/FontSemiBold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/font_size_normal"
+                android:textSize="@dimen/font_size_medium"
                 android:textStyle="bold" />
 
             <TextView
@@ -63,7 +64,7 @@
                 android:layout_marginTop="@dimen/spacing_standard_new"
                 android:textAppearance="@style/FontSemiBold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/font_size_normal"
+                android:textSize="@dimen/font_size_small"
                 android:textStyle="bold"
                 tools:text="© Ren Technology 2022 | All rights reserved" />
 
@@ -77,7 +78,7 @@
                 android:text="@string/lbl_terms_conditions"
                 android:textAppearance="@style/FontSemiBold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/font_size_normal"
+                android:textSize="@dimen/font_size_medium"
                 android:textStyle="bold" />
 
             <TextView
@@ -90,7 +91,7 @@
                 android:text="@string/llb_privacy_policy"
                 android:textAppearance="@style/FontSemiBold"
                 android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/font_size_normal"
+                android:textSize="@dimen/font_size_medium"
                 android:textStyle="bold" />
 
             <TextView
