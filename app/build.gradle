@@ -10,7 +10,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.career.guidance"
+        applicationId "com.android.unischool"
         minSdk 23
         targetSdk 32
         versionCode 1
