@@ -52,19 +52,22 @@ public class MedicineHealthAndVetProgramsActivity extends AppBaseActivity {
 
         programsList.add(new FacultyData(getString(R.string.MEDICINEANDSURGERY), getString(R.string.medicine_and_surgery_additional_info)
                 , "https://i.im.ge/2022/10/01/1g88Br.surgery.png", getString(R.string.MEDICINEANDSURGERYHtml)));
-
+        programsList.add(new FacultyData(getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONS), getString(R.string.veterinary_additional_info)
+                , "https://i.im.ge/2022/10/01/1gKFGa.vetetnary-medicine.jpg", getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONSHtml)));
         programsList.add(new FacultyData(getString(R.string.DENTALSURGERY), getString(R.string.dental_surgery_additional_info)
                 , "https://i.im.ge/2022/10/01/1gRQ1F.dental.jpg", getString(R.string.DENTALSURGERYHtml)));
-        programsList.add(new FacultyData(getString(R.string.CLINICALMEDICINE), getString(R.string.clinical_medicine_additional_info)
-                , "https://i.im.ge/2022/09/29/1xARi9.SeekPng-com-thermometer-png-246169.png", getString(R.string.CLINICALMEDICINEHtml)));
-        programsList.add(new FacultyData(getString(R.string.NURSING), getString(R.string.nursing_additional_info)
-                , "https://i.im.ge/2022/10/01/1gRlXX.nursing.jpg", getString(R.string.NURSINGHtml)));
         programsList.add(new FacultyData(getString(R.string.PHARMACY), getString(R.string.pharmacy_additional_info)
                 , "https://i.im.ge/2022/10/01/1gRswq.pharmacy.jpg", getString(R.string.PHARMACYHtml)));
+        programsList.add(new FacultyData(getString(R.string.CLINICALMEDICINE), getString(R.string.clinical_medicine_additional_info)
+                , "https://i.im.ge/2022/09/29/1xARi9.SeekPng-com-thermometer-png-246169.png", getString(R.string.CLINICALMEDICINEHtml)));
         programsList.add(new FacultyData(getString(R.string.PUBLICHEALTH), getString(R.string.public_health_additional_info)
                 , "https://i.im.ge/2022/10/01/1gRLbf.public-heath.png", getString(R.string.PUBLICHEALTHHtml)));
         programsList.add(new FacultyData(getString(R.string.ENVIRONMENTALHEALTH), getString(R.string.environmental_health_additional_info)
                 , "https://i.im.ge/2022/10/01/1gRwKL.environmental-health.jpg", getString(R.string.ENVIRONMENTALHEALTHHtml)));
+        programsList.add(new FacultyData(getString(R.string.NURSING), getString(R.string.nursing_additional_info)
+                , "https://i.im.ge/2022/10/01/1gRlXX.nursing.jpg", getString(R.string.NURSINGHtml)));
+
+
         programsList.add(new FacultyData(getString(R.string.PHYSIOTHERAPY), getString(R.string.physiotherapy_additional_info)
                 , "https://i.im.ge/2022/10/01/1gRC7y.physiotherapy.jpg", getString(R.string.PHYSIOTHERAPYHtml)));
         programsList.add(new FacultyData(getString(R.string.OCCUPATIONALTHERAPY), getString(R.string.occupational_therapy_additional_info)
@@ -73,8 +76,7 @@ public class MedicineHealthAndVetProgramsActivity extends AppBaseActivity {
                 , "https://i.im.ge/2022/10/01/1gRY26.biomedical-science.jpg", getString(R.string.BIOMEDICALSCIENCEHtml)));
         programsList.add(new FacultyData(getString(R.string.HEALTHINFORMATICS), getString(R.string.health_informatics_additional_info)
                 , "https://i.im.ge/2022/10/01/1gRWc8.heakth-informatics.jpg", getString(R.string.HEALTHINFORMATICSHtml)));
-        programsList.add(new FacultyData(getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONS), getString(R.string.veterinary_additional_info)
-                , "https://i.im.ge/2022/10/01/1gKFGa.vetetnary-medicine.jpg", getString(R.string.VETERINARYMEDICINEANDALLIEDPROFESSIONSHtml)));
+
         programsList.add(new FacultyData(getString(R.string.BIOLOGYANDBIOLOGICALSCIENCES), getString(R.string.biological_sciences_additional_info)
                 , "https://i.im.ge/2022/10/02/1WbYMa.biological-science-s.jpg", getString(R.string.BIOLOGYANDBIOLOGICALSCIENCESHtml)));
         programsList.add(new FacultyData(getString(R.string.GENETICS), getString(R.string.geneticsstem_additional_info)

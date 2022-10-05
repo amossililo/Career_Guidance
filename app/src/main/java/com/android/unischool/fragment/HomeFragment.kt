@@ -10,17 +10,21 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.android.unischool.R
+import com.android.unischool.databinding.LayoutBinding
+
 import com.android.unischool.activity.build_environment.SelectProgramActivity
 import com.android.unischool.activity.BusinesHumanitiesEtc.BusinessAndHumanitiesSubCategories
 import com.android.unischool.activity.LoansAndUniversities.LoansAndUnivertiesActivity
 import com.android.unischool.activity.MedicineHealthEtc.MedicineHealthAndVetProgramsActivity
 import com.android.unischool.activity.STEM.SelectStemSubCategoryActivity
 import com.android.unischool.base.BaseRecyclerAdapter
-import com.android.unischool.databinding.LayoutBinding
+
 import com.android.unischool.model.FacultyData
 import com.android.unischool.utils.extensions.launchActivity
 import com.android.unischool.utils.extensions.loadImageFromUri
 import com.android.unischool.utils.extensions.rvItemAnimation
+
+
 class HomeFragment : Fragment() {
 
     private var facultyRecyclerView : RecyclerView? = null;
