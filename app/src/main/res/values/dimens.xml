@@ -40,7 +40,7 @@
     <dimen name="review_img_height_width">@dimen/_70sdp</dimen>
     <dimen name="product_grid_img_height">@dimen/_140sdp</dimen>
     <dimen name="payment_card_width">@dimen/_270sdp</dimen>
-    <dimen name="splash_img">@dimen/_70sdp</dimen>
+    <dimen name="splash_img">@dimen/_74sdp</dimen>
 
     <dimen name="stroke_width">@dimen/_1sdp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
