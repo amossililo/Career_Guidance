@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "598138647749",
+    "project_id": "unishool",
+    "storage_bucket": "unishool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598138647749:android:bc90ca130da4d44bd52cac",
+        "android_client_info": {
+          "package_name": "com.android.unischool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598138647749-u9k8tv966e3b810hhlt7h829o5nag4r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN89sdQqjDQOG-G3Un7TdJhbC8ibWem4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598138647749-u9k8tv966e3b810hhlt7h829o5nag4r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
