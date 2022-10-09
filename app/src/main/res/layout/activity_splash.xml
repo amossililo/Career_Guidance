@@ -7,6 +7,22 @@
     android:background="@color/white"
     tools:ignore="MissingPrefix">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="2dp"
+        android:text="@string/app_owner"
+        android:textAppearance="@style/FontBold"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -31,12 +47,14 @@
         android:paddingEnd="@dimen/spacing_standard_new"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324">
 
         <ImageView
-            android:layout_width="@dimen/splash_img"
-            android:layout_height="@dimen/splash_img"
+            android:layout_width="117dp"
+            android:layout_height="123dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/text_todo"
             android:scaleType="centerCrop"
@@ -54,27 +72,30 @@
             android:textStyle="bold" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/spacing_standard"
-            android:text="@string/app_owner"
+            android:gravity="center_horizontal"
+            android:text="@string/slogan"
             android:textAppearance="@style/FontBold"
             android:textColor="@color/textColorPrimary"
-            android:textSize="@dimen/_13sdp"
+            android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
 
 
     </LinearLayout>
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/developed_by"
+        android:textColor="@color/textColorPrimary"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
-        android:textColor="@color/textColorPrimary"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.969" />
