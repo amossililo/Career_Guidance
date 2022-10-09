@@ -58,7 +58,7 @@ open class AppBaseActivity : AppCompatActivity() {
         themeApp = GuidanceApp.appTheme
         language = Locale(GuidanceApp.language)
         // Inflate the layout for this fragment
-        getSharedPrefInstance().setValue(WHATSAPP, "0975341298")
+        getSharedPrefInstance().setValue(WHATSAPP, "+260975341298")
         getSharedPrefInstance().setValue(CONTACT, "0975341298")
         getSharedPrefInstance().setValue(PRIVACY_POLICY, "")
         getSharedPrefInstance().setValue(INSTAGRAM, "instagram.com")

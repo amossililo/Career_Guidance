@@ -59,9 +59,9 @@ class AboutUsActivity : AppBaseActivity() {
         llBottom.show()
 
         iv_whatsapp.onClick { openCustomTab("https://wa.me/${whatsUp}") }
-        iv_instagram.onClick { openCustomTab(instagram) }
-        iv_twitter_sign.onClick { openCustomTab(twitter) }
-        iv_facebook.onClick { openCustomTab(facebook) }
+        iv_instagram.onClick { openCustomTab("https://"+instagram) }
+        iv_twitter_sign.onClick { openCustomTab("https://"+twitter) }
+        iv_facebook.onClick { openCustomTab("https://"+facebook) }
         iv_contact.onClick { dialNumber(contact) }
         tvPrivacyPolicy.onClick { openCustomTab(privacy) }
         tvTOC.onClick { openCustomTab(toc) }
