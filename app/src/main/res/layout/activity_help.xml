@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context="com.android.unischool.activity.HelpActivity">
+    tools:context="com.amotech.unischool.activity.HelpActivity">
     <include layout="@layout/toolbar" />
 
     <EditText

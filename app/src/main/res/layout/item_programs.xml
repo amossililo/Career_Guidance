@@ -3,10 +3,10 @@
     <data>
         <variable
             name="model"
-            type="com.android.unischool.model.FacultyData" />
+            type="com.amotech.unischool.model.FacultyData" />
         <variable
             name="callback"
-            type="com.android.unischool.base.BaseRecyclerAdapter.OnClickListener" />
+            type="com.amotech.unischool.base.BaseRecyclerAdapter.OnClickListener" />
     </data>
 
     <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"

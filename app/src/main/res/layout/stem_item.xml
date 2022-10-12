@@ -6,11 +6,11 @@
 
         <variable
             name="model"
-            type="com.android.unischool.model.StemData" />
+            type="com.amotech.unischool.model.StemData" />
 
         <variable
             name="callback"
-            type="com.android.unischool.base.BaseRecyclerAdapter.OnClickListener" />
+            type="com.amotech.unischool.base.BaseRecyclerAdapter.OnClickListener" />
     </data>
 
     <LinearLayout
