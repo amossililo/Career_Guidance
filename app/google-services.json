@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "598138647749",
-    "project_id": "unishool",
-    "storage_bucket": "unishool.appspot.com"
+    "project_number": "702328176727",
+    "project_id": "unischool-ec407",
+    "storage_bucket": "unischool-ec407.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:598138647749:android:bc90ca130da4d44bd52cac",
+        "mobilesdk_app_id": "1:702328176727:android:48050a573b5e6ed334a312",
         "android_client_info": {
-          "package_name": "com.android.unischool"
+          "package_name": "com.amotech.unischool"
         }
       },
       "oauth_client": [
         {
-          "client_id": "598138647749-u9k8tv966e3b810hhlt7h829o5nag4r3.apps.googleusercontent.com",
+          "client_id": "702328176727-0gin96fb4ss7o43lv6e6d0vcithra1rd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAN89sdQqjDQOG-G3Un7TdJhbC8ibWem4A"
+          "current_key": "AIzaSyCHr6ipSovBATsHXN1IsUxrDa8rx2HD8W8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "598138647749-u9k8tv966e3b810hhlt7h829o5nag4r3.apps.googleusercontent.com",
+              "client_id": "702328176727-0gin96fb4ss7o43lv6e6d0vcithra1rd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
