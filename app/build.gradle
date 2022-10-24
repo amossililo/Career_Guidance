@@ -18,8 +18,8 @@ android {
         applicationId "com.amotech.unischool"
         minSdk 23
         targetSdk 32
-        versionCode 3
-        versionName "1.03"
+        versionCode 5
+        versionName "1.05"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -54,7 +54,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-perf:19.0.5'
 
     // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:31.0.0')
+    implementation platform('com.google.firebase:firebase-bom:31.0.1')
     // Add the dependencies for the Crashlytics and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-crashlytics'
