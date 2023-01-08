@@ -68,6 +68,16 @@ and testing services.</string>
 
     <string name="computerScienceHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/computerScienceHtml.html</string>
     <string name="computerEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/computerEngHtml.html</string>
+    <string name="ActurialScienceHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ActurialScience.html</string>
+    <string name="ComputerInformationManagementSystemHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ComputerInformationManagementSystem.html</string>
+    <string name="computerSystemsAnalysisHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/computerSystemsAnalysis.html</string>
+    <string name="ComputerSystemsNetworkingAndTelecommunicationsHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/ComputerSystemsNetworkingAndTelecommunications.html</string>
+    <string name="CyberSecurityHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/CyberSecurity.html</string>
+    <string name="informaticsHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/informatics.html</string>
+    <string name="InformationScienceHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/InformationScience.html</string>
+    <string name="InformationTechnologyHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/InformationTechnology.html</string>
+    <string name="RoboticsHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/Robotics.html</string>
+
 
     <string name="PAndAPhysicsHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PAndAPhysics.html</string>
     <string name="PAndAChemistyHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/PAndAChemisty.html</string>
@@ -153,14 +163,27 @@ ENGINEERING TECHNICIANS</string>
     <string name="ComputerEngineering">Computer Engineering</string>
     <string name="ComputerHardwareEngineering">Computer Hardware Engineering</string>
     <string name="ComputerSoftwareEngineering">Computer Software Engineering</string>
-    <string name="InformationTechnology">Information Technology</string>
-    <string name="Informatics">Informatics</string>
+
+
     <string name="ComputerSystemsAnalysisAnalyst">Computer Systems Analysis/Analyst</string>
-    <string name="ComputerSystemsNetworkingandTelecommunications">Computer Systems Networking and
-Telecommunications</string>
+
     <string name="ComputerandInformationSystemsSecurityInformationAssurance">Computer and Information Systems
 Security/Information Assurance</string>
     <string name="InformationScienceStudies">Information Science/Studies</string>
+
+    <string name="ActurialScience">Acturial Science</string>
+    <string name="ComputerInformationManagementSystem">Computer Information Management System</string>
+    <string name="computerSystemsAnalysis">computer Systems Analysis</string>
+    <string name="ComputerSystemsNetworkingAndTelecommunications">Computer Systems Networking And Telecommunications</string>
+    <string name="CyberSecurity">CyberSecurity</string>
+    <string name="Informatics">Informatics</string>
+    <string name="InformationScience">Information Science</string>
+    <string name="InformationTechnology">Information Technology</string>
+    <string name="Robotics">Robotics</string>
+
+
+
+
 
     <string name="PureAndAppliedPhysics">Pure And Applied Physics</string>
     <string name="PureAndAppliedChemistry">Pure And Applied Chemistry</string>
@@ -398,12 +421,15 @@ Machinist</string>
     <string name="CDFBOARDINGSECONDARYSCHOOLBUSARIES">CDF BOARDING SECONDARY SCHOOL BUSARIES</string>
     <string name="CDFSkillsDevelopmentBursaries">CDF Skills Development Bursaries</string>
     <string name="Universities">Universities</string>
+    <string name="TevetaInstitutions">TEVETA Institutions</string>
 
     <string name="STUDENTLOANSFORLOCALUNIVERSITIESHtml">LoansAndUniversities/STUDENTLOANSFORLOCALUNIVERSITIES.html</string>
     <string name="ABROADSCHOLARSHIPSHtml">LoansAndUniversities/ABROADSCHOLARSHIPS.html</string>
     <string name="CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml">LoansAndUniversities/CDFBOARDINGSECONDARYSCHOOLBUSARIES.html</string>
     <string name="CDFSkillsDevelopmentBursariesHtml">LoansAndUniversities/CDFSkillsDevelopmentBursaries.html</string>
     <string name="UniversitiesHtml">LoansAndUniversities/Universities.html</string>
+    <string name="TevetaInstitutionsHtml">LoansAndUniversities/TevetaInstitutions.html</string>
+
     <string name="app_owner">By Rogic Kachanta</string>
     <string name="architecture_additional_info">Architecture is the discipline that is concerned with the planning, designing and the overseeing of the construction of the built environment "</string>
     <string name="regional_planning_additional_info">"Regional and urban planning is a discipline that ensures that the development of the built environment is economic, promotes social development, is aesthetically appealing and that it meets the needs of the community. "</string>
