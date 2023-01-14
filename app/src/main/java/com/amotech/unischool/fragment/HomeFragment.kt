@@ -90,6 +90,15 @@ class HomeFragment : Fragment() {
                 getString(R.string.LoansAndUniversities)
             )
         )
+        facultyList.add(
+            FacultyData(
+                getString(R.string.TevetaInstitutions),
+                getString(R.string.additional_info),
+                "https://i.im.ge/2023/01/08/sQC3iy.teveta.jpg",
+                getString(R.string.Teveta_Sub)
+            )
+        )
+
         return  facultyList
     }
 
@@ -128,6 +137,12 @@ class HomeFragment : Fragment() {
                     getString(R.string.LoansAndUniversities) -> {
                         activity?.launchActivity<LoansAndUnivertiesActivity>()
                     }
+
+                    getString(R.string.Teveta_Sub) -> {
+                        activity?.launchActivity<LoansAndUnivertiesActivity>()
+                    }
+
+
                 }
             }
 

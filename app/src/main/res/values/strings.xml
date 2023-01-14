@@ -37,6 +37,8 @@
     <string name="business_sub">Business Sub</string>
     <string name="agriculture_sub">Agriculture Sub</string>
     <string name="stem_sub">Stem Sub</string>
+    <string name="Teveta_Sub">TEVETA Sub</string>
+
 
     <string name="STEM_faculty">Science, Technology, Engineering and Mathematics</string>
     <string name="STEM_faculty_info">Professionals usually
@@ -47,6 +49,7 @@ and testing services.</string>
     <string name="errorHtml">error.html</string>
     <string name="greyBoxPlaceHolderOnGoogleDrive">https://lh3.googleusercontent.com/74v87lo-Dv2VqB64NRFHJvrfK6r1AL87s-lg0lY1-SivLBv9ZTvdyTnBCidgBR4pkEU=w2400</string>
     <string name="loading_icon_on_google_drive">https://lh6.googleusercontent.com/WHMn7EcFw9BBcDHZw5BEIHnEZk9levHFtFr_exd7W1_DLlkR6HR5hlNuh8kv_dZINNI=w2400</string>
+
 
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
     <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/mechanicalEng.html</string>
@@ -180,9 +183,6 @@ Security/Information Assurance</string>
     <string name="InformationScience">Information Science</string>
     <string name="InformationTechnology">Information Technology</string>
     <string name="Robotics">Robotics</string>
-
-
-
 
 
     <string name="PureAndAppliedPhysics">Pure And Applied Physics</string>
@@ -540,5 +540,65 @@ Machinist</string>
     <string name="veterinary_additional_info">The Bachelor’s degree in Veterinary Medicine is the main programme offered by the school of Veterinary Medicine at The University of Zambia. "</string>
     <string name="allied_health_additional_info">Click for more information</string>
     <string name="built_plant_science_additional_info">Click for more information on plant sciences</string>
+
+
+    <string name="ApplicationProcessGuidelinesAndProcedure">APPLICATION PROCESS GUIDELINES AND PROCEDURE</string>
+    <string name="LusakaProvince">Lusaka Province</string>
+    <string name="CentralProvince">Central Province</string>
+    <string name="CopperbeltProvince">Copperbelt Province</string>
+    <string name="LuapulaProvince">Luapula Province</string>
+    <string name="NorthernProvince">Northern Province</string>
+    <string name="NorthwesternProvince">Northwestern Province</string>
+    <string name="SouthernProvince">Southern Province</string>
+    <string name="WesternProvince">Western Province</string>
+    <string name="EasternProvince">Eastern Province</string>
+    <string name="MuchingaProvince">Muchinga Province</string>
+    <string name="additionalInfoProvince">click for more info on province</string>
+
+    <string name="EvelynHone">Evelyn Hone College of Applied Art and Commerce</string>
+    <string name="LusakaBusinessandTechnicalCollege">Lusaka Business and Technical College</string>
+    <string name="ZambiaInstituteOfManagement">Zambia Institute Of Management</string>
+    <string name="IndustrialTrainingCentre">Industrial Training Centre</string>
+    <string name="LusakaVocationalTrainingCentre">Lusaka Vocational Training Centre</string>
+    <string name="ThornparkConstructionTrainingCenter">Thornpark Construction Training Center</string>
+
+    <string name="KabweInstituteofTechnology">Kabwe Institute of Technology</string>
+    <string name="NkumbiInternationalCollege">Nkumbi International College</string>
+
+    <string name="NationalVocationalRehabilitationCentre">National Vocational Rehabilitation Centre</string>
+    <string name="GemstoneProcessingAndLapidaryTrainingCentre">Gemstone Processing And Lapidary Training Centre</string>
+    <string name="ZambiaInstituteForBusinessStudiesAndIndustrialPractice">Zambia Institute For Business Studies And Industrial Practice</string>
+    <string name="TechnicalAndVocationalTeachersCollege">Technical And Vocational Teachers College</string>
+    <string name="NorthernTechnicalCollege">Northern Technical College</string>
+    <string name="KitweVocationalTrainingCentre">Kitwe Vocational Training Centre</string>
+
+    <string name="MansaTradesTrainingInstitute">Mansa Trades Training Institute</string>
+    <string name="MwenseTradesTrainingInstitute">Mwense Trades Training Institute</string>
+    <string name="LukashyaTradesTrainingInstitute">Lukashya Trades Training Institute</string>
+
+    <string name="MwinilungaTradesTrainingInstitute">Mwinilunga Trades Training Institute</string>
+    <string name="SolweziTradesTrainingInstitute">Solwezi Trades Training Institute</string>
+
+    <string name="KasiyaSecretarialAndBusinessCollege">Kasiya Secretarial And Business College</string>
+    <string name="St.MawaggaliTradesTrainingInstitute">St.Mawaggali Trades Training Institute</string>
+    <string name="LivingstoneInstituteofBusinessandEngineeringStudies">Livingstone Institute of Business and Engineering Studies</string>
+
+    <string name="MonguTradesTrainingInstitute">Mongu Trades Training Institute</string>
+    <string name="KaomaTradesTrainingInstitute">Kaoma Trades Training Institute</string>
+    <string name="KalaboTradesTrainingInstitute">Kalabo Trades Training Institute</string>
+    <string name="LuanshyaTechnicalAndBusinessCollege">Luanshya Technical And Business College</string>
+    <string name="ChipataTradesTrainingInstitute">Chipata Trades Training Institute</string>
+    <string name="UkwimiTradesTrainingInstitution">Ukwimi Trades Training Institution</string>
+
+    <string name="IsokaTradesTrainingInstitue">Isoka Trades Training Institue</string>
+
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+
+
+
+
 
 </resources>

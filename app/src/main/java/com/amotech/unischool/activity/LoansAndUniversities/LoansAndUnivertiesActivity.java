@@ -14,6 +14,9 @@ import android.view.View;
 import com.amotech.unischool.AppBaseActivity;
 import com.amotech.unischool.R;
 
+import com.amotech.unischool.activity.STEM.EngineeringPrograms;
+import com.amotech.unischool.activity.STEM.SelectStemSubCategoryActivity;
+import com.amotech.unischool.activity.TevetaInstituions.TevetaSubCategories;
 import com.amotech.unischool.activity.displayProgramInfoActivity;
 import com.amotech.unischool.base.BaseRecyclerAdapter;
 import com.amotech.unischool.databinding.ItemProgramsBinding;
@@ -62,8 +65,7 @@ public class LoansAndUnivertiesActivity extends AppBaseActivity {
         programsList.add(new FacultyData(getString(R.string.Universities), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/29/1x38PM.SeekPng-com-graduation-hat-png-46121.png", getString(R.string.UniversitiesHtml)));
         programsList.add(new FacultyData(getString(R.string.TevetaInstitutions), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1x38PM.SeekPng-com-graduation-hat-png-46121.png", getString(R.string.TevetaInstitutionsHtml)));
-
+                , "https://i.im.ge/2023/01/08/sQC3iy.teveta.jpg", getString(R.string.TevetaInstitutionsHtml)));
 
         return programsList;
     }
@@ -101,6 +103,11 @@ public class LoansAndUnivertiesActivity extends AppBaseActivity {
 
     public void opendisplayProgramInfoActivity(FacultyData model) {
 
+        if (model.getFacultyName().equals(getString(R.string.TevetaInstitutions))){
+            Intent intent=new Intent(LoansAndUnivertiesActivity.this, TevetaSubCategories.class);
+            context.startActivity(intent);
+            return;
+        }
 
         SharedPreferences sharedPreferences = context.getSharedPreferences("MySharedPref", MODE_PRIVATE);
 // Creating an Editor object to edit(write to the file)
