@@ -34,7 +34,7 @@ public class CopperbeltProvinceInstituitonsActivity extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("ICT Programs");;
+        toolbar.setTitle("Institutions");;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -42,7 +42,7 @@ public class CopperbeltProvinceInstituitonsActivity extends AppBaseActivity {
         recyclerView.setAdapter(adapter);
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(ProgramsList());
-        context= ICTPrograms.this;
+        context= CopperbeltProvinceInstituitonsActivity.this;
 
 
     }
@@ -118,7 +118,7 @@ public class CopperbeltProvinceInstituitonsActivity extends AppBaseActivity {
         myEdit.putString("selectedProgram", model.getFacultyName());
         myEdit.putString("nameOfHtmlFile", model.getPage());
         myEdit.commit();
-        Intent intent = new Intent(ICTPrograms.this, displayProgramInfoActivity.class);
+        Intent intent = new Intent(CopperbeltProvinceInstituitonsActivity.this, displayProgramInfoActivity.class);
         context.startActivity(intent);
     }
 

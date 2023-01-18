@@ -14,7 +14,7 @@ import android.view.View;
 
 import com.amotech.unischool.AppBaseActivity;
 import com.amotech.unischool.R;
-import com.amotech.unischool.activity.STEM.ICTPrograms;
+import com.amotech.unischool.activity.TevetaInstituions.LusakaProvinceInstituitonsActivity;
 import com.amotech.unischool.activity.displayProgramInfoActivity;
 import com.amotech.unischool.base.BaseRecyclerAdapter;
 import com.amotech.unischool.databinding.LayoutBinding;
@@ -34,7 +34,7 @@ public class LusakaProvinceInstituitonsActivity extends AppBaseActivity {
 
         setContentView(R.layout.activity_select_stem_sub_category);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("ICT Programs");;
+        toolbar.setTitle("Institutions");;
         setToolbar(toolbar);
         RecyclerView recyclerView = findViewById(R.id.facultyRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -42,7 +42,7 @@ public class LusakaProvinceInstituitonsActivity extends AppBaseActivity {
         recyclerView.setAdapter(adapter);
         AppExtensionsKt.rvItemAnimation(recyclerView);
         adapter.addItems(ProgramsList());
-        context= ICTPrograms.this;
+        context= LusakaProvinceInstituitonsActivity.this;
 
 
     }
@@ -118,7 +118,7 @@ public class LusakaProvinceInstituitonsActivity extends AppBaseActivity {
         myEdit.putString("selectedProgram", model.getFacultyName());
         myEdit.putString("nameOfHtmlFile", model.getPage());
         myEdit.commit();
-        Intent intent = new Intent(ICTPrograms.this, displayProgramInfoActivity.class);
+        Intent intent = new Intent(LusakaProvinceInstituitonsActivity.this, displayProgramInfoActivity.class);
         context.startActivity(intent);
     }
 

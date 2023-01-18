@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.amotech.unischool.AppBaseActivity;
 import com.amotech.unischool.R;
@@ -102,20 +103,34 @@ public class TevetaSubCategories extends AppBaseActivity {
                    // Intent intent=new Intent(TevetaSubCategories.this, EngineeringPrograms.class);
                  //   context.startActivity(intent);
                 }
-                else if(selectedBtnPage.equals(getString(R.string.LusakaProvince))){mgjnfnvnmjmnr
+                else if(selectedBtnPage.equals(getString(R.string.LusakaProvince))){
                     Intent intent=new Intent(TevetaSubCategories.this, ICTPrograms.class);
                     context.startActivity(intent);
 
-                }else if(selectedBtnPage.equals(getString(R.string.stem_science_and_math_programs))){
+                }else if(selectedBtnPage.equals(getString(R.string.CentralProvince))){
                     Intent intent=new Intent(TevetaSubCategories.this, scienceAndMathematicsPrograms.class);
                     context.startActivity(intent);
 
-                }else if(selectedBtnPage.equals(getString(R.string.stem_engineering_technology_programs))){
+                }else if(selectedBtnPage.equals(getString(R.string.CopperbeltProvince))){
 
                     Intent intent=new Intent(TevetaSubCategories.this, EngineeringTechnologyAndTechniciansPrograms.class);
                     context.startActivity(intent);
-                }else if(selectedBtnPage.equals(getString(R.string.stem_university_that_offer))){
+                }else if(selectedBtnPage.equals(getString(R.string.LuapulaProvince))){
 
+                }else if(selectedBtnPage.equals(getString(R.string.NorthernProvince))){
+
+                }else if(selectedBtnPage.equals(getString(R.string.NorthwesternProvince))){
+
+                }else if(selectedBtnPage.equals(getString(R.string.SouthernProvince))){
+
+                }else if(selectedBtnPage.equals(getString(R.string.WesternProvince))){
+
+                }else if(selectedBtnPage.equals(getString(R.string.EasternProvince))){
+
+                }else if(selectedBtnPage.equals(getString(R.string.MuchingaProvince))){
+
+                }else if(!selectedBtnPage.equals(getString(R.string.LuapulaProvince))){
+                    Toast.makeText(context,"invalid selection", Toast.LENGTH_SHORT).show();
                 }
             }
 

@@ -18,40 +18,40 @@
         android:theme="@style/Theme.CareerGuidance"
         tools:targetApi="31">
         <activity
-            android:name=".MuchingaProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.MuchingaProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".EasternProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.EasternProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".WesternProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.WesternProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".SouthernProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.SouthernProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".NorthwesternProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.NorthwesternProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".NorthernProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.NorthernProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".LuapulaProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.LuapulaProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".CopperbeltProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.CopperbeltProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".CentralProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.CentralProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".LusakaProvinceInstituitonsActivity"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.LusakaProvinceInstituitonsActivity"
             android:exported="false" />
         <activity
-            android:name=".TevetaSubCategories"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.TevetaSubCategories"
             android:exported="false" />
         <activity
-            android:name=".TevetaInstitutions"
+            android:name="com.amotech.unischool.activity.TevetaInstituions.TevetaInstitutions"
             android:exported="false" />
         <activity
             android:name="com.amotech.unischool.activity.LoansAndUniversities.LoansAndUnivertiesActivity"
@@ -132,8 +132,7 @@
             android:name="com.amotech.unischool.activity.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.amotech.unischool.GuidanceApp"
-            android:exported="false" />
+            android:name="com.amotech.unischool.GuidanceApp"            android:exported="false" />
         <activity
             android:name="com.amotech.unischool.AppBaseActivity"
             android:exported="false" />
