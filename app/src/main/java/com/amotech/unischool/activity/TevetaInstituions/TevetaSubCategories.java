@@ -104,7 +104,7 @@ public class TevetaSubCategories extends AppBaseActivity {
                  //   context.startActivity(intent);
                 }
                 else if(selectedBtnPage.equals(getString(R.string.LusakaProvince))){
-                    Intent intent=new Intent(TevetaSubCategories.this, ICTPrograms.class);
+                    Intent intent=new Intent(TevetaSubCategories.this, LusakaProvinceInstituitonsActivity.class);
                     context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.CentralProvince))){

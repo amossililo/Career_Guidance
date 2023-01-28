@@ -52,6 +52,16 @@ public class LusakaProvinceInstituitonsActivity extends AppBaseActivity {
 
         programsList.add(new FacultyData(getString(R.string.EvelynHone), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.EvelynHoneCollegeofAppliedArtandCommerceHtml)));
+        programsList.add(new FacultyData(getString(R.string.LusakaBusinessandTechnicalCollege), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.LusakaBusinessandTechnicalCollegeHtml)));
+        programsList.add(new FacultyData(getString(R.string.ZambiaInstituteOfManagement), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.ZambiaInstituteOfManagementHtml)));
+        programsList.add(new FacultyData(getString(R.string.IndustrialTrainingCentre), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.IndustrialTrainingCentreHtml)));
+        programsList.add(new FacultyData(getString(R.string.LusakaVocationalTrainingCentre), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.LusakaVocationalTrainingCentreHtml)));
+        programsList.add(new FacultyData(getString(R.string.ThornparkConstructionTrainingCenter), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.ThornparkConstructionTrainingCenterHtml)));
 
         return programsList;
     }

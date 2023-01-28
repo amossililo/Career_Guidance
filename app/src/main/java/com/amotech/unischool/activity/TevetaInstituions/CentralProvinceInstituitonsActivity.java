@@ -50,30 +50,12 @@ public class CentralProvinceInstituitonsActivity extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
-        programsList.add(new FacultyData(getString(R.string.ComputerScience), getString(R.string.cs_additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.computerScienceHtml)));
+        programsList.add(new FacultyData(getString(R.string.KabweInstituteofTechnology), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.KabweInstituteofTechnologyHtml)));
+        programsList.add(new FacultyData(getString(R.string.NkumbiInternationalCollege), getString(R.string.additional_info)
+                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.NkumbiInternationalCollegeHtml)));
 
-        programsList.add(new FacultyData(getString(R.string.ComputerEngineering), getString(R.string.computer_eng_additional_info)
-                , "https://i.im.ge/2022/09/30/1brqfL.computer-eng.jpg",  getString(R.string.computerEngHtml)));
 
-        programsList.add(new FacultyData(getString(R.string.CyberSecurity), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ9sPS.CYBER-SEC-1.png",  getString(R.string.CyberSecurityHtml)));
-        programsList.add(new FacultyData(getString(R.string.computerSystemsAnalysis), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQik4M.systems-analyst-1.jpg",  getString(R.string.computerSystemsAnalysisHtml)));
-        programsList.add(new FacultyData(getString(R.string.Informatics), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQi4jq.informatics-1.jpg",  getString(R.string.informaticsHtml)));
-        programsList.add(new FacultyData(getString(R.string.ComputerSystemsNetworkingAndTelecommunications), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ0T4m.computer-networking-1.jpg",  getString(R.string.ComputerSystemsNetworkingAndTelecommunicationsHtml)));
-        programsList.add(new FacultyData(getString(R.string.ComputerInformationManagementSystem), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ0STG.computer-information-managemnt-systems-1.jpg",  getString(R.string.ComputerInformationManagementSystemHtml)));
-        programsList.add(new FacultyData(getString(R.string.InformationTechnology), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ0DyS.information-technology-1.jpg",  getString(R.string.InformationTechnologyHtml)));
-        programsList.add(new FacultyData(getString(R.string.Robotics), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ0iWK.robotics-1.jpg",  getString(R.string.RoboticsHtml)));
-        programsList.add(new FacultyData(getString(R.string.InformationScience), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ0xop.information-science-1.png",  getString(R.string.InformationScienceHtml)));
-        programsList.add(new FacultyData(getString(R.string.ActurialScience), getString(R.string.additional_info)
-                , "https://i.im.ge/2023/01/08/sQ0gam.ActuarialScience-1.jpg",  getString(R.string.ActurialScienceHtml)));
         return programsList;
     }
 

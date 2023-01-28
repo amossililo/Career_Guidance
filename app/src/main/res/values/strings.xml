@@ -594,12 +594,43 @@ Machinist</string>
 
     <string name="EvelynHoneCollegeofAppliedArtandCommerceHtml">LoansAndUniversities/LusakaProvince/EvelynHoneCollegeofAppliedArtandCommerce.html</string>
     <string name="IndustrialTrainingCentreHtml">LoansAndUniversities/LusakaProvince/IndustrialTrainingCentre.html</string>
+    <string name="LusakaBusinessandTechnicalCollegeHtml">LoansAndUniversities/LusakaProvince/LusakaBusinessandTechnicalCollege.html</string>
+    <string name="LusakaVocationalTrainingCentreHtml">LoansAndUniversities/LusakaProvince/LusakaVocationalTrainingCentre.html</string>
+    <string name="ThornparkConstructionTrainingCenterHtml">LoansAndUniversities/LusakaProvince/ThornparkConstructionTrainingCenter.html</string>
+    <string name="ZambiaInstituteOfManagementHtml">LoansAndUniversities/LusakaProvince/ZambiaInstituteOfManagement.html</string>
 
 
+    <string name="KabweInstituteofTechnologyHtml">LoansAndUniversities/CentralProvince/KabweInstituteofTechnology.html</string>
+    <string name="NkumbiInternationalCollegeHtml">LoansAndUniversities/CentralProvince/NkumbiInternationalCollege.html</string>
+
+    <string name="GemstoneProcessingAndLapidaryTrainingCentreHtml">LoansAndUniversities/CopperbeltProvince/GemstoneProcessingAndLapidaryTrainingCentre.html</string>
+    <string name="KitweVocationalTrainingCentreHtml">LoansAndUniversities/CopperbeltProvince/KitweVocationalTrainingCentre.html</string>
+    <string name="NationalVocationalRehabilitationCentreHtml">LoansAndUniversities/CopperbeltProvince/NationalVocationalRehabilitationCentre.html</string>
+    <string name="NorthernTechnicalCollegeHtml">LoansAndUniversities/CopperbeltProvince/NorthernTechnicalCollege.html</string>
+    <string name="TechnicalAndVocationalTeachersCollegeHtml">LoansAndUniversities/CopperbeltProvince/TechnicalAndVocationalTeachersCollege.html</string>
+    <string name="ZambiaInstituteForBusinessStudiesAndIndustrialPracticeHtml">LoansAndUniversities/CopperbeltProvince/ZambiaInstituteForBusinessStudiesAndIndustrialPractice.html</string>
 
 
+    <string name="ChipataTradesTrainingInstituteHtml">LoansAndUniversities/EasternProvince/ChipataTradesTrainingInstitute.html</string>
+    <string name="LuanshyaTechnicalAndBusinessCollegeHtml">LoansAndUniversities/EasternProvince/LuanshyaTechnicalAndBusinessCollege.html</string>
+    <string name="UkwimiTradesTrainingInstitutionHtml">LoansAndUniversities/EasternProvince/UkwimiTradesTrainingInstitution.html</string>
 
+    <string name="MansaTradesTrainingInstituteHtml">LoansAndUniversities/LuapulaProvince/MansaTradesTrainingInstitute.html</string>
+    <string name="MwenseTradesTrainingInstituteHtml">LoansAndUniversities/LuapulaProvince/MwenseTradesTrainingInstitute.html</string>
 
+    <string name="IsokaTradesTrainingInstitueHtml">LoansAndUniversities/MuchingaProvince/IsokaTradesTrainingInstitue.html</string>
 
+    <string name="LukashyaTradesTrainingInstituteHtml">LoansAndUniversities/NorthernProvince/LukashyaTradesTrainingInstitute.html</string>
+
+    <string name="MwinilungaTradesTrainingInstituteHtml">LoansAndUniversities/NorthwesternProvince/MwinilungaTradesTrainingInstitute.html</string>
+    <string name="SolweziTradesTrainingInstituteHtml">LoansAndUniversities/NorthwesternProvince/SolweziTradesTrainingInstitute.html</string>
+
+    <string name="KasiyaSecretarialAndBusinessCollegeHtml">LoansAndUniversities/SouthernProvince/KasiyaSecretarialAndBusinessCollege.html</string>
+    <string name="LivingstoneInstituteofBusinessandEngineeringStudiesHtml">LoansAndUniversities/SouthernProvince/LivingstoneInstituteofBusinessandEngineeringStudies.html</string>
+    <string name="StMawaggaliTradesTrainingInstituteHtml">LoansAndUniversities/SouthernProvince/StMawaggaliTradesTrainingInstitute.html</string>
+
+    <string name="KalaboTradesTrainingInstituteHtml">LoansAndUniversities/WesternProvince/KalaboTradesTrainingInstitute.html</string>
+    <string name="KaomaTradesTrainingInstituteHtml">LoansAndUniversities/WesternProvince/KaomaTradesTrainingInstitute.html</string>
+    <string name="MonguTradesTrainingInstituteHtml">LoansAndUniversities/WesternProvince/MonguTradesTrainingInstitute.html</string>
 
 </resources>
