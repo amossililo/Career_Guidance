@@ -50,6 +50,8 @@ and testing services.</string>
     <string name="greyBoxPlaceHolderOnGoogleDrive">https://lh3.googleusercontent.com/74v87lo-Dv2VqB64NRFHJvrfK6r1AL87s-lg0lY1-SivLBv9ZTvdyTnBCidgBR4pkEU=w2400</string>
     <string name="loading_icon_on_google_drive">https://lh6.googleusercontent.com/WHMn7EcFw9BBcDHZw5BEIHnEZk9levHFtFr_exd7W1_DLlkR6HR5hlNuh8kv_dZINNI=w2400</string>
 
+    <string name="testBtn">test Button</string>
+    <string name="testBtnHtml">test.html</string>
 
     <string name="civilEngHtml">stemHtmlFiles/civilEng.html</string>
     <string name="mechanicalEngHtml" tools:ignore="ExtraTranslation">stemHtmlFiles/mechanicalEng.html</string>
