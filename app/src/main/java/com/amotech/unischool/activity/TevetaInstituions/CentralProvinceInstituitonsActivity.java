@@ -51,9 +51,9 @@ public class CentralProvinceInstituitonsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.KabweInstituteofTechnology), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.KabweInstituteofTechnologyHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.KabweInstituteofTechnologyHtml)));
         programsList.add(new FacultyData(getString(R.string.NkumbiInternationalCollege), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.NkumbiInternationalCollegeHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.NkumbiInternationalCollegeHtml)));
 
 
         return programsList;

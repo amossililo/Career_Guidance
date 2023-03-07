@@ -51,11 +51,11 @@ public class SouthernProvinceInstituitonsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.KasiyaSecretarialAndBusinessCollege), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.KasiyaSecretarialAndBusinessCollegeHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.KasiyaSecretarialAndBusinessCollegeHtml)));
         programsList.add(new FacultyData(getString(R.string.St_MawaggaliTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.SolweziTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.SolweziTradesTrainingInstituteHtml)));
         programsList.add(new FacultyData(getString(R.string.LivingstoneInstituteofBusinessandEngineeringStudies), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.LivingstoneInstituteofBusinessandEngineeringStudiesHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.LivingstoneInstituteofBusinessandEngineeringStudiesHtml)));
 
         return programsList;
     }

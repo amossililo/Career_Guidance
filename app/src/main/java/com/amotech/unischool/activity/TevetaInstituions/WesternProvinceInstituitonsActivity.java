@@ -51,11 +51,11 @@ public class WesternProvinceInstituitonsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.MonguTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.MonguTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.MonguTradesTrainingInstituteHtml)));
         programsList.add(new FacultyData(getString(R.string.KaomaTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.KaomaTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.KaomaTradesTrainingInstituteHtml)));
         programsList.add(new FacultyData(getString(R.string.KalaboTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.KalaboTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.KalaboTradesTrainingInstituteHtml)));
 
         return programsList;
     }

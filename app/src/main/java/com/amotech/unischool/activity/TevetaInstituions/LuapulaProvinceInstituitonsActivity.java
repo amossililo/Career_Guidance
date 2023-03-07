@@ -50,9 +50,9 @@ public class LuapulaProvinceInstituitonsActivity extends AppBaseActivity {
     private ArrayList<FacultyData> ProgramsList() {
         ArrayList<FacultyData> programsList = new ArrayList<>();
         programsList.add(new FacultyData(getString(R.string.MansaTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.MansaTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.MansaTradesTrainingInstituteHtml)));
         programsList.add(new FacultyData(getString(R.string.MwenseTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.MwenseTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.MwenseTradesTrainingInstituteHtml)));
 
 
 

@@ -102,35 +102,59 @@ public class TevetaSubCategories extends AppBaseActivity {
                 if (selectedBtnPage.equals(getString(R.string.ApplicationProcessGuidelinesAndProcedure))){
                    // Intent intent=new Intent(TevetaSubCategories.this, EngineeringPrograms.class);
                  //   context.startActivity(intent);
+                    SharedPreferences sharedPreferences = context.getSharedPreferences("MySharedPref", MODE_PRIVATE);
+// Creating an Editor object to edit(write to the file)
+                    SharedPreferences.Editor myEdit = sharedPreferences.edit();
+// Storing the key and its value as the data fetched from edittext
+                    myEdit.putString("selectedProgram",getString(R.string.ApplicationProcessGuidelinesAndProcedure));
+                    myEdit.putString("nameOfHtmlFile",getString(R.string.ApplicationProcessGuidelinesAndProcedureHtml));
+                    myEdit.commit();
+                    Intent intent = new Intent(TevetaSubCategories.this, displayProgramInfoActivity.class);
+                    context.startActivity(intent);
                 }
                 else if(selectedBtnPage.equals(getString(R.string.LusakaProvince))){
                     Intent intent=new Intent(TevetaSubCategories.this, LusakaProvinceInstituitonsActivity.class);
                     context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.CentralProvince))){
-                    Intent intent=new Intent(TevetaSubCategories.this, scienceAndMathematicsPrograms.class);
+                    Intent intent=new Intent(TevetaSubCategories.this, CentralProvinceInstituitonsActivity.class);
                     context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.CopperbeltProvince))){
 
-                    Intent intent=new Intent(TevetaSubCategories.this, EngineeringTechnologyAndTechniciansPrograms.class);
+                    Intent intent=new Intent(TevetaSubCategories.this, CopperbeltProvinceInstituitonsActivity.class);
                     context.startActivity(intent);
                 }else if(selectedBtnPage.equals(getString(R.string.LuapulaProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, LuapulaProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.NorthernProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, NorthernProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.NorthwesternProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, NorthwesternProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.SouthernProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, SouthernProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.WesternProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, WesternProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.EasternProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, EasternProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
                 }else if(selectedBtnPage.equals(getString(R.string.MuchingaProvince))){
+                    Intent intent=new Intent(TevetaSubCategories.this, MuchingaProvinceInstituitonsActivity.class);
+                    context.startActivity(intent);
 
-                }else if(!selectedBtnPage.equals(getString(R.string.LuapulaProvince))){
-                    Toast.makeText(context,"invalid selection", Toast.LENGTH_SHORT).show();
+
+                }else {
+                    Toast.makeText(TevetaSubCategories.this,"Invalid selection",Toast.LENGTH_SHORT).show();
                 }
             }
 

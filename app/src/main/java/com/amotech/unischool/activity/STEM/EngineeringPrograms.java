@@ -98,7 +98,7 @@ public class EngineeringPrograms extends AppBaseActivity {
         programsList.add(new FacultyData(getString(R.string.EnvironmentalEngineering), getString(R.string.additional_info)
                 , "https://i.im.ge/2022/10/02/1WVWlD.GEO-ENVIRONMENTAL.jpg", getString(R.string.environmentalEngHtml)));
         programsList.add(new FacultyData(getString(R.string.GeologyGeologicalEngineering), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/29/1xzyyz.geology-2.jpg", getString(R.string.geomaticsEngHtml)));
+                , "https://i.im.ge/2022/09/29/1xzyyz.geology-2.jpg", getString(R.string.geologyEngHtml)));
         return programsList;
     }
 

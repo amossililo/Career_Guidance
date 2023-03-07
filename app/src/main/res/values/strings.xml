@@ -423,12 +423,14 @@ Machinist</string>
     <string name="Universities">Universities</string>
     <string name="TevetaInstitutions">TEVETA Institutions</string>
 
+
     <string name="STUDENTLOANSFORLOCALUNIVERSITIESHtml">LoansAndUniversities/STUDENTLOANSFORLOCALUNIVERSITIES.html</string>
     <string name="ABROADSCHOLARSHIPSHtml">LoansAndUniversities/ABROADSCHOLARSHIPS.html</string>
     <string name="CDFBOARDINGSECONDARYSCHOOLBUSARIESHtml">LoansAndUniversities/CDFBOARDINGSECONDARYSCHOOLBUSARIES.html</string>
     <string name="CDFSkillsDevelopmentBursariesHtml">LoansAndUniversities/CDFSkillsDevelopmentBursaries.html</string>
     <string name="UniversitiesHtml">LoansAndUniversities/Universities.html</string>
     <string name="TevetaInstitutionsHtml">LoansAndUniversities/TevetaInstitutions.html</string>
+
 
     <string name="app_owner">By Rogic Kachanta</string>
     <string name="architecture_additional_info">Architecture is the discipline that is concerned with the planning, designing and the overseeing of the construction of the built environment "</string>
@@ -592,6 +594,8 @@ Machinist</string>
 
     <string name="IsokaTradesTrainingInstitue">Isoka Trades Training Institue</string>
 
+
+    <string name="ApplicationProcessGuidelinesAndProcedureHtml">LoansAndUniversities/ApplicationProcessGuidelinesAndProcedure.html</string>
     <string name="EvelynHoneCollegeofAppliedArtandCommerceHtml">LoansAndUniversities/LusakaProvince/EvelynHoneCollegeofAppliedArtandCommerce.html</string>
     <string name="IndustrialTrainingCentreHtml">LoansAndUniversities/LusakaProvince/IndustrialTrainingCentre.html</string>
     <string name="LusakaBusinessandTechnicalCollegeHtml">LoansAndUniversities/LusakaProvince/LusakaBusinessandTechnicalCollege.html</string>

@@ -51,17 +51,17 @@ public class CopperbeltProvinceInstituitonsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.NationalVocationalRehabilitationCentre), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.NationalVocationalRehabilitationCentreHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.NationalVocationalRehabilitationCentreHtml)));
         programsList.add(new FacultyData(getString(R.string.GemstoneProcessingAndLapidaryTrainingCentre), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.GemstoneProcessingAndLapidaryTrainingCentreHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.GemstoneProcessingAndLapidaryTrainingCentreHtml)));
         programsList.add(new FacultyData(getString(R.string.ZambiaInstituteForBusinessStudiesAndIndustrialPractice), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.ZambiaInstituteForBusinessStudiesAndIndustrialPracticeHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.ZambiaInstituteForBusinessStudiesAndIndustrialPracticeHtml)));
         programsList.add(new FacultyData(getString(R.string.TechnicalAndVocationalTeachersCollege), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.TechnicalAndVocationalTeachersCollegeHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.TechnicalAndVocationalTeachersCollegeHtml)));
         programsList.add(new FacultyData(getString(R.string.NorthernTechnicalCollege), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.NorthernTechnicalCollegeHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.NorthernTechnicalCollegeHtml)));
         programsList.add(new FacultyData(getString(R.string.KitweVocationalTrainingCentre), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.KitweVocationalTrainingCentreHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.KitweVocationalTrainingCentreHtml)));
 
 
         return programsList;

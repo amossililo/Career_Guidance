@@ -51,9 +51,9 @@ public class NorthwesternProvinceInstituitonsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.MwinilungaTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.MwinilungaTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.MwinilungaTradesTrainingInstituteHtml)));
         programsList.add(new FacultyData(getString(R.string.SolweziTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.SolweziTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.SolweziTradesTrainingInstituteHtml)));
 
 
         return programsList;

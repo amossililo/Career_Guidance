@@ -51,11 +51,11 @@ public class EasternProvinceInstituitonsActivity extends AppBaseActivity {
         ArrayList<FacultyData> programsList = new ArrayList<>();
 
         programsList.add(new FacultyData(getString(R.string.LuanshyaTechnicalAndBusinessCollege), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.LuanshyaTechnicalAndBusinessCollegeHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.LuanshyaTechnicalAndBusinessCollegeHtml)));
         programsList.add(new FacultyData(getString(R.string.ChipataTradesTrainingInstitute), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.ChipataTradesTrainingInstituteHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.ChipataTradesTrainingInstituteHtml)));
         programsList.add(new FacultyData(getString(R.string.UkwimiTradesTrainingInstitution), getString(R.string.additional_info)
-                , "https://i.im.ge/2022/09/30/1blY0a.computer-scienc-e.png", getString(R.string.UkwimiTradesTrainingInstitutionHtml)));
+                , "https://i.im.ge/2023/03/07/7ChWGM.vocational-traing.jpg", getString(R.string.UkwimiTradesTrainingInstitutionHtml)));
 
 
         return programsList;

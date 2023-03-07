@@ -89,7 +89,7 @@ class HomeFragment : Fragment() {
                "https://i.im.ge/2022/09/29/1x38PM.SeekPng-com-graduation-hat-png-46121.png",
                 getString(R.string.LoansAndUniversities)
             )
-        )
+        )/*
         facultyList.add(
             FacultyData(
                 getString(R.string.TevetaInstitutions),
@@ -97,7 +97,9 @@ class HomeFragment : Fragment() {
                 "https://i.im.ge/2023/01/08/sQC3iy.teveta.jpg",
                 getString(R.string.Teveta_Sub)
             )
-        )
+        )*/
+
+
 
         return  facultyList
     }
