@@ -45,8 +45,8 @@ Each component is intentionally small, with inline comments avoided to keep thin
 ## Deploying to Vercel
 
 1. Push this repository to GitHub.
-2. Import the project on Vercel and select the **Vite** framework preset.
-3. Use the default build command (`npm run build`) and output directory (`dist`).
+2. Import the project on Vercel. When it asks for a framework, pick **Other** (the repo ships with a `vercel.json` that sets the correct Vite build commands automatically).
+3. Leave the build command as `npm run build` and the output directory as `dist`—the `vercel.json` file enforces these defaults in case you forget.
 4. Deploy! Vercel will handle previews and production builds.
 
 ## Customizing the content
